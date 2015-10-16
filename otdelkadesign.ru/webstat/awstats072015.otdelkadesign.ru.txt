@@ -1,0 +1,536 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201507 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.otdelkadesign.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1996                
+POS_TIME 2669                
+POS_VISITOR 9340                
+POS_DAY 14022               
+POS_DOMAIN 3510                
+POS_LOGIN 3743                
+POS_ROBOT 3898                
+POS_WORMS 4444                
+POS_EMAILSENDER 4575                
+POS_EMAILRECEIVER 4718                
+POS_SESSION 14758               
+POS_SIDER 14960               
+POS_FILETYPES 4853                
+POS_DOWNLOADS 5132                
+POS_OS 5180                
+POS_BROWSER 5342                
+POS_SCREENSIZE 6108                
+POS_UNKNOWNREFERER 6182                
+POS_UNKNOWNREFERERBROWSER 6319                
+POS_ORIGIN 6424                
+POS_SEREFERRALS 6565                
+POS_PAGEREFS 6733                
+POS_SEARCHWORDS 7148                
+POS_KEYWORDS 7319                
+POS_MISC 2332                
+POS_ERRORS 7397                
+POS_CLUSTER 3599                
+POS_SIDER_404 7510                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150801033043 1 0 10440756132827
+FirstTime 20150701013927
+LastTime 20150731160507
+LastUpdate 20150802000407 1 0 0 0 0
+TotalVisits 124                 
+TotalUnique 109                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 117                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 31 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 24 259 8265529 19 44 297956
+1 6 49 898496 15 30 191771
+2 8 141 4054024 18 34 191573
+3 2 68 1885571 23 42 480663
+4 3 266 12397764 29 69 459146
+5 4 137 11440971 9 33 227371
+6 2 62 9070119 25 47 461812
+7 6 180 10888032 21 54 486526
+8 4 65 9292215 16 31 203379
+9 7 250 13459955 28 74 334331
+10 2 62 9070125 20 46 408907
+11 9 248 15686643 27 57 374406
+12 24 499 20353684 21 51 334620
+13 10 172 9003129 19 43 183513
+14 2 25 814630 20 50 397395
+15 20 180 1848196 21 56 428687
+16 11 245 6619052 17 62 392976
+17 6 123 4167897 15 29 220197
+18 29 230 8051000 23 50 615807
+19 20 259 9058951 27 75 515932
+20 14 67 1561307 16 36 317904
+21 3 52 1230017 29 80 572342
+22 2 62 2055677 20 33 184230
+23 22 460 12699659 41 86 484727
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 240 4161 183872643
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+bot[\s_+:,\.\;\/\\-] 243 2371716 20150731193649 0
+googlebot 153 1024306 20150730060522 0
+yandex 104 292272 20150731202718 0
+mj12bot 86 962764 20150731190818 0
+no_user_agent 19 494445 20150730080710 0
+[\s_+:,\.\;\/\\-]bot 16 63154 20150709210557 0
+mail\.ru 11 46174 20150715002950 0
+ng\/1\. 4 52886 20150719093817 0
+surveybot 3 19781 20150728141412 0
+discovery 3 826 20150707183221 0
+crawl 1 6596 20150708101422 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 486 5330777 0 0
+eot 11 163248 0 0
+png 799 12991265 0 0
+xlsx 4 2101100 0 0
+map 1 73840 0 0
+php 1 26025 0 0
+html 127 1280156 0 0
+jpg 1915 154363230 0 0
+js 601 6826830 0 0
+Unknown 96 552667 0 0
+svg 120 163505 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxandroid 580
+winxp 543
+winlong 1
+winnt 1
+winvista 156
+linux 22
+win7 2575
+macosx 265
+winunknown 2
+win2003 11
+Unknown 5
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 41
+safari7.0 62
+msie6.0 6
+chrome40.0.2214.115 3
+microsoft\-webdav\-miniredir 2
+firefox4.0.1 12
+firefox3.6 1
+chrome28.0.1500.95 50
+firefox18.0 4
+chrome29.0.1547.62 1
+chrome31.0.1650.57 74
+chrome31.0.1650.63 81
+chrome42.0.2311.111 64
+firefox24.0 20
+opera9.80 830
+msie8.0 331
+msie7.0 11
+firefox23.0 1
+chrome37.0.2062.120 6
+chrome41.0.2272.89 1
+chrome43.0.2357.93 516
+msie9.0 1
+chrome42.0.2311.152 239
+Unknown 2
+firefox38.0 1
+chrome43.0.2357.132 141
+chrome43.0.2357.130 71
+chrome36.0.1985.143 711
+mozilla 312
+firefox25.0 120
+firefox39.0 1
+firefox1.0 1
+firefox37.0 1
+netscape5.0 3
+chrome35.0.1916.153 102
+chrome42.0.2311.135 1
+msie10.0 46
+chrome43.0.2357.134 124
+firefox3.6.3 2
+chrome41.0.2228.0 2
+firefox36.0 1
+safari 203
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0 20150709081711
+DavClnt 20150707004131
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+DavClnt 20150707004131
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 81 84
+From1 2 2
+From2 29 33
+From3 28 28
+From4 100 4014
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 1
+yandex 28 32
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://success-seo.com/try.php 10 10
+http://buttons-for-website.com 7 7
+http://videos-for-your-business.com 3 3
+http://hvd-store.com 2 2
+http://burger-imperia.com 2 2
+http://pizza-tycoon.com 1 1
+https://www.yandex.by 1 1
+http://regidium.ru 1 1
+http://hundejo.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+otdelkadesign.ru 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+otdelkadesign.ru 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+405 3 1674
+404 521 3382610
+301 5 2885
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 50
+/bitrix/themes/.default/images/auth_pict.gif 2 -
+/sitemap.xml 3 -
+/robots.txt 256 -
+/admin/content/sitetree/ 2 -
+/assets/img/testimonials-sep.jpg 67 http://otdelkadesign.ru/
+/admin.php 17 -
+/users/forget/ 2 -
+/javascript:AW.toggleOpen(' 1 -
+/d.php 1 -
+/modules/system/system.base.css 2 -
+/templates/system/css/system.css 2 -
+/wp-content/plugins/revslider/js/rev_admin.js 1 -
+/assets/img/btn-search.png 5 http://otdelkadesign.ru/
+/engine/ajax/pm.php 1 -
+/index.php/component/users/ 1 OTDELKADESIGN.ru/index.php/component/users/
+/wp-admin/ 2 -
+/wp-admin/admin-ajax.php 1 -
+/netcat/admin/skins/default/img/logo.png 2 -
+/tel:89308355535 1 -
+/modules/system/system.css 2 -
+/netcat/admin/ 2 -
+/user/login/ 2 -
+/wp-content/ 2 -
+/bitrix/themes/.default/adminstyles.css 2 -
+/styles/skins/mac/design/css/style.css 2 -
+/node/ 2 -
+/users/registrate/ 2 -
+/lqtkoidjfqbrrlxw.html 1 -
+/administrator/index.php 10 -
+/wp-admin/images/wordpress-logo.png 2 -
+/wp-content/themes/mTheme-Unus/css/css.php 1 -
+/qcmqvqpwqcav.html 1 -
+/netcat/admin/skins/default/css/style.css 2 -
+/bitrix/js/main/core/core.css 2 -
+/administrator/ 8 -
+/assets/img/bg-testimonials.jpg 68 http://otdelkadesign.ru/
+/wp-admin/css/wp-admin.css 2 -
+/images/cms/admin/mac/common/butterfly.png 2 -
+/media/system/js/mootools.js 2 -
+/bitrix/admin/ 4 -
+/message_for_oss.pdf 1 -
+/partners/ 1 -
+/javascript: 1 -
+/wp-login.php 19 -
+/javascript:Testimonials.next() 1 -
+/away.php 1 -
+/general.php 1 -
+/go.php 2 -
+/user/password/ 2 -
+/netcat/admin/skins/default/css/login.css 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 117
+84.53.211.74 20 199 1838198 20150731160507
+37.29.74.202 17 94 3534221 20150707004148
+188.42.240.119 12 12 156378 20150707203944
+38.100.21.68 10 11 154681 20150719184934
+176.122.71.28 10 920 94803662 20150722142821
+109.201.91.241 9 71 2939681 20150701191409
+37.29.74.16 9 82 3074336 20150707184551
+37.19.74.244 7 189 2416346 20150726073759
+213.87.139.94 6 70 2488916 20150701122151
+109.201.69.157 6 80 2559125 20150709123143
+177.80.44.16 1 56 1805143 20150707030101
+187.101.180.118 1 49 1066194 20150707213813
+84.53.212.166 2 62 1973424 20150718190357
+178.137.18.45 1 1 6593 20150722121313
+95.163.107.74 1 1 4382 20150729112821
+195.154.146.225 1 1 6594 20150723111327
+31.177.83.242 1 1 26020 20150722085646
+54.158.189.176 1 1 26020 20150722231448
+46.42.161.110 1 60 1897123 20150719234056
+177.99.147.254 1 12 80428 20150704031037
+213.191.13.178 2 19 492707 20150708134747
+109.126.229.198 2 62 1973419 20150729022329
+209.159.138.19 1 1 6598 20150704125143
+176.193.121.67 1 15 158572 20150702124115
+109.201.72.197 3 66 2406220 20150710181338
+217.69.133.169 3 3 19781 20150722132009
+80.68.244.49 1 1 457 20150729021913
+91.236.140.2 3 3 10134 20150717192951
+37.204.158.67 1 30 230915 20150708233729
+52.0.89.236 1 1 26025 20150707174007
+188.32.74.45 1 15 159221 20150702124106
+91.222.247.155 2 2 13191 20150717235441
+92.255.200.165 1 1 6596 20150729113830
+92.243.117.198 1 1 26025 20150705080547
+176.15.29.196 0 1 757 
+136.243.6.170 2 2 13197 20150708183524
+83.149.9.202 1 1 26020 20150730165633
+177.33.107.221 1 57 1875057 20150708053637
+37.230.116.48 1 1 26025 20150721171932
+195.18.15.100 1 1 26025 20150707161749
+77.247.181.165 2 2 13185 20150724094911
+151.24.48.173 1 28 332529 20150712230936
+37.112.34.151 1 60 1897115 20150725174159
+46.188.32.103 1 20 160789 20150708233730
+185.77.129.11 1 1 26025 20150709081711
+213.87.139.29 1 61 2049081 20150705161752
+85.142.14.142 0 1 309605 
+88.81.34.66 0 1 757 
+179.167.17.245 1 1 6598 20150711192457
+200.216.109.13 1 46 1137561 20150704042447
+130.185.63.79 1 1 6592 20150729020823
+201.9.11.252 1 54 1401552 20150705201835
+95.132.157.18 1 1 6594 20150702180942
+109.173.83.55 1 60 1979173 20150708223737
+66.249.81.159 2 25 1188801 20150710194348
+81.4.242.11 2 62 2040866 20150722002847
+95.213.161.235 1 1 6599 20150710020720
+176.15.116.124 1 20 160793 20150702121418
+188.255.30.133 0 1 757 
+176.15.26.58 0 1 757 
+94.253.93.23 1 20 160792 20150708233728
+95.84.181.195 1 30 230915 20150702121418
+176.59.73.47 1 61 2049085 20150709123336
+95.24.47.254 2 17 497904 20150731015531
+37.29.74.200 5 67 2920504 20150708234812
+177.44.138.171 1 15 269369 20150701013927
+37.145.127.52 1 20 160785 20150702121418
+66.249.81.155 1 22 638708 20150710194300
+46.73.139.144 2 19 495310 20150708134740
+46.242.94.14 1 24 577708 20150708233728
+95.134.212.209 1 1 6599 20150709210002
+212.233.78.170 1 61 2049083 20150709123224
+95.165.14.96 1 60 1897120 20150731023724
+37.204.75.217 1 24 577705 20150702121418
+178.165.71.237 1 1 26020 20150724193811
+176.195.251.20 2 19 495586 20150708134747
+79.42.109.70 1 56 1805147 20150706190723
+94.51.150.151 0 1 309605 
+50.116.11.62 1 1 6601 20150709165219
+81.88.222.115 4 38 1043649 20150726051215
+176.77.126.122 2 19 492673 20150708134747
+89.208.147.138 1 1 6599 20150704215726
+2.94.41.241 1 1 6598 20150709153109
+192.162.112.194 1 1 6596 20150721160101
+151.25.125.191 1 27 337445 20150706004105
+93.81.72.242 1 60 1979175 20150702113152
+94.103.80.118 1 1 26025 20150720005452
+95.28.37.194 1 1 6600 20150706105842
+84.240.9.6 1 1 26025 20150721062711
+179.209.45.17 1 56 1805145 20150709000527
+49.147.138.254 1 15 163238 20150704021034
+176.9.38.197 2 2 52050 20150708142516
+149.202.98.161 1 1 6593 20150723222915
+177.204.151.124 1 56 1805145 20150711110709
+87.117.189.199 1 1 3377 20150704200532
+178.210.65.242 1 1 26025 20150704075718
+84.53.233.180 3 68 2462752 20150706232805
+78.1.26.252 1 53 1474040 20150708162717
+122.171.27.166 1 56 1805142 20150706161900
+89.178.167.234 1 1 26025 20150705102706
+128.69.186.79 1 1 6592 20150721235514
+93.100.131.49 1 1 26020 20150729081909
+199.30.25.41 0 60 2042486 
+45.58.62.37 1 1 6597 20150718013413
+37.29.74.35 4 135 4017195 20150726095421
+200.163.111.3 1 15 98606 20150703014546
+93.55.66.145 1 56 1805145 20150701171807
+46.118.124.58 1 1 26020 20150731014346
+212.41.60.14 1 1 6594 20150730164914
+66.249.81.163 0 17 400527 
+177.102.195.19 1 56 1805149 20150711075201
+177.103.73.182 1 49 1215758 20150706160021
+178.136.234.155 1 1 26025 20150715092808
+95.163.107.73 1 1 6598 20150708114737
+176.195.236.114 1 15 158567 20150702124056
+213.87.134.22 5 69 2402571 20150713183101
+166.70.181.109 1 1 6594 20150728061121
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20150701 19 277 9388752 6
+20150702 9 262 5636327 9
+20150703 1 16 408211 1
+20150704 8 138 3472707 8
+20150705 6 791 90141650 6
+20150706 8 257 7632844 6
+20150707 43 296 9694921 8
+20150708 23 412 11395989 15
+20150709 15 266 8661274 10
+20150710 7 132 4710766 4
+20150711 3 114 3767517 3
+20150712 1 29 483154 1
+20150713 5 69 2402571 1
+20150715 1 1 26025 1
+20150717 9 75 2810739 4
+20150718 3 63 1980021 2
+20150719 11 71 2051804 2
+20150720 3 21 857457 2
+20150721 5 27 544039 5
+20150722 7 89 2585089 6
+20150723 5 128 2410175 3
+20150724 3 3 39205 3
+20150725 4 134 3947486 2
+20150726 7 143 2508004 3
+20150728 1 1 6594 1
+20150729 7 67 2017466 6
+20150730 2 2 32614 2
+20150731 24 277 4259242 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+2mn-5mn 1
+0s-30s 106
+15mn-30mn 2
+30s-2mn 13
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/ 125 1279772 100 87
+/cost 15 84441 3 3
+/design 15 90699 5 3
+/partners 12 77035 4 4
+/assets/3b7b70be/fonts/glyphicons-halflings-regular.eot 11 163248 0 8
+/Ourworks 8 32852 0 1
+/knauf 8 48019 4 3
+/natyazhnye-potolki 7 44900 4 3
+/f3d 6 26412 0 2
+/o-kompanii 6 19095 1 1
+/kottedj 2 6397 0 0
+/uploads/smeta.xlsx 4 2101100 0 2
+/technology 1 13994 0 0
+/kvartir 5 30568 0 0
+/office 2 13681 0 0
+/admin 1 3377 1 1
+/uploads/ 2 384 0 1
+/away 1 3377 0 0
+/go 2 6757 1 1
+/index.php 1 26025 1 1
+/plastic 2 20994 0 1
+/online 2 26796 0 0
+/assets/3b7b70be/css/bootstrap.css.map 1 73840 0 1
+/otdelka 1 3273 0 1
+END_SIDER
