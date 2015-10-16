@@ -4,7 +4,7 @@ Author: Elegant Seagulls
 Author URI: http://elegantseagulls.com
 */
 
-body {padding:0px; margin:0px; font-family:'Open Sans', sans-serif; color:#646461;}
+body {padding:0px; margin:0px; font-family:'Open Sans', sans-serif; color:#333;}
 img { max-width:100%; }
 
 #viewport { overflow:hidden; width:100%; }
@@ -51,30 +51,21 @@ header { background:#343433; z-index:100; position:relative; height:100%; }
 	top:14px;
 	position: relative;
 	font-size:14px;
-	color:#fff;
+	color:#444;
 	text-transform: none;
 	display: inline-block;
 	line-height:18px;
 	padding: 0 10px;
 }
 @media (min-width: 1170px) {
-	.cd-nav li {float:left;position:relative;text-transform:uppercase;letter-spacing: 1px;margin-left: 0px;}
-	.cd-nav a {display:inline-block; color:#ffffff; font-family:'Fjalla One', sans-serif; line-height:21px; padding:0px 12px; font-size:15px; text-decoration:none; }
-	.cd-nav a.has-subnav{background:url(/assets/img/btn-navarrow.png) center right no-repeat;padding-right:25px; }
-	.cd-nav a.has-subnav:hover { color:#ffffff; }
+	.cd-nav li {float:left;text-transform:uppercase;letter-spacing: 1px;margin-left: 0px;}
+	.cd-nav a {display:inline-block; color:#444; font-family:'Fjalla One', sans-serif; line-height:21px; padding:0px 12px; font-size:15px; text-decoration:none; }
 	.cd-nav a:hover { color:#dc7725; }
-	/* sub nav */
-	.cd-nav li:hover ul { left:0px; }
-	.cd-nav li:hover a.has-subnav { background:#404040 url(/assets/img/btn-navarrow.png) center right no-repeat; border-radius:3px 3px 0px 0px; -webkit-border-radius:3px 3px 0px 0px; }
-	.cd-nav li:hover a.contact-btn { color:#dc7725; }
-	.cd-nav ul.subnav {position:absolute top:40px;left:-9999px;z-index:50; width:250px; background:#404040;}
-	.cd-nav ul.subnav li { float:none; margin:0px; }
-	.cd-nav ul.subnav li a { font-family:'Open Sans', sans-serif; text-transform:none; font-size:16px; line-height:26px; padding:10px 15px; letter-spacing:0px; border-bottom:1px solid #5d5d5a; background:none; display:block; color:#bdbdb7; }
-	.cd-nav ul.subnav li a:hover { color:#ffffff; background:none; }
 	.address a, .address span {top:-14px;font-size:12px;}
 }
 @media (max-width: 1170px) {
 	.cd-primary-nav li{padding-top: 20px;}
+	.address a, .address span {color:#fff;}
 }
 /* menu button */
 
@@ -124,8 +115,8 @@ HEADER INTERIOR
 
 @media (min-width: 1170px) {
 	.cd-nav { padding:20px 0px; font-size:16px; }
-	.cd-nav ul { list-style:none; padding:0px; margin:0px; }
-	.cd-nav li { float:left; padding:0px 5px; position:relative; }
+	.cd-nav ul {list-style:none; padding:0px; margin:0px; }
+	.cd-nav li {float:left; padding:0px 5px;}
 	.cd-nav a  {line-height:40px;display:inline-block; text-decoration:none; padding:0px 10px; }
 	.cd-nav .nopad-left { padding-left:0px; }
 }
@@ -660,3 +651,4 @@ GENERAL RESPONSIVE VIEWS
 	.viewmore-down span { display:block; }
 
 }*/
+.homepage .cd-nav a, .homepage .address a, .homepage .address span, .homepage .cd-nav-trigger span, .homepage .cd-nav-trigger span::before, .homepage .cd-nav-trigger span::after{color: #fff;}
