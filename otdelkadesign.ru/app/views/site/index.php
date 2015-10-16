@@ -4,47 +4,146 @@ $this->title = 'Otdelka design';
 			
 			<div id="fixed-main">
 				<section id="trip-grid">
-					<div class="trip-row">
+<div class="container">
+						<h2>Ремонт квартир под ключ во Владимире</h2>
+<p>
+Ремонт квартиры «под ключ» является основным направлением компании «Отделка и Дизайн».
+</p><p>
+За годы работы мы учли все нюансы, которые могут возникнуть при отделочных работах «под 
+ключ», знаем что, как, в какой последовательности и по каким технологиям стоит делать, чтобы 
+выполнить работу качественно,  в максимально короткие сроки  и удовлетворить все пожелания 
+наших клиентов. Мы сокращаем время, которое уходит на проведение ремонта, за счет 
+налаженного принципа работы и подкрепляем это гарантиями в Договоре.
+</p><p>
+Ремонт квартиры «под ключ» - это целый комплекс работ по благоустройству Вашего жилья, 
+включающий в себя перепланировку, замену остекления, электроснабжение, разводку 
+сантехники, черновую и чистовую отделку всех поверхностей, установку дверей и встроенной 
+мебели.
+</p><p>
+Специализируясь именно на ремонте «под ключ», наша компания обладает всеми ресурсами и 
+налаженными партнерскими программами, для того, чтобы наши клиенты могли получить 
+решение всех возникающих вопросов в одном месте и по максимально выгодным ценам. 
+</p><p>
+Мы знаем какие материалы и от каких производителей нужно использовать, а налаженные 
+контакты с поставщиками этих материалов позволяют предлагать одни из самых низких цен.  К 
+примеру, ремонтируя «под ключ» квартиру на одной только разнице в стоимости отделочных 
+материалов можно сэкономить десятки тысяч рублей, и это не считая их доставки, вывоза мусора 
+и непосредственно самих отделочных работ. 
+</p><p>
+Мы работаем по всей территории Владимирской области. Рекомендации наших клиентов и 
+наличие постоянных заказов свидетельствуют о высоком качестве выполняемых нами работ. 
+Клиентоориентированность, лояльность и честность в отношениях с нашими заказчиками, мы 
+считаем нашими основными преимуществами. Сотрудничая с каждым клиентом, мы всегда 
+учитываем его пожелания и материальные возможности.
+</p><p>
+Мы гарантируем соблюдение всех вышеописанных принципов и персональный подход к 
+каждому клиенту. На нашем сайте вы найдете описание порядка и последовательности 
+предоставления услуг, сможете ознакомиться с информацией о компании, прайс-листом на все 
+виды работ, получить бесплатную онлайн-консультацию и вызвать бесплатного консультанта-
+замерщика к вам домой.
+</p>
+					</div>
+				<!--	<div class="trip-row">
 						<div class="trip-hf set-background" data-background="/assets/img/1.jpg">
 							<a href="/otdelka" class="trip-link"></a>
 							<div class="trip-icon"><a href="/" class="icon-trip"><img src="/images/otdelka.svg" alt="raft"/></a></div>
 							<div class="trip-text"><div class="trip-sep"></div>ОТДЕЛКА</div>
-						</div><!-- end .trip-hf -->
+                    </div>
 
 						<div class="trip-qt set-background" data-background="/assets/img/4.jpg">
 							<a href="/design" class="trip-link"></a>
 							<div class="trip-icon"><a href="/" class="icon-trip"><img src="/images/design.png" alt="basecamp"/></a></div>
 							<div class="trip-text"><div class="trip-sep"></div>ДИЗАЙН</div>
-						</div><!-- end .trip-hf -->
+					</div>
 
 						<div class="trip-qt set-background" data-background="/assets/img/3.jpg">
 							<a href="/technology" class="trip-link"></a>
 							<div class="trip-icon"><a href="/" class="icon-trip"><img src="/images/technologii.png" alt="backpacking"/></a></div>
 							<div class="trip-text"><div class="trip-sep"></div>ТЕХНОЛОГИИ</div>
-						</div><!-- end .trip-hf -->
-					</div><!-- end .trip-row -->
+					
+					</div>
+					</div>
 
 					<div class="trip-row">
 						<div class="trip-qt set-background" data-background="/assets/img/2.jpg">
 							<a href="/partners" class="trip-link"></a>
 							<div class="trip-icon"><a href="/" class="icon-trip"><img src="/images/partners.png" alt="canoe"/></a></div>
 							<div class="trip-text"><div class="trip-sep"></div>ПАРТНЕРЫ</div>
-						</div><!-- end .trip-hf -->
+						</div>
 
 						<div class="trip-qt set-background" data-background="/assets/img/5.jpg" style="background-position-x: 0px;">
 							<a href="/cost" class="trip-link"></a>
 							<div class="trip-icon"><a href="/" class="icon-trip"><img src="/images/stoimost.png" alt="photography"/></a></div>
 							<div class="trip-text"><div class="trip-sep"></div>СТОИМОСТЬ</div>
-						</div><!-- end .trip-hf -->
+						</div>
 
 						<div class="trip-hf set-background" data-background="/assets/img/6.jpg">
 							<a href="/online" class="trip-link"></a>
 							<div class="trip-icon"><a href="/" class="icon-trip"><img src="/images/online.png" alt="custom"/></a></div>
 							<div class="trip-text"><div class="trip-sep"></div> ONLINE - КОНТРОЛЬ</div>
+<<<<<<< HEAD
 						</div><!-- end .trip-hf -->
 					</div><!-- end .trip-row -->
 				</section><!-- end #trip-grid -->
-			
+						
+=======
+						</div>
+					</div> -->
+				</section>
+			<a name="howwork"></a>
+				<section id="testimonials">
+					<div class="container">
+						<div id="destinations-text">
+						<h2>
+								<span>Как мы работаем?</span>
+								Otdelka Design
+						</h2>
+
+						<div class="heading-sep"></div>
+						</div>
+						<div id="testimonial-slider">
+							<div class="testimonial-slide" style="display: block">
+	Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня
+							</div><!-- end .testimonial-slide -->
+				<div class="testimonial-slide" style="display: block">
+
+
+Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения
+							</div><!-- end .testimonial-slide -->
+							<div class="testimonial-slide" style="display: block">
+На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ
+							</div><!-- end .testimonial-slide -->
+							<div class="testimonial-slide" style="display: block">
+По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности
+							</div><!-- end .testimonial-slide -->
+							<div class="testimonial-slide" style="display: block">
+После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств
+							</div><!-- end .testimonial-slide -->
+							<div class="testimonial-slide" style="display: block">
+Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график
+							</div><!-- end .testimonial-slide -->
+							<div class="testimonial-slide" style="display: block">
+После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту
+							</div><!-- end .testimonial-slide -->
+						</div><!-- end #testimonial-slider -->
+
+						<div id="testimonial-nav">
+							<a href="javascript:Testimonials.previous();" id="prev" class="testimonial-btn trans-bg"></a>
+							<a href="javascript:Testimonials.next();" id="next" class="testimonial-btn trans-bg"></a>
+							
+							<a href="javascript:;" class="client" data-client="Обращение клиента в компанию"><img src="/assets/img/d/1.jpg" alt="client"></a>
+							<a href="javascript:;" class="client" data-client="Выезд специалиста"><img src="/assets/img/d/3.jpg" alt="client"></a>
+							<a href="javascript:;" class="client" data-client="Составление сметы"><img src="/assets/img/d/2.jpg" alt="client"></a>
+							<a href="javascript:;" class="client" data-client="Дизайн проект"><img src="/assets/img/d/4.jpg" alt="client"></a>
+							<a href="javascript:;" class="client" data-client="Подписание договора"><img src="/assets/img/d/5.jpg" alt="client"></a>
+							<a href="javascript:;" class="client" data-client="Строительно-отделочные работы"><img src="/assets/img/d/6.jpg" alt="client"></a>
+							<a href="javascript:;" class="client" data-client="Сдача объекта"><img src="/assets/img/d/7.jpg" alt="client"></a>
+						</div><!-- end #testimonial-nav -->
+						<div id="testimonial-name">Обращение клиента в компанию</div>
+					</div><!-- end .container -->
+				</section>
+>>>>>>> origin/master
+
 		
 		<section id="experience">
 
@@ -220,6 +319,14 @@ $this->title = 'Otdelka design';
 		</div>
 		</div>
 	</section>
+    <!--Отзывы наших клиентов-->
+
+
+
+
+    <!--Отзывы наших клиентов-->
+
+
 
 
 
@@ -283,6 +390,10 @@ $this->title = 'Otdelka design';
 				</section>
 				
     <!--Как мы работаем-->
+
+
+
+
 
 
     <!--Партнёры-->
