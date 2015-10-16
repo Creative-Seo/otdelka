@@ -4,7 +4,7 @@ Author: Elegant Seagulls
 Author URI: http://elegantseagulls.com
 */
 
-body {padding:0px; margin:0px; background:#343433; font-family:'Open Sans', sans-serif; color:#646461;}
+body {padding:0px; margin:0px; font-family:'Open Sans', sans-serif; color:#646461;}
 img { max-width:100%; }
 
 #viewport { overflow:hidden; width:100%; }
@@ -174,16 +174,16 @@ TESTIMONIALS
 
 */
 
-#testimonials { padding:100px 0px; background:#e6e6e0 url(/assets/img/bg-testimonials.jpg) center no-repeat; border-top:2px solid #cfcfc8; }
+#testimonials { padding:50px 0px; background:#e6e6e0 url(/assets/img/bg-testimonials.jpg) center no-repeat; border-top:2px solid #cfcfc8; }
 
 
 /* testimonial slider */
 
-#testimonial-slider { position:relative; padding:50px 0px; padding-bottom:20px; width:840px; margin:auto; position:relative; height:175px; font-family:'Fjalla One', sans-serif; color:#494946; font-size:30px; line-height:50px; text-align:center; text-transform:uppercase; }
+#testimonial-slider { position:relative; padding-bottom:20px; width:840px; margin:auto; position:relative; height:175px; font-family:'Fjalla One', sans-serif; color:#494946; font-size:30px; line-height:50px; text-align:center; text-transform:uppercase; }
 
 #testimonial-slider .testimonial-slide {position: absolute;
-top: -50px;
-left: 0px;
+top: 0;
+left: 0;
 width: 100%;
 padding-top: 0px; }
 
