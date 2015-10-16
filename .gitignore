@@ -5,7 +5,6 @@ vendor_old/
 webstat/
 uploads/
 runtime/
-assets/
 .sass-cache
 .sass-cache
 dploy.yaml
