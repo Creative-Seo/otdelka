@@ -1,11 +1,3 @@
-/* 
-
--------------------------------------------------------------
-
-HERO
-
-*/
-
 .item_owl { display: inline-block; height: 140px; border: 1px solid #dc7725; width: 98%; margin:10px 2px; background-color: #646461; cursor: pointer }
 .item_owl:hover {border: 1px solid #dc7725; background-color: #dc7725;}
 .item_owl > div {
@@ -397,6 +389,10 @@ GENERAL RESPONSIVE VIEWS
 	.konsultacia {width: auto; position: relative; top: 20px;}	
 }
 
+#hp-partners{
+	background: white url(/assets/img/bg-testimonials.jpg) center no-repeat;
+	width:100%;
+}
 #hp-portfolio{background: #e6e6e0 url(/assets/img/bg-testimonials.jpg) center no-repeat;width:100%;margin:0;padding:0!important;z-index:1;float:left}#hp-portfolio .twelvecol{clear:both;display:block;text-align:center;margin-top:50px;margin-bottom:80px!important}#hp-portfolio .items{clear:both;display:block;text-align: center;margin:0 auto;padding:0;max-width:1600px}#hp-portfolio h3{text-align:center;margin:80px 0 40px;padding:0 0 7px;color:#666;white-space:normal!important;letter-spacing:2px;font-weight:100;text-transform:uppercase;font-size:1.4em!important;font-family:proxima-nova;line-height:1.3em}#hp-portfolio .portfolio-item{width:18%;padding-bottom:10%;clear:none;display:inline-block;overflow:hidden;position:relative;float:left;height:0;margin:1%}#hp-portfolio .portfolio-item a{width:100%;height:100%;position:absolute;left:0;float:left;clear:both;display:block;line-height:0;margin:0;padding:0}.grid figure{position:relative;float:left;overflow:hidden;background:#454545;text-align:center;cursor:pointer}.grid figure img{position:relative;display:block;min-height:100%;max-width:100%;-webkit-filter:grayscale(100%);-ms-filter:grayscale(100%);filter:grayscale(100%);-webkit-transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;transition:all 1s ease-in-out;-moz-filter:grayscale(100%);-o-filter:grayscale(100%)}.grid figure figcaption{color:#fff;text-transform:uppercase;-webkit-backface-visibility:hidden;backface-visibility:hidden;position:absolute;top:20px;left:0;width:100%}.grid figure figcaption a{position:absolute;top:0;left:0;width:100%;z-index:1000;text-indent:200%;white-space:nowrap;font-size:0;opacity:0}.grid figure h2{font-weight:300;margin:0}.grid figure h2 span{font-weight:800}figure.effect-layla{background:#dc7725}figure.effect-layla h2{padding:0 10%;width:80%;text-align:center;position:relative;top:1px;opacity:0;font-size:.8em!important;font-weight:900!important;text-transform:uppercase!important;font-family:proxima-nova;line-height:1.1em!important;-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}figure.effect-layla h2,figure.effect-layla img{-webkit-transition:opacity .45s,-webkit-transform .35s;transition:opacity .45s,transform .35s}figure.effect-layla:hover img{opacity:.1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}figure.effect-layla:hover h2{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}figure.effect-layla:hover h2,figure.effect-layla:hover img{-webkit-transition-delay:.15s;transition-delay:.15s; color: white; width: 100%; font-size: 28px}@media handheld,only screen and (max-width:1120px){#hp-portfolio .portfolio-item{width:18%;padding-bottom:10%; font-size: 15px} .grid figure figcaption {
   color: #fff;
   text-transform: uppercase;
