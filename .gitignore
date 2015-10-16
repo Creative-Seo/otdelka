@@ -9,8 +9,4 @@ runtime/
 .sass-cache
 dploy.yaml
 
-
-
-dev/css/meta.css
-dev/css/style.css
 otdelkadesign.ru/app/config/db.php
