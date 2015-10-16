@@ -81,93 +81,125 @@ $this->title = 'Otdelka design';
 		<div class="items grid">
 			<h2><span>Наши преимущества</span></h2>
 			<div class="portfolio-item">
-				<figure class="effect-layla">
-					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">							<figcaption>
-						<h2>Работа по договору</h2>
-					</figcaption>			
-				</figure>
+					<figure class="effect-layla">
+						<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
+						<figcaption>
+							<h2>Работа по договору</h2>
+						</figcaption>			
+					</figure>
 			</div>
 			<div class="portfolio-item">
-				<figure class="effect-layla">
-					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">							<figcaption>
-						<h2>Точная детальная смета</h2>
-					</figcaption>			
-				</figure>
+					<figure class="effect-layla">
+						<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
+						<figcaption>
+							<h2>Точная детальная смета</h2>
+						</figcaption>			
+					</figure>
 			</div>
 			<div class="portfolio-item">
-				<figure class="effect-layla">
-					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">							<figcaption>
-						<h2>Оплата по факту выполненных работ без аванса</h2>
-					</figcaption>			
-				</figure>
+					<figure class="effect-layla">
+						<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
+						<figcaption>
+							<h2>Оплата по факту выполненных работ без аванса</h2>
+						</figcaption>			
+					</figure>
 			</div>
 			<div class="portfolio-item">
-				<figure class="effect-layla">
-					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">							<figcaption>
-						<h2>Ежедневный онлайн-контроль</h2>
-					</figcaption>			
-				</figure>
+					<figure class="effect-layla">
+						<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">
+						<figcaption>
+							<h2>Ежедневный онлайн-контроль</h2>
+						</figcaption>			
+					</figure>
 			</div>
 			<div class="portfolio-item">
-				<figure class="effect-layla">
-					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">							<figcaption>
-						<h2>Лучшие материалы от партнеров со скидками</h2>
-					</figcaption>			
-				</figure>
+					<figure class="effect-layla">
+						<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">
+						<figcaption>
+							<h2>Лучшие материалы от партнеров со скидками</h2>
+						</figcaption>			
+					</figure>
 			</div>
 		</div>
 	</section>
 
-	<a name="howwork"></a>
+    <!--Как мы работаем-->
+    <a name="howwork"></a>
 	<section id="testimonials">
 		<div class="container">
-			<div id="destinations-text">
-				<h2>Как мы работаем</h2>
-
-				<div class="heading-sep"></div>
-				</div>
-				<div id="testimonial-slider">
-					<div class="testimonial-slide" style="display: block">
+			<h2>Как мы работаем?</h2>
+			<div id="testimonial-slider">
+				<div class="testimonial-slide" style="display: block">
 Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня
-					</div><!-- end .testimonial-slide -->
-												<div class="testimonial-slide" style="display: block">
-
+				</div><!-- end .testimonial-slide -->
+				<div class="testimonial-slide" style="display: block">
 Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения
-					</div><!-- end .testimonial-slide -->
-					<div class="testimonial-slide" style="display: block">
+				</div><!-- end .testimonial-slide -->
+				<div class="testimonial-slide" style="display: block">
 На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ
-					</div><!-- end .testimonial-slide -->
-					<div class="testimonial-slide" style="display: block">
+				</div><!-- end .testimonial-slide -->
+				<div class="testimonial-slide" style="display: block">
 По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности
-					</div><!-- end .testimonial-slide -->
-					<div class="testimonial-slide" style="display: block">
+				</div><!-- end .testimonial-slide -->
+				<div class="testimonial-slide" style="display: block">
 После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств
-					</div><!-- end .testimonial-slide -->
-					<div class="testimonial-slide" style="display: block">
+				</div><!-- end .testimonial-slide -->
+				<div class="testimonial-slide" style="display: block">
 Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график
-					</div><!-- end .testimonial-slide -->
-					<div class="testimonial-slide" style="display: block">
+				</div><!-- end .testimonial-slide -->
+				<div class="testimonial-slide" style="display: block">
 После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту
-					</div><!-- end .testimonial-slide -->
-				</div><!-- end #testimonial-slider -->
-
-				<div id="testimonial-nav">
-					<a href="javascript:Testimonials.previous();" id="prev" class="testimonial-btn trans-bg"></a>
-					<a href="javascript:Testimonials.next();" id="next" class="testimonial-btn trans-bg"></a>
-					
-					<a href="javascript:;" class="client" data-client="Обращение клиента в компанию"><img src="/assets/img/d/1.jpg" alt="client"></a>
-					<a href="javascript:;" class="client" data-client="Выезд специалиста"><img src="/assets/img/d/3.jpg" alt="client"></a>
-					<a href="javascript:;" class="client" data-client="Составление сметы"><img src="/assets/img/d/2.jpg" alt="client"></a>
-					<a href="javascript:;" class="client" data-client="Дизайн проект"><img src="/assets/img/d/4.jpg" alt="client"></a>
-					<a href="javascript:;" class="client" data-client="Подписание договора"><img src="/assets/img/d/5.jpg" alt="client"></a>
-					<a href="javascript:;" class="client" data-client="Строительно-отделочные работы"><img src="/assets/img/d/6.jpg" alt="client"></a>
-					<a href="javascript:;" class="client" data-client="Сдача объекта"><img src="/assets/img/d/7.jpg" alt="client"></a>
-				</div><!-- end #testimonial-nav -->
+				</div><!-- end .testimonial-slide -->
+			</div><!-- end #testimonial-slider -->
+			<div id="testimonial-nav">
+				<a href="javascript:;" class="client" style=".client:hover{}" data-client="Обращение клиента в компанию"><img src="/assets/img/d/1.jpg" alt="client"></a><i class="glyphicon glyphicon-chevron-right"></i>
+				<a href="javascript:;" class="client" data-client="Выезд специалиста"><img src="/assets/img/d/3.jpg" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<a href="javascript:;" class="client" data-client="Составление сметы"><img src="/assets/img/d/2.jpg" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<a href="javascript:;" class="client" data-client="Дизайн проект"><img src="/assets/img/d/4.jpg" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<a href="javascript:;" class="client" data-client="Подписание договора"><img src="/assets/img/d/5.jpg" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<a href="javascript:;" class="client" data-client="Строительно-отделочные работы"><img src="/assets/img/d/6.jpg" alt="client"></a><i class="glyphicon glyphicon-chevron-right"></i>
+				<a href="javascript:;" class="client" data-client="Сдача объекта"><img src="/assets/img/d/7.jpg" alt="client"></a>
+			</div>
 			<div id="testimonial-name">Обращение клиента в компанию</div>
-		</div><!-- end .container -->
+		</div>
 	</section>
 
-</div>
+    <!--Партнёры-->
+    <section class="container" id="hp-partners">
+		<div class="container">
+		<h2>Наши партнёры</h2>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<a target="_blank" href="http://spektr-service33.ru/"><img src="/images/p1.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a target="_blank" href="http://www.esnab.pro/"><img src="/images/p2.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a target="_blank" href="http://www.da-ds.ru/"><img src="/images/p3.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a target="_blank" href="http://css-33.ru/"><img src="/images/p4.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a target="_blank" href="http://kwartet33.ru/"><img src="/images/p5.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a target="_blank" href="http://www.kupimebel33.ru/"><img src="/images/p6.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a target="_blank" href="http://stroy-vld.ru/"><img src="/images/p7.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a target="_blank" href="http://www.newstyle33.ru/"><img src="/images/p8.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
+            </div>
+		</div>
+	</section>
+	<!--Партнеры-->
+	</div>
 
 <script>
 $( document ).ready(function() {
@@ -186,7 +218,6 @@ $( document ).ready(function() {
 		$("#hero").animate({
 			opacity: 1,
 		}, 1000);
-		
 	}, 15000);
 });
 </script>
