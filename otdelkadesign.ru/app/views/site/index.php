@@ -155,41 +155,94 @@ $this->title = 'Otdelka design';
 	<section id="testimonials">
 		<div class="container">
 			<h2 class="text-center">Как мы работаем?</h2>
-			<div id="testimonial-slider">
-				<div class="testimonial-slide" style="display: block">
-Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня
-				</div><!-- end .testimonial-slide -->
-				<div class="testimonial-slide" style="display: block">
-Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения
-				</div><!-- end .testimonial-slide -->
-				<div class="testimonial-slide" style="display: block">
-На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ
-				</div><!-- end .testimonial-slide -->
-				<div class="testimonial-slide" style="display: block">
-По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности
-				</div><!-- end .testimonial-slide -->
-				<div class="testimonial-slide" style="display: block">
-После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств
-				</div><!-- end .testimonial-slide -->
-				<div class="testimonial-slide" style="display: block">
-Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график
-				</div><!-- end .testimonial-slide -->
-				<div class="testimonial-slide" style="display: block">
-После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту
-				</div><!-- end .testimonial-slide -->
+		
 			</div><!-- end #testimonial-slider -->
 			<div id="testimonial-nav">
-				<a href="javascript:;" class="client" style=".client:hover{}" data-client="Обращение клиента в компанию"><img src="/assets/img/d/1.jpg" alt="client"></a><i class="glyphicon glyphicon-chevron-right"></i>
-				<a href="javascript:;" class="client" data-client="Выезд специалиста"><img src="/assets/img/d/3.jpg" alt="client"></a>
+
+      <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>   
+      <script type="text/javascript">
+         $(window).load(function(){
+         $("#element").popover({
+             trigger: "manual",
+             html: true,
+             content: $('#regionPopContent').html()
+         })
+             .on("mouseenter", function () {
+             var _this = this;
+             $(this).popover("show");
+             $(".popover").on("mouseleave", function () {
+                 $(_this).popover('hide');
+             });
+         }).on("mouseleave", function () {
+             var _this = this;
+             setTimeout(function () {
+                 if (!$(".popover:hover").length) {
+                     $(_this).popover("hide")
+                 }
+             }, 100);
+         });
+         });         
+      </script>
+<ul class="tooltip-examples list-inline">
+  <!-- Подсказка, содержащая длинный текст -->
+
+                <li>
+                <a href="javascript:;" class="client" data-client="Обращение клиента в компанию" data-toggle="tooltip" title="Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня"><img src="/assets/img/d/1.jpg" alt="client"></a>
+                <i class="glyphicon glyphicon-chevron-right"></i>
+                </li>
+
+                <li>
+				<a href="javascript:;" class="client" data-client="Выезд специалиста" data-toggle="tooltip" title="Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения"><img src="/assets/img/d/3.jpg" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
-				<a href="javascript:;" class="client" data-client="Составление сметы"><img src="/assets/img/d/2.jpg" alt="client"></a>
+				</li>
+
+				<li>
+				<a href="javascript:;" class="client" data-client="Составление сметы" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
-				<a href="javascript:;" class="client" data-client="Дизайн проект"><img src="/assets/img/d/4.jpg" alt="client"></a>
+				</li>
+
+				<li>
+				<a href="javascript:;" class="client" data-client="Дизайн проект" data-toggle="tooltip" title="По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности"><img src="/assets/img/d/4.jpg" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
-				<a href="javascript:;" class="client" data-client="Подписание договора"><img src="/assets/img/d/5.jpg" alt="client"></a>
+				</li>
+
+				<li>
+				<a href="javascript:;" class="client" data-client="Подписание договора" data-toggle="tooltip" title="После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств"><img src="/assets/img/d/5.jpg" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
-				<a href="javascript:;" class="client" data-client="Строительно-отделочные работы"><img src="/assets/img/d/6.jpg" alt="client"></a><i class="glyphicon glyphicon-chevron-right"></i>
-				<a href="javascript:;" class="client" data-client="Сдача объекта"><img src="/assets/img/d/7.jpg" alt="client"></a>
+				</li>
+
+				<li>
+				<a href="javascript:;" class="client" data-client="Строительно-отделочные работы" data-toggle="tooltip" title="Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график"><img src="/assets/img/d/6.jpg" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				</li>
+
+                <li>
+                <a href="javascript:;" class="client" data-client="Сдача объекта" data-toggle="tooltip" title="После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту">
+                <img src="/assets/img/d/7.jpg" alt="client"></a>
+                </li>
+                
+
+</ul>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".tooltip-examples a").tooltip();
+    $(".tooltip-examples button").tooltip();
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
 			</div>
 			<div id="testimonial-name">Обращение клиента в компанию</div>
 		</div>
@@ -248,3 +301,24 @@ $( document ).ready(function() {
 	}, 15000);
 });
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery-ui.css">
+      <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <style type="text/css">
+         .tooltip-inner{
+         margin-left: -30px;
+         background-color: rgba(205, 201, 201,0.9);
+         color: #000;
+         }
+      </style>
