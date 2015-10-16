@@ -29,7 +29,7 @@ $page = \Yii::$app->controller->page;
 
 	<!-- Include Libraries -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	
+
 	<script src="/assets/js/lib/jquery.easing.min.js"></script>
 	<script src="/assets/js/lib/waypoints.min.js"></script>
 	<script src="/assets/js/lib/respond.min.js"></script>

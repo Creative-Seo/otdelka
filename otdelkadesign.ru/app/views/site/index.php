@@ -1,7 +1,7 @@
 <?php
 $this->title = 'Otdelka design';
 ?>
-			
+	
 <div id="fixed-main">
 	<section id="trip-grid">
 		<div class="container">
