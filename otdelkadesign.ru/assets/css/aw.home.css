@@ -31,27 +31,20 @@ HERO
 @media (min-width: 1600px) {
   .pic {margin: 540px -200px;}
 }
-.home{min-height: 100vh;}
-.hero {
-	z-index: -1;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-	background: url(../img/hero-slide1.jpg) top center no-repeat;
-	background-size: cover;
-}
 
-.hero-text {text-align:center; color: #fff; margin-top: 20vh;}
+#hero { height:100%; background:url(../img/hero-slide1.jpg) top center no-repeat; background-size:cover; }
 
-.hero-text-h2 {font-size:40px; line-height:120px; letter-spacing:6px; margin-top: 10px; text-transform: uppercase;}
+#hero-text-hold { position:absolute; top:25%; width:100%; left:0px; }
 
-.hero-row{padding-top: 40px;}
+.hero-text { text-align:center; }
+
+.hero-text h2 { font-size:120px; line-height:120px; color:#ffffff; }
+
+.hero-text h2 span { font-size:20px; line-height:30px; color:#ffffff; letter-spacing:6px; margin-top: 10px;}
 
 .heading-sep { margin:25px auto; background:#ffffff; width:250px; }
 
-#hero-scrolldown { width:100%; position:relative; bottom:10%; left:0px; text-align:center; background: url('/assets/img/huj.png') center bottom no-repeat}
+#hero-scrolldown { width:100%; position:absolute; bottom:10%; left:0px; text-align:center; background: url('/assets/img/huj.png') center bottom no-repeat}
 
 .viewmore-down { margin-right:0px; }
 
@@ -277,6 +270,11 @@ GENERAL RESPONSIVE VIEWS
 	.pic {margin: 382px 105px;}
 	#hero { }
 
+	.hero-text h2 { font-size:80px; line-height:80px; }
+
+	.hero-text h2 span { font-size:18px; line-height:26px; letter-spacing:4px; }
+
+
 	.heading-sep {
   margin: 25px auto;
   background: #ffffff;
@@ -335,31 +333,46 @@ GENERAL RESPONSIVE VIEWS
 
 	/* hero */
 	.pic {margin: 359px 60px;}
+	
+	#hero {  }
+
+	#hero-nav { display:none; }
+
+	.hero-text h2 { font-size:50px; line-height:50px; color:#ffffff; }
+
+	.hero-text h2 span { font-size:12px; line-height:20px; }
+
 	#formcall #search-txt { width:88%}
+
 	.heading-sep {
-	  background: #ffffff;
-	  width: 110px;
-	}
+ 
+  background: #ffffff;
+  width: 110px;
+}
 
-	#experience-text .heading-sep { margin:0px auto; }
-	#experience-text2 .heading-sep { margin:0px auto; }
+#experience-text .heading-sep { margin:0px auto; }
+#experience-text2 .heading-sep { margin:0px auto; }
 
-		#testimonial-slider {
-	  width: 90%;
-	   font-size: 17px;
-	  line-height: 20px;
-	  }
-	  
-	  #testimonial-nav {
-	  width: 90%;
-	}
+	.container {
+  width: 90%;
+}
+	
+	#testimonial-slider {
+  width: 90%;
+   font-size: 17px;
+  line-height: 20px;
+  }
+  
+  #testimonial-nav {
+  width: 90%;
+}
   
   #destinations-text .heading-sep{
 	width: 0px
   }
 	/* trip grid */
 
-	#trip-grid { padding-top:30px; }
+	#trip-grid { padding:1px 0px; }
 
 	#trip-grid .trip-row { height:auto; }
 
@@ -397,6 +410,13 @@ GENERAL RESPONSIVE VIEWS
 	#guides .heading-sep { margin:30px auto; }
 	.konsultacia {width: auto; position: relative; top: 20px;}	
 }
+
+
+#hp-partners{
+	background: white url(/assets/img/bg-testimonials.jpg) center no-repeat;
+	width:100%;
+}
+
 
 #hp-portfolio{background: #e6e6e0 url(/assets/img/bg-testimonials.jpg) center no-repeat;width:100%;margin:0;padding:0!important;z-index:1;float:left}#hp-portfolio .twelvecol{clear:both;display:block;text-align:center;margin-top:50px;margin-bottom:80px!important}#hp-portfolio .items{clear:both;display:block;text-align: center;margin:0 auto;padding:0;max-width:1600px}#hp-portfolio h3{text-align:center;margin:80px 0 40px;padding:0 0 7px;color:#666;white-space:normal!important;letter-spacing:2px;font-weight:100;text-transform:uppercase;font-size:1.4em!important;font-family:proxima-nova;line-height:1.3em}#hp-portfolio .portfolio-item{width:18%;padding-bottom:10%;clear:none;display:inline-block;overflow:hidden;position:relative;float:left;height:0;margin:1%}#hp-portfolio .portfolio-item a{width:100%;height:100%;position:absolute;left:0;float:left;clear:both;display:block;line-height:0;margin:0;padding:0}.grid figure{position:relative;float:left;overflow:hidden;background:#454545;text-align:center;cursor:pointer}.grid figure img{position:relative;display:block;min-height:100%;max-width:100%;-webkit-filter:grayscale(100%);-ms-filter:grayscale(100%);filter:grayscale(100%);-webkit-transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;transition:all 1s ease-in-out;-moz-filter:grayscale(100%);-o-filter:grayscale(100%)}.grid figure figcaption{color:#fff;text-transform:uppercase;-webkit-backface-visibility:hidden;backface-visibility:hidden;position:absolute;top:20px;left:0;width:100%}.grid figure figcaption a{position:absolute;top:0;left:0;width:100%;z-index:1000;text-indent:200%;white-space:nowrap;font-size:0;opacity:0}.grid figure h2{font-weight:300;margin:0}.grid figure h2 span{font-weight:800}figure.effect-layla{background:#dc7725}figure.effect-layla h2{padding:0 10%;width:80%;text-align:center;position:relative;top:1px;opacity:0;font-size:.8em!important;font-weight:900!important;text-transform:uppercase!important;font-family:proxima-nova;line-height:1.1em!important;-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}figure.effect-layla h2,figure.effect-layla img{-webkit-transition:opacity .45s,-webkit-transform .35s;transition:opacity .45s,transform .35s}figure.effect-layla:hover img{opacity:.1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}figure.effect-layla:hover h2{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}figure.effect-layla:hover h2,figure.effect-layla:hover img{-webkit-transition-delay:.15s;transition-delay:.15s; color: white; width: 100%; font-size: 28px}@media handheld,only screen and (max-width:1120px){#hp-portfolio .portfolio-item{width:18%;padding-bottom:10%; font-size: 15px} .grid figure figcaption {
   color: #fff;
