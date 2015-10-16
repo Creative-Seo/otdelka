@@ -79,7 +79,7 @@ $this->title = 'Otdelka design';
 	<a name="priem"></a>
 	<section class="container" id="hp-portfolio">
 		<div class="items grid">
-			<h2><span>Почему OTDELKA DESIGN?</span></h2>
+			<h2><span>Наши преимущества</span></h2>
 			<div class="portfolio-item">
 					<figure class="effect-layla">
 						<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
@@ -90,17 +90,17 @@ $this->title = 'Otdelka design';
 			</div>
 			<div class="portfolio-item">
 					<figure class="effect-layla">
-						<img src="/images/sovremennietehnologii.jpg" class="attachment-full wp-post-image" alt="3d_Character_Turtle_SQ">
+						<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
 						<figcaption>
-							<h2>Использование современных материалов и технологий</h2>
+							<h2>Точная детальная смета</h2>
 						</figcaption>			
 					</figure>
 			</div>
 			<div class="portfolio-item">
 					<figure class="effect-layla">
-						<img src="/images/kvalificirovanniemastera.jpg" class="attachment-full wp-post-image" alt="kvalificirovanniemastera">
+						<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
 						<figcaption>
-							<h2>Квалифицированные мастера</h2>
+							<h2>Оплата по факту выполненных работ без аванса</h2>
 						</figcaption>			
 					</figure>
 			</div>
@@ -120,46 +120,6 @@ $this->title = 'Otdelka design';
 						</figcaption>			
 					</figure>
 			</div>
-			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/rabotapodizaynproektu.jpg" class="attachment-full wp-post-image" alt="rabotapodizaynproektu">
-						<figcaption>
-							<h2>Работа по дизайн проекту</h2>
-						</figcaption>			
-					</figure>
-			</div>
-			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/individualniypodhod.jpg" class="attachment-full wp-post-image" alt="individualniypodhod">
-						<figcaption>
-							<h2>Индивидуальный подход к клиенту</h2>
-						</figcaption>			
-					</figure>
-			</div>
-			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
-						<figcaption>
-							<h2>Оплата по факту выполненных работ без аванса</h2>
-						</figcaption>			
-					</figure>
-			</div>
-			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
-						<figcaption>
-							<h2>Точная детальная смета</h2>
-						</figcaption>			
-					</figure>
-			</div>
-			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/garantii.jpg" class="attachment-full wp-post-image" alt="garantii">
-						<figcaption>
-							<h2>Гарантия на работы</h2>
-						</figcaption>			
-					</figure>
-			</div>
 		</div>
 	</section>
 
@@ -167,10 +127,7 @@ $this->title = 'Otdelka design';
     <a name="howwork"></a>
 	<section id="testimonials">
 		<div class="container">
-			<div id="destinations-text">
-				<h2>Как мы работаем?</h2>
-				<div class="heading-sep"></div>
-			</div>
+			<h2>Как мы работаем?</h2>
 			<div id="testimonial-slider">
 				<div class="testimonial-slide" style="display: block">
 Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня
@@ -195,7 +152,6 @@ $this->title = 'Otdelka design';
 				</div><!-- end .testimonial-slide -->
 			</div><!-- end #testimonial-slider -->
 			<div id="testimonial-nav">
-				
 				<a href="javascript:;" class="client" style=".client:hover{}" data-client="Обращение клиента в компанию"><img src="/assets/img/d/1.jpg" alt="client"></a><i class="glyphicon glyphicon-chevron-right"></i>
 				<a href="javascript:;" class="client" data-client="Выезд специалиста"><img src="/assets/img/d/3.jpg" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
@@ -207,7 +163,6 @@ $this->title = 'Otdelka design';
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				<a href="javascript:;" class="client" data-client="Строительно-отделочные работы"><img src="/assets/img/d/6.jpg" alt="client"></a><i class="glyphicon glyphicon-chevron-right"></i>
 				<a href="javascript:;" class="client" data-client="Сдача объекта"><img src="/assets/img/d/7.jpg" alt="client"></a>
-
 			</div>
 			<div id="testimonial-name">Обращение клиента в компанию</div>
 		</div>
@@ -216,7 +171,7 @@ $this->title = 'Otdelka design';
     <!--Партнёры-->
     <section class="container" id="hp-partners">
 		<div class="container">
-		<h2><span style="text-align: center">Наши партнёры</span></h2>
+		<h2>Наши партнёры</h2>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 			<a target="_blank" href="http://spektr-service33.ru/"><img src="/images/p1.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
 			</div>
