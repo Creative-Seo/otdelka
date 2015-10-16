@@ -79,22 +79,14 @@ $this->title = 'Otdelka design';
 	<a name="priem"></a>
 	<section class="container" id="hp-portfolio">
 		<div class="items grid">
-			<h2><span>Наши преимущества</span></h2>
+			<h2 class="text-center">Наши преимущества</h2>
 			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
-						<figcaption>
-							<h2>Работа по договору</h2>
-						</figcaption>			
-					</figure>
+				<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
+				<h2>Работа по договору</h2>
 			</div>
 			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
-						<figcaption>
-							<h2>Точная детальная смета</h2>
-						</figcaption>			
-					</figure>
+				<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
+				<h2>Точная детальная смета</h2>
 			</div>
 			<div class="portfolio-item">
 					<figure class="effect-layla">
@@ -127,7 +119,7 @@ $this->title = 'Otdelka design';
     <a name="howwork"></a>
 	<section id="testimonials">
 		<div class="container">
-			<h2>Как мы работаем?</h2>
+			<h2 class="text-center">Как мы работаем?</h2>
 			<div id="testimonial-slider">
 				<div class="testimonial-slide" style="display: block">
 Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня
@@ -171,7 +163,7 @@ $this->title = 'Otdelka design';
     <!--Партнёры-->
     <section class="container" id="hp-partners">
 		<div class="container">
-		<h2>Наши партнёры</h2>
+		<h2 class="text-center">Наши партнёры</h2>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 			<a target="_blank" href="http://spektr-service33.ru/"><img src="/images/p1.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
 			</div>
