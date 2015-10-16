@@ -204,9 +204,7 @@ padding-top: 0px; }
 
 #testimonial-nav a.client img { vertical-align:middle; border-radius:100%; -webkit-border-radius:100%; }
 
-#testimonial-nav a.client:hover { -webkit-transform:scale(0.8); transform:scale(0.8); }
 
-#testimonial-nav a.active, #testimonial-nav a.active:hover { transform:scale(1); -webkit-transform:scale(1); }
 
 #testimonial-name { text-align:center; padding-top:20px; }
 
