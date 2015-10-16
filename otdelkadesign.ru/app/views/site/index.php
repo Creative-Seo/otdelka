@@ -77,44 +77,79 @@ $this->title = 'Otdelka design';
 	</section>
 
 	<a name="priem"></a>
-	<section class="container" id="hp-portfolio">
-		<div class="items grid">
+	<section id="hp-portfolio">
+		<div class="container">
 			<h2 class="text-center">Наши преимущества</h2>
-			<div class="portfolio-item">
-				<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
-				<h2>Работа по договору</h2>
-			</div>
-			<div class="portfolio-item">
-				<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
-				<h2>Точная детальная смета</h2>
-			</div>
-			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
-						<figcaption>
-							<h2>Оплата по факту выполненных работ без аванса</h2>
-						</figcaption>			
-					</figure>
-			</div>
-			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">
-						<figcaption>
-							<h2>Ежедневный онлайн-контроль</h2>
-						</figcaption>			
-					</figure>
-			</div>
-			<div class="portfolio-item">
-					<figure class="effect-layla">
-						<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">
-						<figcaption>
-							<h2>Лучшие материалы от партнеров со скидками</h2>
-						</figcaption>			
-					</figure>
+			<div class="items grid">
+				<div class="portfolio-item">
+					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
+					<p>Работа по договору</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
+					<p>Точная детальная смета</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
+					<p>Оплата по факту выполненных работ без аванса</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">
+					<p>Ежедневный онлайн-контроль</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">
+					<p>Лучшие материалы от партнеров со скидками</p>
+				</div>
 			</div>
 		</div>
 	</section>
 
+	<section id="foto">
+		<div class="container">
+			<h2 class="text-center">Фото наших работ</h2>
+			<div class="items grid">
+				<div class="portfolio-item">
+					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="otzovi">
+		<div class="container">
+			<h2 class="text-center">Отзовы наших клиентов</h2>
+		</div>
+	</section>
+
+<p class="text-center h2">
     <!--Как мы работаем-->
     <a name="howwork"></a>
 	<section id="testimonials">
