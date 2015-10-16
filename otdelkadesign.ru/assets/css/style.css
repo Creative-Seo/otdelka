@@ -131,7 +131,6 @@ Main components
   color: transparent;
   z-index: 3;
 }
-
 .cd-search-trigger::before, .cd-search-trigger::after {
   /* search icon */
   content: '';
