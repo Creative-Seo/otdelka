@@ -67,8 +67,6 @@ TRIP GRID
 
 */
 
-#trip-grid { background:#d1d1c9; }
-
 #trip-grid .trip-row { height:420px; clear:both; }
 
 #trip-grid .trip-link { display:block; height:100%; width:100%; }
