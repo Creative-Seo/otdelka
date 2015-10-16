@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/otdelkadesign.ru/webstat"
+AuthUserFile /var/www/otdelkadesign/data/etc/57551962.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

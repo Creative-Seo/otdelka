@@ -1,0 +1,740 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201503 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.otdelkadesign.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1996                
+POS_TIME 2684                
+POS_VISITOR 14439               
+POS_DAY 21554               
+POS_DOMAIN 3595                
+POS_LOGIN 3830                
+POS_ROBOT 3985                
+POS_WORMS 4559                
+POS_EMAILSENDER 4690                
+POS_EMAILRECEIVER 4833                
+POS_SESSION 22461               
+POS_SIDER 22674               
+POS_FILETYPES 4968                
+POS_DOWNLOADS 5297                
+POS_OS 5345                
+POS_BROWSER 5526                
+POS_SCREENSIZE 6420                
+POS_UNKNOWNREFERER 6494                
+POS_UNKNOWNREFERERBROWSER 7202                
+POS_ORIGIN 7443                
+POS_SEREFERRALS 7588                
+POS_PAGEREFS 7765                
+POS_SEARCHWORDS 8176                
+POS_KEYWORDS 8394                
+POS_MISC 2346                
+POS_ERRORS 8521                
+POS_CLUSTER 3686                
+POS_SIDER_404 8670                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150401000359 1579 379152 12409122120465
+FirstTime 20150301014530
+LastTime 20150331221710
+LastUpdate 20150401000502 1579 0 1578 0 0
+TotalVisits 441                 
+TotalUnique 166                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 175                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 193 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 195 1479 14632240 31 684 1955799
+1 274 1751 13598423 41 761 2427744
+2 59 724 10784795 8 327 543911
+3 16 195 1328608 14 99 661697
+4 11 104 2118463 2 36 133971
+5 9 63 2345210 8 15 58552
+6 3 55 48835 6 17 597719
+7 1 1 5727 2 3 25270
+8 4 63 2723129 3 26 363961
+9 46 662 8128210 18 171 1010831
+10 72 1014 6053876 8 303 715892
+11 97 1686 10716380 11 347 779134
+12 160 3030 12151516 35 595 1436141
+13 422 5091 28281721 78 813 2053764
+14 371 4407 7340448 76 881 2806757
+15 156 1089 15010048 22 385 850818
+16 200 3101 19416067 15 823 1918200
+17 133 2119 17169874 16 730 1016932
+18 208 2725 16758840 26 1280 2203302
+19 141 1413 6066260 27 401 898289
+20 128 2407 14094545 37 906 4342794
+21 92 1154 21155351 13 407 812817
+22 153 3168 19201938 19 667 1423837
+23 181 3139 25546698 30 935 4711978
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3132 40640 274677202
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 179 3134489 20150331093234 0
+yandex 64 4172269 20150331231108 0
+bot[\s_+:,\.\;\/\\-] 36 107801 20150329205707 0
+no_user_agent 28 933750 20150329205655 0
+crawl 10 53367 20150328053010 0
+favicon 9 51261 20150331125200 0
+ng\/1\. 4 44118 20150321092323 0
+surveybot 2 11185 20150326195307 0
+python 1 21648 20150323235744 0
+[\s_+:,\.\;\/\\-]bot 1 4181 20150302231257 0
+mail\.ru 1 5729 20150325230223 0
+cfnetwork 1 37033 20150329213352 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+eot 1 20406 0 0
+css 4126 5491944 0 0
+png 8864 35254359 0 0
+woff2 171 127834 0 0
+woff 5 118485 0 0
+xlsx 7 3677209 0 0
+php 2 42488 0 0
+map 327 738400 0 0
+html 1332 7625918 0 0
+jpg 15220 186476300 0 0
+js 7945 31249092 0 0
+Unknown 1287 3597474 0 0
+svg 1353 257293 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 1223
+winxp 9065
+win2000 1
+winnt 2
+win98 1
+linux 219
+winvista 10466
+win7 15783
+winme 3
+macosx 3524
+win2003 1
+j2me 51
+Unknown 301
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 50
+msie6.0 5
+safari7.0 59
+chrome40.0.2214.115 13108
+firefox3.0.7 1
+firefox4.0.1 5
+firefox3.6 1
+chrome41.0.2272.96 469
+android 343
+firefox2.0.0.1 1
+chrome28.0.1500.94 125
+chrome28.0.1500.95 35
+firefox8.0 1
+firefox18.0 2
+chrome31.0.1650.57 54
+chrome42.0.2292.0 55
+chrome43.0.2334.0 180
+chrome31.0.1650.63 14
+curl 1
+opera9.80 552
+msie8.0 18
+iphone 80
+chrome39.0.2171.65 1
+chrome41.0.2272.101 6350
+chrome38.0.2125.122 210
+chrome37.0.2062.120 8
+firefox16.0 31
+chrome41.0.2272.76 2789
+chrome27.0.1453 54
+chrome41.0.2272.89 11492
+safari8.0 129
+msie9.0 1
+Unknown 9
+chrome41.0.2272.94 44
+chrome30.0.0.0 57
+firefox32.0 1
+chrome39.0.2171.93 37
+msie5.01 1
+chrome34.0.1847.131 1
+chrome40.0.2214.109 237
+msie5.5 1
+safari5.1.7 54
+firefox1.0.7 2
+firefox33.0 2
+firefox1.0 2
+mozilla 136
+msie10.0 35
+chrome41.0.2272.81 60
+firefox36.0 458
+firefox35.0 73
+safari 3256
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+lechenie_mezhpozvonochnoi_grizhi_(_http://www.hunchan.ru_) 20150318001716
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/35.7827;_U;_ru)_Presto/2.8.119_Version/11.10 20150310195325
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/36.1409;_U;_ru)_Presto/2.12.423_Version/12.16 20150331131658
+curl/7.35.0 20150307054048
+Opera/9.80_(Android;_Opera_Mini/28.0.1764/36.1409;_U;_ru)_Presto/2.12.423_Version/12.16 20150331131843
+Mozilla/5.0_(Android;_Mobile;_rv:36.0)_Gecko/36.0_Firefox/36.0 20150323145457
+Mozilla/4.0_(compatible;_Synapse) 20150306174139
+lechenie_mezhpozvonochnoi_grizhi_HUNCHAN.RU_(_http://www.hunchan.ru_) 20150318213604
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+lechenie_mezhpozvonochnoi_grizhi_(_http://www.hunchan.ru_) 20150318001716
+lechenie_mezhpozvonochnoi_grizhi_HUNCHAN.RU_(_http://www.hunchan.ru_) 20150318213604
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 504 508
+From1 2 2
+From2 18 18
+From3 17 17
+From4 2591 40095
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 3 3
+bing 1 1
+yandex 14 14
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+http://pizza-tycoon.de 4 4
+http://hvd-store.com 4 4
+http://hundejo.com 2 2
+http://specialdessous.com 1 1
+http://burger-imperia.com 1 1
+http://ok.ru/dk 1 1
+http://m.vk.com/away.php 1 1
+http://go.mail.ru/search 1 1
+http://vk.com/rdemin86 1 1
+http://m.ok.ru/dk 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+otdelkadesign.ru 4
+post%40otdelkadesign.ru 2
+www.otdelka+design 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+otdelkadesign.ru 4
+post%40otdelkadesign.ru 2
+design 1
+www.otdelka 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 223 196923
+206 42 2308607
+500 26 889068
+400 2 3920
+404 10759 21609535
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 136
+/images/3d_Interior_Floorplan_SQ.jpg 3 http://otdelkadesign.ru/
+/assets/img/testimonials-prev.png 31 http://otdelkadesign.ru/assets/css/aw.main.css
+/assets/img/btn-categoriesarrow.png 1951 http://otdelkadesign.ru/
+/admin/content/sitetree/ 2 -
+/assets/index.html 1 -
+/admin.php 29 -
+//public_html.zip 1 -
+/javascript:Testimonials.previous() 1 -
+/images/3d_Product_Tap_SQ.jpg 3 http://otdelkadesign.ru/
+/assets/css/asset 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/2.jpg 96 http://otdelkadesign.ru/
+/assets/css/ass 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/assets/modules/docmanager/js/docmanager.js 1 -
+//www.zip 1 -
+/assets/css/assets/img/h 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/templates/cacheplugin.php 2 -
+/site/sendform 1 http://otdelkadesign.ru/design
+/assets/css/assets/i 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/core/tpl/admin/default.tpl.html 1 -
+/admin/login 1 -
+/image/cleaning.png 2 http://otdelkadesign.ru/
+/node/ 2 -
+/public_html.tar.gz 3 -
+/assets/css/assets/img/huy 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/user/register 1 -
+/engine/ajax/addcomments.php 1 -
+/wp-content/plugins/reflex-gallery/scripts/jquery-migrate.js 1 -
+/images/3d_Product_Rings_SQ.jpg 3 http://otdelkadesign.ru/
+/js/api.js 1 -
+/assets/css/assets/ 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/netcat/admin/skins/default/css/style.css 2 -
+/bitrix/js/main/core/core.css 2 -
+/administrator/ 25 -
+/images/cms/admin/mac/common/butterfly.png 2 -
+/assets/css/assets/img/huj. 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/assets/css/as 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/wp-login.php 40 -
+//otdelkadesign.ru.tar.gz 1 -
+/image/otdelka.png 3 http://otdelkadesign.ru/
+/netcat/admin/skins/default/css/login.css 2 -
+/xyneximogcanwb.html 1 -
+/assets/img/search-hint.png 1633 http://otdelkadesign.ru/
+/images/3d_Product_Electronic_Cigarette_SQ.jpg 3 http://otdelkadesign.ru/
+/assets/img/testimonials-sep.jpg 1263 http://otdelkadesign.ru/
+/modules/system/system.base.css 2 -
+/engine/engine.php 2 -
+/assets/img/btn-viewmoredown.png 1389 http://otdelkadesign.ru/
+/assets/css/assets 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/assets/css/assets/img 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/assets/img/bg-trans-icon.png 242 http://otdelkadesign.ru/
+/core/xpdo/changelog.txt 1 -
+/user/login/ 2 -
+/images/3d_Character_Turtle_SQ.jpg 2 http://otdelkadesign.ru/
+/1.jpg 117 http://otdelkadesign.ru/
+/www.zip 3 -
+/assets/css/assets/img/ 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/styles/skins/mac/design/css/style.css 2 -
+/users/registrate/ 2 -
+/terbhuhw.html 1 -
+/wp-admin/images/wordpress-logo.png 2 -
+/administrator/index.php 11 -
+/assets/css/assets/img/huj.png 2 -
+/assets/css/assets/img/huj 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/3.jpg 89 http://otdelkadesign.ru/
+/media/system/js/mootools.js 2 -
+/public_html.zip 3 -
+/bitrix/admin/ 3 -
+/images/otdelka.svg 3 http://otdelkadesign.ru/
+/assets/css/assets/im 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/user/password/ 2 -
+/robots.txt 64 -
+/www.tar.gz 3 -
+/hostcmsfiles/main.js 1 -
+/image/design.png 2 http://otdelkadesign.ru/
+/admin/login.php 1 -
+/includes/init.php 1 -
+/js/admin.js 1 -
+/password_double_opt.php 1 -
+/assets/img/btn-search.png 101 http://otdelkadesign.ru/
+/admin/index.php 2 -
+/wp-admin/ 2 -
+/1assets/img/huj.png 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/assets/css/assets/img/huj.pn 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/netcat/admin/ 3 -
+/image/online.png 2 http://otdelkadesign.ru/
+/registration/ 1 -
+/wp-content/ 2 -
+/backup.zip 3 -
+/assets/css/assets/img/huj.p 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/sitemap.php 1 -
+/otdelkadesign.ru.zip 3 -
+/backup.tar.gz 3 -
+/assets/img/bg-testimonials.jpg 1194 http://otdelkadesign.ru/
+/media/cacheplugin.php 2 -
+/blog.php 1 http://otdelkadesign.ru/blog.php
+/javascript: 1 -
+/typo3/border.html 1 -
+/assets/img/btn-navarrow.png 444 http://otdelkadesign.ru/
+/cms/lang/ru_utf8/css/sbIndex.css 1 -
+//backup.tar.gz 1 -
+/images/otdelka.png 4 http://otdelkadesign.ru/
+/bitrix/themes/.default/images/auth_pict.gif 2 -
+/images/3d_Character_Wizard_SQ.jpg 3 http://otdelkadesign.ru/
+/5.jpg 74 http://otdelkadesign.ru/
+/assets/img/bg-footercopyright.jpg 1635 http://otdelkadesign.ru/
+/image/technologii.png 2 http://otdelkadesign.ru/
+//otdelkadesign.ru.zip 1 -
+/apple-touch-icon.png 7 -
+/assets/img/bg-categorynav.jpg 6 http://otdelkadesign.ru/design
+/users/forget/ 2 -
+/templates/system/css/system.css 2 -
+/otdelkadesign.ru.tar.gz 3 -
+/4.jpg 91 http://otdelkadesign.ru/
+/netcat/admin/skins/default/img/logo.png 2 -
+/admin%20root 1 -
+/assets/css/asse 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/modules/system/system.css 2 -
+/include/ajax/textPreview.php 1 -
+/images/construction-residential3.jpg 1 http://otdelkadesign.ru/
+/js/easy.php 1 -
+//www.tar.gz 1 -
+/assets/img/testimonials-next.png 31 http://otdelkadesign.ru/assets/css/aw.main.css
+//public_html.tar.gz 1 -
+/d 1 -
+/bitrix/themes/.default/adminstyles.css 2 -
+/apple-touch-icon-precomposed.png 7 -
+/images/3d_Construction_SQ.jpg 3 http://otdelkadesign.ru/
+/user/ 1 -
+/cms/admin/index.php 1 -
+/assets/img/btn-close.png 5 http://otdelkadesign.ru/
+/image/stoimost.png 2 http://otdelkadesign.ru/
+/wp-admin/css/wp-admin.css 2 -
+//backup.zip 1 -
+/assets/css/a 1 http://otdelkadesign.ru/assets/css/aw.main.css
+/assets/css/assets/img/hu 2 http://otdelkadesign.ru/assets/css/aw.main.css
+/phpshop/admpanel/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 175
+212.233.78.170 741 8763 15532306 20150330131532
+176.122.71.28 477 5461 58091348 20150331221710
+46.20.178.140 256 1464 2869653 20150317014834
+109.126.217.79 158 995 2910366 20150312124707
+81.4.242.21 116 1293 1279786 20150330194929
+81.4.242.1 113 2081 1776806 20150330193852
+81.4.242.2 107 1251 7237475 20150325110915
+81.4.242.4 87 1161 4536493 20150330194948
+81.4.242.22 85 1750 4577813 20150325171048
+109.126.243.108 66 1731 3141839 20150310162122
+46.20.185.221 7 341 846754 20150310220915
+109.201.73.158 1 55 331036 20150324143235
+84.53.217.175 9 73 3543233 20150319221949
+91.109.247.173 1 1 5741 20150330095545
+109.201.71.180 41 1091 2305996 20150301214220
+81.27.58.229 1 36 1085783 20150305142812
+101.254.17.162 1 1 15500 20150306233411
+31.23.221.186 5 61 2261963 20150329204935
+185.26.180.147 1 51 2420871 20150330084646
+64.113.32.29 1 1 5727 20150326104326
+217.69.133.169 2 2 9833 20150320234836
+37.187.129.166 1 1 5738 20150327143019
+5.45.255.96 0 53 188563 
+82.145.219.180 2 52 1649624 20150310195324
+188.42.240.119 5 5 66038 20150330094819
+83.149.41.45 1 54 128587 20150319203139
+46.229.140.78 2 55 9409 20150325204802
+46.229.141.125 2 37 7955 20150305144706
+46.229.141.32 3 73 12091 20150308222741
+176.122.68.165 12 73 4090377 20150329205930
+83.220.237.121 1 54 2241560 20150331134355
+109.126.197.172 14 135 965360 20150311221820
+85.25.103.119 1 1 5727 20150326074147
+31.40.41.98 30 509 7266369 20150327225702
+5.45.255.92 1 2 3981 20150304135309
+37.9.53.140 2 2 44518 20150330110150
+66.249.81.240 0 12 480149 
+46.229.140.218 1 28 477278 20150326175151
+119.166.184.88 1 1 21066 20150313192017
+81.4.242.11 13 98 42203 20150330195050
+46.229.141.83 3 55 16603 20150327101147
+95.66.215.235 9 68 3132306 20150320001512
+176.126.252.12 1 1 5643 20150322174546
+109.126.196.107 1 54 524575 20150315224533
+83.149.41.9 2 9 11066 20150329212405
+109.126.230.207 62 638 2430584 20150318162909
+109.201.95.141 62 2901 1617350 20150312234604
+124.166.242.198 1 1 21648 20150318213604
+46.29.215.23 15 75 3657448 20150320232329
+46.229.140.178 6 54 1390791 20150319161644
+222.161.250.163 2 2 42132 20150316235436
+5.45.255.67 2 10 11048 20150326124252
+46.229.140.75 4 55 29510 20150323192307
+95.66.182.194 18 546 14037717 20150331094413
+188.225.33.150 31 31 603079 20150331030445
+109.126.215.48 2 37 1089760 20150301232945
+213.87.136.0 2 58 2214703 20150320223745
+195.189.123.218 3 95 2716440 20150325230301
+87.240.182.148 0 1 14480 
+95.66.214.180 9 67 2729719 20150323213039
+89.208.147.138 2 2 43296 20150322055840
+82.145.221.77 1 57 2318328 20150331131654
+87.244.149.196 1 1 7889 20150325094954
+109.126.219.128 12 51 118768 20150308183637
+109.126.218.57 6 91 718146 20150323233127
+46.229.140.24 2 55 10880 20150321134320
+82.145.222.45 3 61 2260920 20150331131842
+79.110.18.153 1 1 5739 20150330224916
+46.4.113.114 2 2 11148 20150317213024
+176.9.38.197 4 4 85428 20150323212250
+188.244.36.86 2 89 3069177 20150316023500
+5.45.192.100 1 35 3979 20150304135350
+46.229.140.131 8 177 561782 20150324175051
+5.45.255.86 1 1 3977 20150305210159
+109.229.113.31 1 1 20229 20150312013654
+178.210.65.8 1 1 21648 20150324093715
+91.225.150.15 4 57 2183442 20150330163540
+82.145.217.222 2 22 354569 20150312143439
+27.223.131.128 1 1 21066 20150313211624
+84.53.235.216 7 71 632775 20150331205256
+46.229.140.225 1 2 3986 20150307161110
+37.19.73.71 3 105 11936 20150301220337
+93.79.214.248 1 1 21066 20150315132857
+37.1.192.179 1 1 5648 20150321214345
+46.229.140.41 1 22 4032 20150310111253
+84.53.227.167 3 59 1025671 20150329174930
+95.66.147.127 7 60 2337401 20150328155916
+83.149.41.12 7 19 33445 20150320193850
+46.229.140.190 1 22 5339 20150313112902
+94.29.20.208 1 14 121935 20150324234229
+83.149.41.115 2 4 7960 20150306174111
+83.149.41.195 3 80 16607 20150330143505
+46.229.140.10 2 11 10891 20150318224824
+95.66.146.85 3 59 2154001 20150314202539
+109.201.90.19 2 59 2736445 20150330222742
+46.229.140.33 10 80 185803 20150302105932
+46.229.140.169 11 127 592315 20150311183600
+5.45.192.68 1 36 3978 20150303124908
+95.22.5.24 2 54 1885940 20150310215517
+222.161.250.175 1 1 21066 20150315085107
+95.66.182.248 10 90 3153630 20150317193040
+5.45.255.65 1 1 4804 20150311130219
+109.94.192.36 4 49 30799 20150331114335
+46.229.140.164 1 17 4030 20150309211911
+84.53.244.6 5 57 1900365 20150311132400
+83.149.41.46 1 35 3984 20150307123206
+46.20.182.245 3 63 3512408 20150319221004
+87.244.147.235 1 1 21648 20150323223641
+213.136.64.63 1 1 15509 20150309134103
+188.191.144.126 1 1 15500 20150306174139
+109.201.76.107 6 177 168823 20150310005445
+46.229.140.0 1 36 68877 20150308120637
+46.229.141.138 5 50 1753262 20150317151049
+109.126.226.111 8 74 2243859 20150314011037
+91.142.175.152 1 1 21637 20150318105608
+188.254.95.5 7 64 2728642 20150324181158
+171.25.193.235 1 1 5644 20150322103649
+37.190.23.95 1 1 22259 20150327203929
+5.45.192.111 0 14 0 
+81.27.55.144 12 102 3235085 20150324104216
+109.201.90.238 0 27 895685 
+212.124.15.97 3 61 704963 20150319205440
+93.170.79.24 1 1 21648 20150320205529
+94.244.143.49 1 1 5740 20150328111453
+109.126.243.230 48 1055 10845933 20150331153853
+109.94.192.51 0 1 37033 
+109.201.74.161 1 55 2207079 20150323225625
+66.249.81.243 1 12 427050 20150309224100
+81.4.242.30 28 209 62173 20150330225739
+66.249.81.159 0 13 717926 
+95.66.136.17 1 54 2241562 20150331134505
+124.166.231.34 1 1 15482 20150304010629
+83.149.41.43 5 65 39296 20150331154510
+46.229.140.175 2 11 11066 20150329114256
+148.251.77.34 2 2 11244 20150318054935
+83.149.41.21 5 46 520441 20150318153405
+84.53.207.214 11 69 2722471 20150319215301
+109.188.121.36 1 36 1085784 20150302231425
+109.126.253.204 27 135 2315303 20150313190927
+46.229.141.117 1 16 3978 20150302195048
+188.244.36.154 2 18 661421 20150324233335
+66.249.81.155 0 27 985296 
+46.229.140.93 1 10 275548 20150314081332
+46.229.140.83 1 1 3977 20150303134411
+85.13.141.3 2 2 12114 20150301015336
+109.126.221.96 2 5 9048 20150323235535
+81.4.242.3 1 35 3979 20150305211721
+109.201.69.39 19 125 70613 20150318113839
+109.126.233.48 14 233 1720196 20150325234048
+81.27.58.81 7 120 5100347 20150319183205
+46.229.140.249 2 108 3795044 20150312173411
+195.189.123.179 2 68 2565309 20150325174317
+109.126.222.156 5 35 560237 20150316222556
+95.66.159.42 17 80 4350874 20150323161115
+5.45.192.85 1 27 1769451 20150326175356
+109.95.251.77 3 59 2667295 20150331174408
+83.149.41.63 1 1 5535 20150330163630
+46.229.140.141 9 12 562932 20150331220402
+31.44.93.27 1 1 15500 20150307054048
+95.66.128.10 17 94 4400810 20150324003437
+46.28.68.158 1 1 5644 20150324085619
+46.229.140.226 4 16 19928 20150320133235
+109.188.121.70 0 1 0 
+213.87.138.202 6 63 851695 20150323145457
+83.149.41.100 5 64 396514 20150317003149
+188.32.254.109 1 35 1012809 20150306040450
+66.249.81.246 1 13 310007 20150309223922
+109.126.220.189 1 54 2241450 20150330234239
+84.53.224.125 50 1183 1003415 20150323165707
+178.217.187.39 1 1 5738 20150330091716
+46.229.141.134 4 40 33684 20150316183122
+195.16.110.67 7 62 2167100 20150314021449
+123.125.21.184 2 2 42703 20150318001716
+66.249.81.163 1 15 713650 20150319161118
+46.229.140.116 4 62 106549 20150325171322
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150301 216 3675 6307469 19
+20150302 11 220 1557356 8
+20150303 5 113 2195006 5
+20150304 6 76 46883 6
+20150305 22 444 3391351 12
+20150306 21 333 3299611 14
+20150307 4 40 38970 4
+20150308 23 283 1642075 10
+20150309 24 454 3905593 12
+20150310 122 3572 10357637 15
+20150311 296 2987 6590126 21
+20150312 177 4607 11377176 22
+20150313 47 434 5321994 10
+20150314 34 461 12705213 10
+20150315 14 122 647436 7
+20150316 122 908 6317928 18
+20150317 855 7140 22634726 25
+20150318 94 660 7100996 15
+20150319 260 2435 33563274 25
+20150320 82 1333 13556057 18
+20150321 16 280 5658229 7
+20150322 23 224 4651843 8
+20150323 139 1990 23560818 22
+20150324 58 986 13606992 21
+20150325 145 2385 9629030 26
+20150326 20 467 7768245 12
+20150327 24 600 2331655 11
+20150328 17 179 2924996 6
+20150329 28 318 9732842 8
+20150330 126 1461 19079704 25
+20150331 101 1453 23175971 19
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 31
+5mn-15mn 33
+30s-2mn 46
+15mn-30mn 22
+2mn-5mn 32
+0s-30s 240
+30mn-1h 37
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 50
+/ 1320 7603777 384 319
+/design 236 803441 15 24
+/assets/3b7b70be/css/bootstrap.css.map 179 443040 7 26
+/admin/page/a/edit/1 160 292198 0 0
+/cost 152 574850 5 12
+/assets/3b7b70be/fonts/glyphicons-halflings-regular.woff2 152 109572 1 1
+/assets/e8ff8395/css/bootstrap.css.map 148 295360 7 20
+/technology 117 463926 6 14
+/admin/page/a/edit/4 102 234994 0 0
+/admin/page/a/edit/6 67 160350 0 0
+/admin/carousel 1 1864 0 0
+/admin/page/a/edit/12 1 2844 0 0
+/kottedj 6 21559 0 0
+/assets/3b7b70be/fonts/glyphicons-halflings-regular.eot 1 20406 0 1
+/o-kompanii 4 10915 0 0
+/admin/page/a/create 50 61392 0 0
+/uploads/smeta.xlsx 7 3677209 0 2
+/registration 1 7889 1 1
+/adminroot 4 10247 0 0
+/site/submitform 12 29556 1 0
+/clining 6 15521 0 1
+/admin/page/a/edit/7 25 55315 0 0
+/partners 22 58715 2 0
+/admin/page/a/edit/3 6 13109 0 0
+/admin/redactor/upload 16 12870 0 0
+/online 34 125172 1 7
+/admin/settings 1 2405 0 0
+/d 1 1391 0 0
+/assets/e8ff8395/fonts/glyphicons-halflings-regular.woff 2 47394 0 1
+/1 1 4939 0 0
+/assets/e8ff8395/fonts/glyphicons-halflings-regular.woff2 19 18262 0 1
+/admin/logs 1 2487 0 0
+/admin/modules 1 2739 0 0
+/admin/admins 2 3711 0 0
+/kvartir 21 55030 0 0
+/office 3 7797 0 0
+/admin/text 1 1875 0 0
+/admin 30 84883 1 1
+/admin/page/a/edit/2 58 138081 0 0
+/admin/page/a/edit/5 1 2840 0 0
+/Ourworks 24 63515 2 1
+/administrator 2 5119 0 0
+/root 1 2561 0 0
+/assets/3b7b70be/fonts/glyphicons-halflings-regular.woff 3 71091 0 1
+/index.php 2 42488 1 2
+/admin/sign/in 33 56854 3 4
+/admin/page 60 140072 0 0
+/admin/ 12 22141 1 0
+/admin/page/a/edit/11 2 5678 0 0
+/otdelka 22 58770 3 2
+END_SIDER
