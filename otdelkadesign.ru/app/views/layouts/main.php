@@ -50,7 +50,11 @@ $page = \Yii::$app->controller->page;
 		
 </head>
 <body>
+<?if($page->slug == 'index'):?>
+<div class="home homepage">
+<?else:?>
 <div class="home">
+<? endif; ?>
 	<header class="cd-main-header">
 		<a class="cd-logo" href="#0"><img src="/images/logo.jpg" alt="Otdelka Design"></a>
 		<ul class="cd-header-buttons">
@@ -63,7 +67,13 @@ $page = \Yii::$app->controller->page;
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
 			<li><a href="/design">Отделка</a></li>
 			<li><a href="/design">Дизайн</a></li>
-			<li><a href="/technology">Услуги</a></li>
+			<li class="has-children">
+				<a href="#0">Услуги</a>
+				<ul class="cd-secondary-nav is-hidden">
+					<li class="go-back"><a href="#0">Назад</a></li>
+					<li><a href="/design">Отделочные работы</a></li>
+				</ul>
+			</li>
 			<li><a href="#" class="howwork">Портфолио</a></li>
 			<li><a href="/partners">О компании</a></li>
 			<li><a href="/partners">Контакты</a></li>
