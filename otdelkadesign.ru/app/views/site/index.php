@@ -155,148 +155,75 @@ $this->title = 'Otdelka design';
 		<div class="container">
 			<h2 class="text-center">Как мы работаем?</h2>
 		
-			</div><!-- end #testimonial-slider -->
-			<div id="testimonial-nav">
+		</div><!-- end #testimonial-slider -->
+		<div id="testimonial-nav">
 
-      <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>   
-      <script type="text/javascript">
-         $(window).load(function(){
-         $("#element").popover({
-             trigger: "manual",
-             html: true,
-             content: $('#regionPopContent').html()
-         })
-             .on("mouseenter", function () {
-             var _this = this;
-             $(this).popover("show");
-             $(".popover").on("mouseleave", function () {
-                 $(_this).popover('hide');
-             });
-         }).on("mouseleave", function () {
-             var _this = this;
-             setTimeout(function () {
-                 if (!$(".popover:hover").length) {
-                     $(_this).popover("hide")
-                 }
-             }, 100);
-         });
-         });         
-      </script>
 <div class="tooltip-examples list-inline">
 <div class="container">
 <div class="row">
-<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-<div class="row">
-<div class="col-lg-4 col-md-4">
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
                 <a href="javascript:;" class="client" data-toggle="tooltip" title="Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня"><img src="/assets/img/d/1.jpg" class="img-responsive" position="center" alt="client"></a>
                 <i class="glyphicon glyphicon-chevron-right"></i>
                 <p align="center" class="text-responsive">Обращение клиента в компанию</p>
-</div>
-<div class="col-lg-4 col-md-4"></div>
-<div class="col-lg-4 col-md-4">
+			</div>
+			<div class="col-lg-4 col-md-4"></div>
+			<div class="col-lg-4 col-md-4">
 				<a href="javascript:;" class="client" data-toggle="tooltip" title="Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения"><img src="/assets/img/d/3.jpg" class="img-responsive" position="center" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				<p align="center" class="text-responsive">Выезд специалиста</p>
-</div>
-</div>
-</div>
+			</div>
+		</div>
+	</div>
 
-
-
-
-
-
-
-
-<div class="col-lg-2 col-md-2">
-<div class="row">
-<div class="col-lg-6 col-md-6"></div>
-<div class="col-lg-6 col-md-6">
+	<div class="col-lg-2 col-md-2">
+		<div class="row">
+			<div class="col-lg-6 col-md-6"></div>
+			<div class="col-lg-6 col-md-6">
 				<a href="javascript:;" class="client" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" class="img-responsive" position="center" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				<p align="center" class="text-responsive">Составление сметы</p>
-</div>
-</div>
-</div>
+			</div>
+		</div>
+	</div>
 
-
-
-
-<div class="col-lg-2 col-md-2">
-<div class="row">
+	<div class="col-lg-2 col-md-2">
+		<div class="row">
 				<a href="javascript:;" class="client" data-toggle="tooltip" title="По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности"><img src="/assets/img/d/4.jpg" class="img-responsive" position="center" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				<p align="center" class="text-responsive">Дизайн проект</p>
-</div>
-</div>
-
-
-
-
-
-
-
-<div class="col-lg-2 col-md-2">
-<div class="row">
-<div class="col-lg-6 col-md-6">
+		</div>
+	</div>
+	<div class="col-lg-2 col-md-2">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
 				<a href="javascript:;" class="client" data-toggle="tooltip" title="После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств"><img src="/assets/img/d/5.jpg" class="img-responsive" position="center" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				<p align="center" class="text-responsive">Подписание договора</p>
-</div>
-<div class="col-lg-6 col-md-6"></div>
-</div>
-</div>
-
-
-
-
-
-<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-<div class="row">
-<div class="col-lg-4 col-md-4">
+			</div>
+			<div class="col-lg-6 col-md-6"></div>
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
 				<a href="javascript:;" class="client" data-toggle="tooltip" title="Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график"><img src="/assets/img/d/6.jpg" class="img-responsive" position="center" alt="client"></a>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				<p align="center" class="text-responsive">Строительно-отделочные работы</p>
-</div>
-<div class="col-lg-4 col-md-4"></div>
-<div class="col-lg-4 col-md-4">
+			</div>
+			<div class="col-lg-4 col-md-4"></div>
+			<div class="col-lg-4 col-md-4">
                 <a id="img1" href="javascript:;" class="client" data-toggle="tooltip" title="После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту"><img src="/assets/img/d/7.jpg" class="img-responsive" position="center" alt="client"></a>
                 <p align="center" class="text-responsive">Сдача объекта</p>
-</div>
-</div>
-</div>
-
-
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
-<script type="text/javascript">
-$(document).ready(function(){
-    $(".tooltip-examples a").tooltip();
-    $(".tooltip-examples button").tooltip();
-});
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
 			</div>
 		</div>
+	</div>
+</div>
+</div>
+</div>
+		</div>
 	</section>
-
     <!--Партнёры-->
     <section class="container" id="hp-partners">
 		<div class="container">
@@ -329,46 +256,3 @@ $(document).ready(function(){
 	</section>
 	<!--Партнеры-->
 	</div>
-
-<script>
-$( document ).ready(function() {
-	var i = 1;
-	setInterval(function(){
-		i++;
-		if(i > 2) i = 1;
-	
-		$("#hero").animate({
-			opacity: 0,
-		},1000, function(){
-			$("#hero").css("background","url('/assets/img/hero-slide"+i+".jpg') top center no-repeat");
-			$("#hero").css("background-size","cover")
-		});
-		
-		$("#hero").animate({
-			opacity: 1,
-		}, 1000);
-	}, 15000);
-});
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery-ui.css">
-      <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-      <style type="text/css">
-         .tooltip-inner{
-         margin-left: -30px;
-         background-color: white;
-         color: #000;
-         width: 250px;
-         }
-      </style>
