@@ -158,32 +158,6 @@ $this->title = 'Otdelka design';
 		
 			</div><!-- end #testimonial-slider -->
 			<div id="testimonial-nav">
-
-      <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>   
-      <script type="text/javascript">
-         $(window).load(function(){
-         $("#element").popover({
-             trigger: "manual",
-             html: true,
-             content: $('#regionPopContent').html()
-         })
-             .on("mouseenter", function () {
-             var _this = this;
-             $(this).popover("show");
-             $(".popover").on("mouseleave", function () {
-                 $(_this).popover('hide');
-             });
-         }).on("mouseleave", function () {
-             var _this = this;
-             setTimeout(function () {
-                 if (!$(".popover:hover").length) {
-                     $(_this).popover("hide")
-                 }
-             }, 100);
-         });
-         });         
-      </script>
 <ul class="tooltip-examples list-inline">
                 <li>
                 <div class="photo" data-title="Обращение клиента в компанию"><a href="javascript:;" class="client" data-client="Обращение клиента в компанию" data-toggle="tooltip" title="Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня"><img src="/assets/img/d/1.jpg" alt="client"></a></div>
@@ -220,50 +194,10 @@ $this->title = 'Otdelka design';
                 </li>
 </ul>
 
-
-<style>
-   .photo {
-    display: inline-block; /* Строчно-блочный элемент */
-    position: relative; /* Относительное позиционирование */
-   }
-   .photo:hover::after {
-    content: attr(data-title); /* Выводим текст */
-    position: absolute; /* Абсолютное позиционирование */
-    left: 0; right: 0; bottom: -20px; /* Положение подсказки */
-    z-index: 1; /* Отображаем подсказку поверх других элементов */
-    background: rgba(0,42,167,0.6); /* Полупрозрачный цвет фона */
-    color: #fff; /* Цвет текста */
-    text-align: center; /* Выравнивание текста по центру */
-    font-family: Arial, sans-serif; /* Гарнитура шрифта */
-    font-size: 11px; /* Размер текста подсказки */
-    padding: 5px 10px; /* Поля */
-   }
-  </style>
-
-
-<script type="text/javascript">
-$(document).ready(function(){
-    $(".tooltip-examples a").tooltip();
-    $(".tooltip-examples button").tooltip();
-});
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
 			</div>
 			<div id="testimonial-name">Обращение клиента в компанию</div>
 		</div>
 	</section>
-
     <!--Партнёры-->
     <section class="container" id="hp-partners">
 		<div class="container">
@@ -296,45 +230,3 @@ $(document).ready(function(){
 	</section>
 	<!--Партнеры-->
 	</div>
-
-<script>
-$( document ).ready(function() {
-	var i = 1;
-	setInterval(function(){
-		i++;
-		if(i > 2) i = 1;
-	
-		$("#hero").animate({
-			opacity: 0,
-		},1000, function(){
-			$("#hero").css("background","url('/assets/img/hero-slide"+i+".jpg') top center no-repeat");
-			$("#hero").css("background-size","cover")
-		});
-		
-		$("#hero").animate({
-			opacity: 1,
-		}, 1000);
-	}, 15000);
-});
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery-ui.css">
-      <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-      <style type="text/css">
-         .tooltip-inner{
-         margin-left: -30px;
-         background-color: rgba(205, 201, 201,0.9);
-         color: #000;
-         }
-      </style>

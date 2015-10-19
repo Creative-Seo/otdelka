@@ -342,7 +342,6 @@ Main components
 .cd-primary-nav a, .cd-primary-nav ul a {
   display: block;
   padding: 0 20px;
-  color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
