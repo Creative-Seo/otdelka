@@ -57,6 +57,23 @@ header { background:#343433; z-index:100; position:relative; height:100%; }
 	line-height:18px;
 	padding: 0 10px;
 }
+.logo-up{
+	display: block;
+	font-size: 36px;
+	color: #fff;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.logo-down{
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.cd-logo, .cd-logo:hover, .cd-logo:focus {text-decoration: none;}
 @media (min-width: 1170px) {
 	.cd-nav li {float:left;text-transform:uppercase;letter-spacing: 1px;margin-left: 0px;}
 	.cd-nav a {display:inline-block; color:#444; font-family:'Fjalla One', sans-serif; line-height:21px; padding:0px 12px; font-size:15px; text-decoration:none; }
