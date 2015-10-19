@@ -185,45 +185,61 @@ $this->title = 'Otdelka design';
          });         
       </script>
 <ul class="tooltip-examples list-inline">
-  <!-- Подсказка, содержащая длинный текст -->
-
                 <li>
-                <a href="javascript:;" class="client" data-client="Обращение клиента в компанию" data-toggle="tooltip" title="Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня"><img src="/assets/img/d/1.jpg" alt="client"></a>
+                <div class="photo" data-title="Обращение клиента в компанию"><a href="javascript:;" class="client" data-client="Обращение клиента в компанию" data-toggle="tooltip" title="Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня"><img src="/assets/img/d/1.jpg" alt="client"></a></div>
                 <i class="glyphicon glyphicon-chevron-right"></i>
                 </li>
 
                 <li>
-				<a href="javascript:;" class="client" data-client="Выезд специалиста" data-toggle="tooltip" title="Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения"><img src="/assets/img/d/3.jpg" alt="client"></a>
+				<div class="photo" data-title="Выезд специалиста"><a href="javascript:;" class="client" data-client="Выезд специалиста" data-toggle="tooltip" title="Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения"><img src="/assets/img/d/3.jpg" alt="client"></a></div>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				</li>
 
 				<li>
-				<a href="javascript:;" class="client" data-client="Составление сметы" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" alt="client"></a>
+				<div class="photo" data-title="Составление сметы"><a href="javascript:;" class="client" data-client="Составление сметы" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" alt="client"></a></div>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				</li>
 
 				<li>
-				<a href="javascript:;" class="client" data-client="Дизайн проект" data-toggle="tooltip" title="По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности"><img src="/assets/img/d/4.jpg" alt="client"></a>
+				<div class="photo" data-title="Дизайн проект"><a href="javascript:;" class="client" data-client="Дизайн проект" data-toggle="tooltip" title="По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности"><img src="/assets/img/d/4.jpg" alt="client"></a></div>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				</li>
 
 				<li>
-				<a href="javascript:;" class="client" data-client="Подписание договора" data-toggle="tooltip" title="После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств"><img src="/assets/img/d/5.jpg" alt="client"></a>
+				<div class="photo" data-title="Подписание договора"><a href="javascript:;" class="client" data-client="Подписание договора" data-toggle="tooltip" title="После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств"><img src="/assets/img/d/5.jpg" alt="client"></a></div>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				</li>
 
 				<li>
-				<a href="javascript:;" class="client" data-client="Строительно-отделочные работы" data-toggle="tooltip" title="Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график"><img src="/assets/img/d/6.jpg" alt="client"></a>
+				<div class="photo" data-title="Строительно-отделочные работы"><a href="javascript:;" class="client" data-client="Строительно-отделочные работы" data-toggle="tooltip" title="Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график"><img src="/assets/img/d/6.jpg" alt="client"></a></div>
 				<i class="glyphicon glyphicon-chevron-right"></i>
 				</li>
 
                 <li>
-                <a href="javascript:;" class="client" data-client="Сдача объекта" data-toggle="tooltip" title="После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту">
-                <img src="/assets/img/d/7.jpg" alt="client"></a>
+                <div class="photo" data-title="Сдача объекта" align="center"><a id="img1" href="javascript:;" class="client" data-client="Сдача объекта" data-toggle="tooltip" title="После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту"><img src="/assets/img/d/7.jpg" alt="client"></a></div>
                 </li>
-                
-
 </ul>
+
+
+<style>
+   .photo {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+   }
+   .photo:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; right: 0; bottom: -20px; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(0,42,167,0.6); /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+   }
+  </style>
+
 
 <script type="text/javascript">
 $(document).ready(function(){
