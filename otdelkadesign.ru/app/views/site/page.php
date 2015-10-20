@@ -6,7 +6,7 @@ $this->title = $page->title;
 <div id="trip-view">
 <div class="container">
 	<div class="trip-left">
-		<h2><?=$page->title?></h2>
+		<h1><?=$page->title?></h1>
 		<div class="heading-sep"></div>
 		<?=$page->text?>
 	</div><!-- end .trip-left -->
