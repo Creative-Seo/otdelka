@@ -79,46 +79,26 @@ $this->title = 'Otdelka design';
 		<div class="container">
 			<h2 class="text-center">Наши преимущества</h2>
 			<div class="items grid">
+<?php $priem=json_decode('[
+["rabotapodogovoru","Работа по договору"],
+["tochnayasmeta","Точная детальная смета"],
+["oplatapofactu","Оплата по факту выполненных работ без аванса"],
+["onlinecontrol","Ежедневный онлайн-контроль"],
+["luchzhiemateriali","Лучшие материалы от партнеров со скидками"],
+["sovremennietehnologii","Использование современных материалов и технологий"],
+["kvalificirovanniemastera","Квалифицированные мастера"],
+["rabotapodizaynproektu","Работа по дизайн проекту"],
+["individualniypodhod","Индивидуальный подход к клиенту"],
+["garantii","Гарантия на работы"]
+]',true);
+foreach ($priem as $key => $row) {
+	if ($key%5==0){echo '<div class="clearfix visible-lg"></div>';}
+?>
 				<div class="portfolio-item">
-					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Работа по договору">
-					<p>Работа по договору</p>
+					<img src="/images/<?php echo $row[0]?>.jpg" class="attachment-full wp-post-image" alt="<?php echo $row[1]?>">
+					<p><?php echo $row[1]?></p>
 				</div>
-				<div class="portfolio-item">
-					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="Точная детальная смета">
-					<p>Точная детальная смета</p>
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="Оплата по факту выполненных работ без аванса">
-					<p>Оплата по факту выполненных работ без аванса</p>
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="Ежедневный онлайн-контроль">
-					<p>Ежедневный онлайн-контроль</p>
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="Лучшие материалы от партнеров со скидками">
-					<p>Лучшие материалы от партнеров со скидками</p>
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/sovremennietehnologii.jpg" class="attachment-full wp-post-image" alt="Использование современных материалов и технологий">
-					<p>Использование современных материалов и технологий</p>
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/kvalificirovanniemastera.jpg" class="attachment-full wp-post-image" alt="Квалифицированные мастера">
-					<p>Квалифицированные мастера</p>
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/rabotapodizaynproektu.jpg" class="attachment-full wp-post-image" alt="Работа по дизайн проекту">
-					<p>Работа по дизайн проекту</p>
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/individualniypodhod.jpg" class="attachment-full wp-post-image" alt="Индивидуальный подход к клиенту">
-					<p>Индивидуальный подход к клиенту</p>
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/garantii.jpg" class="attachment-full wp-post-image" alt="Гарантия на работы">
-					<p>Гарантия на работы</p>
-				</div>
+<?php } ?>
 			</div>
 		</div>
 	</section>
@@ -127,36 +107,25 @@ $this->title = 'Otdelka design';
 		<div class="container">
 			<h2 class="text-center">Фото отделки квартир выполненной нашей компанией</h2>
 			<div class="items grid">
+<?php $priem=json_decode('[
+["rabotapodogovoru","Работа по договору"],
+["tochnayasmeta","Точная детальная смета"],
+["oplatapofactu","Оплата по факту выполненных работ без аванса"],
+["onlinecontrol","Ежедневный онлайн-контроль"],
+["luchzhiemateriali","Лучшие материалы от партнеров со скидками"],
+["sovremennietehnologii","Использование современных материалов и технологий"],
+["kvalificirovanniemastera","Квалифицированные мастера"],
+["rabotapodizaynproektu","Работа по дизайн проекту"],
+["individualniypodhod","Индивидуальный подход к клиенту"],
+["garantii","Гарантия на работы"]
+]',true);
+foreach ($priem as $key => $row) {
+	if ($key%5==0){echo '<div class="clearfix visible-lg"></div>';}
+?>
 				<div class="portfolio-item">
-					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
+					<a class="fancybox" rel="group" href="/images/<?php echo $row[0]?>.jpg"><img src="/images/<?php echo $row[0]?>.jpg" class="attachment-full wp-post-image" alt="<?php echo $row[1]?>"></a>
 				</div>
-				<div class="portfolio-item">
-					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">
-				</div>
-				<div class="portfolio-item">
-					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">
-				</div>
+<?php } ?>
 			</div>
 		</div>
 	</section>
@@ -243,32 +212,27 @@ $this->title = 'Otdelka design';
 		</div>
 	</section>
     <!--Партнёры-->
-    <section class="container" id="hp-partners">
+    <section id="hp-partners">
 		<div class="container">
 		<h2 class="text-center">Наши партнёры</h2>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-			<a target="_blank" href="http://spektr-service33.ru/"><img src="/images/p1.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <a target="_blank" href="http://www.esnab.pro/"><img src="/images/p2.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <a target="_blank" href="http://www.da-ds.ru/"><img src="/images/p3.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <a target="_blank" href="http://css-33.ru/"><img src="/images/p4.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <a target="_blank" href="http://kwartet33.ru/"><img src="/images/p5.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <a target="_blank" href="http://www.kupimebel33.ru/"><img src="/images/p6.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <a target="_blank" href="http://stroy-vld.ru/"><img src="/images/p7.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <a target="_blank" href="http://www.newstyle33.ru/"><img src="/images/p8.jpg" style="float: left; padding: 10px; cursor: pointer"/></a>
+		<div class="row">
+<?php $priem=json_decode('[
+["http://spektr-service33.ru/","p1","spektr-service33"],
+["http://www.esnab.pro/","p2","esnab"],
+["http://www.da-ds.ru/","p3","da-ds"],
+["http://css-33.ru/","p4","css-33"],
+["http://kwartet33.ru/","p5","kwartet33"],
+["http://www.kupimebel33.ru/","p6","kupimebel33"],
+["http://stroy-vld.ru/","p7","stroy-vld"],
+["http://www.newstyle33.ru/","p8","newstyle33"]
+]',true);
+foreach ($priem as $key => $row) {
+	if ($key%4==0){echo '<div class="clearfix visible-lg"></div>';}
+?>
+	            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<img src="/images/<?php echo $row[1]?>.jpg" class="partners-img" alt="<?php echo $row[2]?>">
+				</div>
+<?php } ?>
             </div>
 		</div>
 	</section>
