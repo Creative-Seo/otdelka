@@ -63,7 +63,7 @@ $page = \Yii::$app->controller->page;
 <div class="home">
 <? endif; ?>
 	<header class="cd-main-header">
-		<a class="cd-logo" href="javascript:void(0);"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
+		<a class="cd-logo" href="/"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
 		<ul class="cd-header-buttons">
 			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
 		</ul> <!-- cd-header-buttons -->
