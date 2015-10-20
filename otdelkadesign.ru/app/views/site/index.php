@@ -70,9 +70,7 @@ $this->title = 'Otdelka design';
 	<li>Ремонт однокомнатной квартиры в новостройке займет не более 30 дней;</li>
 	<li>Ремонт двухкомнатной квартиры займет не более 50 дней;</li>
 	<li>Ремонт трехкомнатной квартиры займет не более 65 дней.</li>
-</ul><p class="text-center h2">
-Фото отделки квартир выполненной нашей компанией
-</p>
+</ul>
 		</div>
 	</section>
 
@@ -82,24 +80,44 @@ $this->title = 'Otdelka design';
 			<h2 class="text-center">Наши преимущества</h2>
 			<div class="items grid">
 				<div class="portfolio-item">
-					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
+					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Работа по договору">
 					<p>Работа по договору</p>
 				</div>
 				<div class="portfolio-item">
-					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
+					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="Точная детальная смета">
 					<p>Точная детальная смета</p>
 				</div>
 				<div class="portfolio-item">
-					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
+					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="Оплата по факту выполненных работ без аванса">
 					<p>Оплата по факту выполненных работ без аванса</p>
 				</div>
 				<div class="portfolio-item">
-					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">
+					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="Ежедневный онлайн-контроль">
 					<p>Ежедневный онлайн-контроль</p>
 				</div>
 				<div class="portfolio-item">
-					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">
+					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="Лучшие материалы от партнеров со скидками">
 					<p>Лучшие материалы от партнеров со скидками</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/sovremennietehnologii.jpg" class="attachment-full wp-post-image" alt="Использование современных материалов и технологий">
+					<p>Использование современных материалов и технологий</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/kvalificirovanniemastera.jpg" class="attachment-full wp-post-image" alt="Квалифицированные мастера">
+					<p>Квалифицированные мастера</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/rabotapodizaynproektu.jpg" class="attachment-full wp-post-image" alt="Работа по дизайн проекту">
+					<p>Работа по дизайн проекту</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/individualniypodhod.jpg" class="attachment-full wp-post-image" alt="Индивидуальный подход к клиенту">
+					<p>Индивидуальный подход к клиенту</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/garantii.jpg" class="attachment-full wp-post-image" alt="Гарантия на работы">
+					<p>Гарантия на работы</p>
 				</div>
 			</div>
 		</div>
@@ -107,7 +125,7 @@ $this->title = 'Otdelka design';
 
 	<section id="foto">
 		<div class="container">
-			<h2 class="text-center">Фото наших работ</h2>
+			<h2 class="text-center">Фото отделки квартир выполненной нашей компанией</h2>
 			<div class="items grid">
 				<div class="portfolio-item">
 					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
@@ -155,34 +173,9 @@ $this->title = 'Otdelka design';
 		<div class="container">
 			<h2 class="text-center">Как мы работаем?</h2>
 		
-			</div><!-- end #testimonial-slider -->
-			<div id="testimonial-nav">
+		</div><!-- end #testimonial-slider -->
+		<div id="testimonial-nav">
 
-      <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>   
-      <script type="text/javascript">
-         $(window).load(function(){
-         $("#element").popover({
-             trigger: "manual",
-             html: true,
-             content: $('#regionPopContent').html()
-         })
-             .on("mouseenter", function () {
-             var _this = this;
-             $(this).popover("show");
-             $(".popover").on("mouseleave", function () {
-                 $(_this).popover('hide');
-             });
-         }).on("mouseleave", function () {
-             var _this = this;
-             setTimeout(function () {
-                 if (!$(".popover:hover").length) {
-                     $(_this).popover("hide")
-                 }
-             }, 100);
-         });
-         });         
-      </script>
 <div class="tooltip-examples list-inline">
 <div class="container">
 <div class="row">
@@ -209,8 +202,6 @@ $this->title = 'Otdelka design';
 </div>
 </div>
 
-
-
 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 <div class="row">
 <div class="col-lg-6 col-md-6">
@@ -222,9 +213,6 @@ $this->title = 'Otdelka design';
 				<i class="glyphicon glyphicon-chevron-right"></i></div></div>
 				
 </div>
-
-
-
 
 <div class="col-lg-6 col-md-6">
 <div class="col-lg-8 col-md-8">
@@ -238,8 +226,6 @@ $this->title = 'Otdelka design';
 </div>
 </div>
 
-
-
 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 <div class="row">
 <div class="col-lg-6 col-md-6">
@@ -251,8 +237,6 @@ $this->title = 'Otdelka design';
 				<i class="glyphicon glyphicon-chevron-right"></i></div></div>
 				
 </div>
-
-
 
 <div class="col-lg-6 col-md-6">
 <div class="col-lg-8 col-md-8">
@@ -266,8 +250,6 @@ $this->title = 'Otdelka design';
 </div>
 </div>
 
-
-
 <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
 <div class="row">
 <div class="col-lg-7 col-md-7">
@@ -276,8 +258,6 @@ $this->title = 'Otdelka design';
                 <a id="img1" href="javascript:;" class="client" data-toggle="tooltip" title="После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту"><img src="/assets/img/d/7.jpg" class="img-responsive" position="center" alt="client"></a><p>Сдача объекта</p></div></div>
 <div class="col-lg-1 col-md-1"></div>
                 
-
-
 </div>
 <div class="col-lg-5 col-md-5">
 	<div class="row"></div>
@@ -299,19 +279,70 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-
-
-
-
-
+			</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
+                <a href="javascript:;" class="client" data-toggle="tooltip" title="Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня"><img src="/assets/img/d/1.jpg" class="img-responsive" position="center" alt="client"></a>
+                <i class="glyphicon glyphicon-chevron-right"></i>
+                <p align="center" class="text-responsive">Обращение клиента в компанию</p>
+			</div>
+			<div class="col-lg-4 col-md-4"></div>
+			<div class="col-lg-4 col-md-4">
+				<a href="javascript:;" class="client" data-toggle="tooltip" title="Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения"><img src="/assets/img/d/3.jpg" class="img-responsive" position="center" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<p align="center" class="text-responsive">Выезд специалиста</p>
 			</div>
 		</div>
-	</section>
+	</div>
 
+	<div class="col-lg-2 col-md-2">
+		<div class="row">
+			<div class="col-lg-6 col-md-6"></div>
+			<div class="col-lg-6 col-md-6">
+				<a href="javascript:;" class="client" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" class="img-responsive" position="center" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<p align="center" class="text-responsive">Составление сметы</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-2 col-md-2">
+		<div class="row">
+				<a href="javascript:;" class="client" data-toggle="tooltip" title="По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности"><img src="/assets/img/d/4.jpg" class="img-responsive" position="center" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<p align="center" class="text-responsive">Дизайн проект</p>
+		</div>
+	</div>
+	<div class="col-lg-2 col-md-2">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<a href="javascript:;" class="client" data-toggle="tooltip" title="После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств"><img src="/assets/img/d/5.jpg" class="img-responsive" position="center" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<p align="center" class="text-responsive">Подписание договора</p>
+			</div>
+			<div class="col-lg-6 col-md-6"></div>
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
+				<a href="javascript:;" class="client" data-toggle="tooltip" title="Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график"><img src="/assets/img/d/6.jpg" class="img-responsive" position="center" alt="client"></a>
+				<i class="glyphicon glyphicon-chevron-right"></i>
+				<p align="center" class="text-responsive">Строительно-отделочные работы</p>
+			</div>
+			<div class="col-lg-4 col-md-4"></div>
+			<div class="col-lg-4 col-md-4">
+                <a id="img1" href="javascript:;" class="client" data-toggle="tooltip" title="После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту"><img src="/assets/img/d/7.jpg" class="img-responsive" position="center" alt="client"></a>
+                <p align="center" class="text-responsive">Сдача объекта</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+		</div>
+	</section>
     <!--Партнёры-->
     <section class="container" id="hp-partners">
 		<div class="container">
@@ -344,7 +375,6 @@ $(document).ready(function(){
 	</section>
 	<!--Партнеры-->
 	</div>
-
 <script>
 $( document ).ready(function() {
 	var i = 1;
@@ -366,17 +396,6 @@ $( document ).ready(function() {
 });
 </script>
 
-
-
-
-
-
-
-
-
-
-
-
 <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery-ui.css">
       <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
       <style type="text/css">
@@ -390,3 +409,4 @@ $( document ).ready(function() {
          }
        
       </style>
+

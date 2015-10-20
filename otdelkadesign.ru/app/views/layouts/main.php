@@ -8,6 +8,7 @@ $page = \Yii::$app->controller->page;
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
+
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
@@ -17,46 +18,46 @@ $page = \Yii::$app->controller->page;
     <link rel="icon" href="<?= $asset->baseUrl ?>/favicon.ico" type="image/x-icon">
     <?php $this->head() ?>
 
-	
 	<link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css" />
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic" rel="stylesheet" type="text/css" />		
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="/assets/css/style.css">
 	<!-- Include Stylesheets -->
 	<style type="text/css" media="screen">@import url(/assets/css/aw.main.css);</style>
-
 	<!-- Include Page Specific Stylesheets -->
-			<link rel="stylesheet" href="/assets/css/aw.<?echo ($page->slug == 'index')?'home':'trips';?>.css" />
+	<link rel="stylesheet" href="/assets/css/aw.<?echo ($page->slug == 'index')?'home':'trips';?>.css" />
 
-	<!-- Include Libraries -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-	<script src="/assets/js/lib/jquery.easing.min.js"></script>
-	<script src="/assets/js/lib/waypoints.min.js"></script>
-	<script src="/assets/js/lib/respond.min.js"></script>
-	<script src="/assets/js/lib/modernizr-2.6.2.min.js"></script>
-	<script src="/assets/js/lib/jquery.mobile.custom.min.js"></script>
-	<script src="/assets/js/lib/main.js"></script>
-
-	<!-- Include Scripts -->
-			<script src="/assets/js/aw.Testimonials.js"></script>
-			<script src="/assets/js/aw.Destinations.js"></script>
-			<script src="/assets/js/aw.js"></script>
 	<link rel="stylesheet" href="/assets/css/owl.carousel.css">
-
-<!-- Тема по умолчанию -->
-<link rel="stylesheet" href="/assets/css/owl.theme.css">
-
-	<script src="/assets/js/owl.carousel.js"></script>	
-		
+	<link rel="stylesheet" href="/assets/css/owl.theme.css">
+	<style type="text/css">
+/*site*/
+	.tooltip-inner{margin-left: -30px;background-color: rgba(205, 201, 201,0.9);color: #000;}
+   .photo {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+   }
+   .photo:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; right: 0; bottom: -20px; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(0,42,167,0.6); /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+   }
+  </style>
 </head>
 <body>
+
 <?if($page->slug == 'index'):?>
 <div class="home homepage">
 <?else:?>
 <div class="home">
 <? endif; ?>
 	<header class="cd-main-header">
-		<a class="cd-logo" href="#0"><img src="/images/logo.jpg" alt="Otdelka Design"></a>
+		<a class="cd-logo" href="#0"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
 		<ul class="cd-header-buttons">
 			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
 		</ul> <!-- cd-header-buttons -->
@@ -93,10 +94,10 @@ $page = \Yii::$app->controller->page;
 			<p>Отделочные работы с четкими гарантиями, прописанными в договоре.<br>Составление четкой детальной сметы не меняющаяся в процессе работ.<br>Оплата по факту выполнения работ без аванса.</p>
 		</div><!-- end .hero-text -->
 		<div class="container"><div class="row hero-row">
-			<div class="col-sm-3"><p>Отедлочные работы</p></div>
-			<div class="col-sm-3"><p>Ремонт офисов</p></div>
-			<div class="col-sm-3"><p>Ремонт комнат</p></div>
-			<div class="col-sm-3"><p>Дизайн интерьеров</p></div>
+			<div class="col-sm-3 col-md-2 col-md-offset-2"><img class="hero-icon" src="/images/home-icon/otdelochnye-raboty.png" alt="Отедлочные работы"><p>Отедлочные работы</p></div>
+			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/remont-ofisov.png" alt="Ремонт офисов"><p>Ремонт офисов</p></div>
+			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/remont-komnat.png" alt="Ремонт комнат"><p>Ремонт комнат</p></div>
+			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/dizayn-intererov.png" alt="Дизайн интерьеров"><p>Дизайн интерьеров</p></div>
 		</div></div>
 	</div><!-- end #hero-text-hold -->
 <? endif; ?>
@@ -169,88 +170,142 @@ $page = \Yii::$app->controller->page;
 				</footer><!-- end footer -->
 		</div><!-- end #viewport-slide -->
 		</div><!-- end #viewport -->
-	
-		<script>
-		$(document).ready(function() {
+
+
+
+
+	<!-- Include Libraries -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script src="/assets/js/lib/jquery.easing.min.js"></script>
+	<script src="/assets/js/lib/waypoints.min.js"></script>
+	<script src="/assets/js/lib/respond.min.js"></script>
+	<script src="/assets/js/lib/modernizr-2.6.2.min.js"></script>
+	<script src="/assets/js/lib/jquery.mobile.custom.min.js"></script>
+	<script src="/assets/js/lib/main.js"></script>
+
+	<!-- Include Scripts -->
+	<script src="/assets/js/aw.Testimonials.js"></script>
+	<script src="/assets/js/aw.Destinations.js"></script>
+	<script src="/assets/js/aw.js"></script>
+
+<script src="/assets/js/owl.carousel.js"></script>	
+
+<script>
+//site
+$(window).load(function(){
+    $("#element").popover({
+        trigger: "manual",
+        html: true,
+        content: $('#regionPopContent').html()
+    })
+        .on("mouseenter", function () {
+        var _this = this;
+        $(this).popover("show");
+        $(".popover").on("mouseleave", function () {
+            $(_this).popover('hide');
+        });
+    }).on("mouseleave", function () {
+        var _this = this;
+        setTimeout(function () {
+            if (!$(".popover:hover").length) {
+                $(_this).popover("hide")
+            }
+        }, 100);
+	});
+});
+
 $(function(){
 
-var hash = window.location.hash.substr(1);  
-if(hash) $('html,body').stop().animate({ scrollTop: $('a[name=priem]').offset().top - 100 }, 2000);
+	var hash = window.location.hash.substr(1);  
+	if(hash) $('html,body').stop().animate({ scrollTop: $('a[name=priem]').offset().top - 100 }, 2000);
+	$('.priem').on('click', function(e){
+	  $('html,body').stop().animate({ scrollTop: $('a[name=priem]').offset().top - 100 }, 1000);
+	  //e.preventDefault();
+	  return false;
+	});
+	$('.dop_slash').on('click', function(e){
+	  $('html,body').stop().animate({ scrollTop: $('a[name=dop_slash]').offset().top - 100 }, 1000);
+	  //e.preventDefault();
+	  return false;
+	});
+	$('.howwork').on('click', function(e){
+	    $('html,body').stop().animate({ scrollTop: $('a[name=howwork]').offset().top - 10 }, 1000);
+	    //e.preventDefault();
+	    return false;
+	});
 
-$('.priem').on('click', function(e){
-  $('html,body').stop().animate({ scrollTop: $('a[name=priem]').offset().top - 100 }, 1000);
-  //e.preventDefault();
-  return false;
-});
-
-$('.dop_slash').on('click', function(e){
-  $('html,body').stop().animate({ scrollTop: $('a[name=dop_slash]').offset().top - 100 }, 1000);
-  //e.preventDefault();
-  return false;
-});
-
-$('.howwork').on('click', function(e){
-    $('html,body').stop().animate({ scrollTop: $('a[name=howwork]').offset().top - 10 }, 1000);
-    //e.preventDefault();
-    return false;
-});
-
-
-});
-
- $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-	autoplay: true,
-	autoplayTimeout: 5000,
-	smartSpeed: 1500,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
-    }
-})
+	$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    margin:10,
+	    nav:false,
+		autoplay: true,
+		autoplayTimeout: 5000,
+		smartSpeed: 1500,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:2
+	        },
+	        1000:{
+	            items:3
+	        }
+	    }
+	});
 
 	$('.owl-carousel_partners').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-	mouseDrag: false,
-	touchDrag: false,
-	pullDrag: false,
-	autoplay: true,
-	autoplayTimeout: 5000,
-	smartSpeed: 1500,
-	navText: ['<img src="/images/arrows2.png">','<img src="/images/arrows.png">'],
-    responsive:{
-        0:{
-            items:1
-        },
-		400:{items: 2},
-        700:{
-            items:3
-        },
+	    loop:true,
+	    margin:10,
+	    nav:true,
+		mouseDrag: false,
+		touchDrag: false,
+		pullDrag: false,
+		autoplay: true,
+		autoplayTimeout: 5000,
+		smartSpeed: 1500,
+		navText: ['<img src="/images/arrows2.png">','<img src="/images/arrows.png">'],
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+			400:{items: 2},
+	        700:{
+	            items:3
+	        },
+			
+	        900:{
+	            items:4
+	        },
+			
+			1200 : {
+				items: 6
+			}
+	    }
+	});
+//site
+	var i = 1;
+	setInterval(function(){
+		i++;
+		if(i > 2) i = 1;
+	
+		$("#hero").animate({
+			opacity: 0,
+		},1000, function(){
+			$("#hero").css("background","url('/assets/img/hero-slide"+i+".jpg') top center no-repeat");
+			$("#hero").css("background-size","cover")
+		});
 		
-        900:{
-            items:4
-        },
-		
-		1200 : {
-			items: 6
-		}
-		
-    }
-	})
- 
-})
-	</script>	
-    </body>
-    </html>
+		$("#hero").animate({
+			opacity: 1,
+		}, 1000);
+	}, 15000);
+	$(".tooltip-examples a").tooltip();
+    $(".tooltip-examples button").tooltip();
+});
+</script>
+
+</body>
+</html>
 <?php $this->endPage() ?>
