@@ -138,8 +138,8 @@ $page = \Yii::$app->controller->page;
 				</ul>
 			</li>
 			<li><a href="/portfolio">Портфолио</a></li>
-			<li><a href="/partners">О компании</a></li>
-			<li><a href="/o-kompanii">Контакты</a></li>
+			<li><a href="/o-kompanii">О компании</a></li>
+			<li><a href="/kontakty">Контакты</a></li>
 			<li class="address">
 				<span>Адрес: г.Владимир, ул. Пушкина, д.1</span><br>
 				<span>post@otdelkadesign.ru</span><br>
@@ -152,7 +152,7 @@ $page = \Yii::$app->controller->page;
 	<div id="hero" class="hero"></div><!-- end #hero -->
 	<div id="hero-text-hold" class="hero-text">
 		<div>
-			<h2><span class="hero-text-h2">Otdelka design</span> - это</h2>
+			<p class="h2"><span class="hero-text-h2">Otdelka design</span> - это</p>
 			<p>Отделочные работы с четкими гарантиями, прописанными в договоре.<br>Составление четкой детальной сметы не меняющаяся в процессе работ.<br>Оплата по факту выполнения работ без аванса.</p>
 		</div><!-- end .hero-text -->
 		<div class="container"><div class="row hero-row">
