@@ -752,7 +752,7 @@ Main components
   display: inline-block;
   height: 2px;
   width: 10px;
-  background: #464c4e;
+  background: #fff;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }

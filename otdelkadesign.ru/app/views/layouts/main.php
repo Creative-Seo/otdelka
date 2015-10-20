@@ -77,39 +77,39 @@ $page = \Yii::$app->controller->page;
 				<ul class="cd-secondary-nav is-hidden">
 					<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
 					<li class="has-children">
-						<a href="/design">Ремонт квартир</a>
+						<a href="/remont-kvartir">Ремонт квартир</a>
 						<ul class="is-hidden">
 							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
-							<li><a href="/design">Ремонт квартир в новостройке</a></li>
-							<li><a href="/design">Капитальный ремонт квартир</a></li>
-							<li><a href="/design">Косметический ремонт квартир</a></li>
-							<li><a href="/design">Ремонт в трехкомнатной квартире</a></li>
-							<li><a href="/design">Ремонт в двухкомнатной квартире</a></li>
-							<li><a href="/design">Ремонт в однокомнатной квартире</a></li>
-							<li><a href="/design">Ремонт в хрущевке</a></li>
-							<li><a href="/design">Ремонт в панельном доме</a></li>
+							<li><a href="/remont-kvartir-v-novostroyke">Ремонт квартир в новостройке</a></li>
+							<li><a href="/kapitalnyy-remont-kvartir">Капитальный ремонт квартир</a></li>
+							<li><a href="/kosmeticheskiy-remont-kvartir">Косметический ремонт квартир</a></li>
+							<li><a href="/remont-v-trehkomnatnoy-kvartire">Ремонт в трехкомнатной квартире</a></li>
+							<li><a href="/remont-v-dvuhkomnatnoy-kvartire">Ремонт в двухкомнатной квартире</a></li>
+							<li><a href="/remont-v-odnokomnatnoy-kvartire">Ремонт в однокомнатной квартире</a></li>
+							<li><a href="/remont-v-hrushchevke">Ремонт в хрущевке</a></li>
+							<li><a href="/remont-v-panelnom-dome">Ремонт в панельном доме</a></li>
 						</ul>
 					</li>
 					<li class="has-children">
-						<a href="/design">Ремонт комнат</a>
+						<a href="/remont-komnat">Ремонт комнат</a>
 						<ul class="is-hidden">
 							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
-							<li><a href="/design">Ремонт ванной</a></li>
-							<li><a href="/design">Ремонт кухни</a></li>
-							<li><a href="/design">Ремонт балкона и лоджии</a></li>
-							<li><a href="/design">Ремонт туалета</a></li>
-							<li><a href="/design">Ремонт спальни</a></li>
-							<li><a href="/design">Ремонт прихожей</a></li>
-							<li><a href="/design">Ремонт коридора</a></li>
-							<li><a href="/design">Ремонт детской комнаты</a></li>
-							<li><a href="/design">Ремонт гостиной</a></li>
+							<li><a href="/remont-vannoy">Ремонт ванной</a></li>
+							<li><a href="/remont-kuhni">Ремонт кухни</a></li>
+							<li><a href="/remont-balkona-i-lodzhii">Ремонт балкона и лоджии</a></li>
+							<li><a href="/remont-tualeta">Ремонт туалета</a></li>
+							<li><a href="/remont-spalni">Ремонт спальни</a></li>
+							<li><a href="/remont-prihozhey">Ремонт прихожей</a></li>
+							<li><a href="/remont-koridora">Ремонт коридора</a></li>
+							<li><a href="/remont-detskoy-komnaty">Ремонт детской комнаты</a></li>
+							<li><a href="/remont-gostinoy">Ремонт гостиной</a></li>
 						</ul>
 					</li>
 					<li class="has-children">
-						<a href="/design">Отделка помещений</a>
+						<a href="/otdelka-pomeshcheniy">Отделка помещений</a>
 						<ul class="is-hidden">
 							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
-							<li><a href="/design">Отделка офисов</a></li>
+							<li><a href="/otdelka-ofisov">Отделка офисов</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -119,12 +119,12 @@ $page = \Yii::$app->controller->page;
 				<ul class="cd-secondary-nav is-hidden">
 					<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
 					<li class="has-children">
-						<a href="/design">Дизайн интерьера</a>
+						<a href="/dizayn-interera">Дизайн интерьера</a>
 						<ul class="is-hidden">
 							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
-							<li><a href="/design">Дизайн кухни</a></li>
-							<li><a href="/design">Дизайн квартир</a></li>
-							<li><a href="/design">Дизайн спальни</a></li>
+							<li><a href="/dizayn-kuhni">Дизайн кухни</a></li>
+							<li><a href="/dizayn-kvartir">Дизайн квартир</a></li>
+							<li><a href="/dizayn-spalni">Дизайн спальни</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -133,13 +133,13 @@ $page = \Yii::$app->controller->page;
 				<a href="javascript:void(0);">Услуги</a>
 				<ul class="cd-secondary-nav is-hidden">
 					<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
-					<li><a href="/design">Отделочные работы</a></li>
-					<li><a href="/design">Декоративная отделка</a></li>
+					<li><a href="/otdelochnye-raboty">Отделочные работы</a></li>
+					<li><a href="/dekorativnaya-otdelka">Декоративная отделка</a></li>
 				</ul>
 			</li>
-			<li><a href="/partners">Портфолио</a></li>
+			<li><a href="/portfolio">Портфолио</a></li>
 			<li><a href="/partners">О компании</a></li>
-			<li><a href="/partners">Контакты</a></li>
+			<li><a href="/o-kompanii">Контакты</a></li>
 			<li class="address">
 				<span>Адрес: г.Владимир, ул. Пушкина, д.1</span><br>
 				<span>post@otdelkadesign.ru</span><br>

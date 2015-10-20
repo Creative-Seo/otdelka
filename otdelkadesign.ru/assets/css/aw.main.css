@@ -634,3 +634,11 @@ GENERAL RESPONSIVE VIEWS
 
 	}
 }
+
+.cd-primary-nav.is-fixed.nav-is-visible a{color: #fff;}
+.partners-img{
+  display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
