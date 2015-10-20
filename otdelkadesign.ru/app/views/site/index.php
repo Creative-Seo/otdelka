@@ -138,7 +138,6 @@ foreach ($priem as $key => $row) {
 	<section id="testimonials">
 		<div class="container">
 			<h2 class="text-center">Как мы работаем?</h2>
-
 <div id="testimonial-nav" class="tooltip-examples list-inline">
 	<div class="container"><div class="row">
 		<div class="col-lg-3 col-lg-offset-1 col-sm-6">
@@ -211,11 +210,8 @@ foreach ($priem as $key => $row) {
 				</div></div>
 			</div>
 		</div>
-
 	</div></div>
 </div>
-
-
 	</section>
 
     <section id="hp-partners">
@@ -243,5 +239,3 @@ foreach ($priem as $key => $row) {
 		</div>
 	</section>
 </div>
-
-
