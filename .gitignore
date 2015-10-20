@@ -9,7 +9,6 @@ node_modules/
 !/otdelkadesign.ru/assets/img*
 !/otdelkadesign.ru/assets/js*
 .sass-cache
-.sass-cache
 dploy.yaml
 !.htaccess
-otdelkadesign.ru/app/config/db.php
+/otdelkadesign.ru/app/config/db.php
