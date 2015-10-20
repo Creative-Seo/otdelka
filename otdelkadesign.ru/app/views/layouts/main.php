@@ -31,7 +31,12 @@ $page = \Yii::$app->controller->page;
 	<link rel="stylesheet" href="/assets/css/owl.theme.css">
 	<style type="text/css">
 /*site*/
-	.tooltip-inner{margin-left: -30px;background-color: rgba(205, 201, 201,0.9);color: javascript:void(0);00;}
+	.tooltip-inner{
+         margin-left: -30px;
+         background-color: white;
+         color: #000;
+         width: 250px;
+         }
    .photo {
     display: inline-block; /* Строчно-блочный элемент */
     position: relative; /* Относительное позиционирование */
