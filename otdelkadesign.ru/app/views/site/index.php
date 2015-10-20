@@ -70,9 +70,7 @@ $this->title = 'Otdelka design';
 	<li>Ремонт однокомнатной квартиры в новостройке займет не более 30 дней;</li>
 	<li>Ремонт двухкомнатной квартиры займет не более 50 дней;</li>
 	<li>Ремонт трехкомнатной квартиры займет не более 65 дней.</li>
-</ul><p class="text-center h2">
-Фото отделки квартир выполненной нашей компанией
-</p>
+</ul>
 		</div>
 	</section>
 
@@ -82,24 +80,44 @@ $this->title = 'Otdelka design';
 			<h2 class="text-center">Наши преимущества</h2>
 			<div class="items grid">
 				<div class="portfolio-item">
-					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
+					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Работа по договору">
 					<p>Работа по договору</p>
 				</div>
 				<div class="portfolio-item">
-					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="tochnayasmeta">
+					<img src="/images/tochnayasmeta.jpg" class="attachment-full wp-post-image" alt="Точная детальная смета">
 					<p>Точная детальная смета</p>
 				</div>
 				<div class="portfolio-item">
-					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="oplatapofactu">
+					<img src="/images/oplatapofactu.jpg" class="attachment-full wp-post-image" alt="Оплата по факту выполненных работ без аванса">
 					<p>Оплата по факту выполненных работ без аванса</p>
 				</div>
 				<div class="portfolio-item">
-					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="onlinecontrol">
+					<img src="/images/onlinecontrol.jpg" class="attachment-full wp-post-image" alt="Ежедневный онлайн-контроль">
 					<p>Ежедневный онлайн-контроль</p>
 				</div>
 				<div class="portfolio-item">
-					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="luchzhiemateriali">
+					<img src="/images/luchzhiemateriali.jpg" class="attachment-full wp-post-image" alt="Лучшие материалы от партнеров со скидками">
 					<p>Лучшие материалы от партнеров со скидками</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/sovremennietehnologii.jpg" class="attachment-full wp-post-image" alt="Использование современных материалов и технологий">
+					<p>Использование современных материалов и технологий</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/kvalificirovanniemastera.jpg" class="attachment-full wp-post-image" alt="Квалифицированные мастера">
+					<p>Квалифицированные мастера</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/rabotapodizaynproektu.jpg" class="attachment-full wp-post-image" alt="Работа по дизайн проекту">
+					<p>Работа по дизайн проекту</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/individualniypodhod.jpg" class="attachment-full wp-post-image" alt="Индивидуальный подход к клиенту">
+					<p>Индивидуальный подход к клиенту</p>
+				</div>
+				<div class="portfolio-item">
+					<img src="/images/garantii.jpg" class="attachment-full wp-post-image" alt="Гарантия на работы">
+					<p>Гарантия на работы</p>
 				</div>
 			</div>
 		</div>
@@ -107,7 +125,7 @@ $this->title = 'Otdelka design';
 
 	<section id="foto">
 		<div class="container">
-			<h2 class="text-center">Фото наших работ</h2>
+			<h2 class="text-center">Фото отделки квартир выполненной нашей компанией</h2>
 			<div class="items grid">
 				<div class="portfolio-item">
 					<img src="/images/rabotapodogovoru.jpg" class="attachment-full wp-post-image" alt="Construction Thumb">
