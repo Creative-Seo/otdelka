@@ -74,7 +74,6 @@ $this->title = 'Otdelka design';
 		</div>
 	</section>
 
-	<a name="priem"></a>
 	<section id="hp-portfolio">
 		<div class="container">
 			<h2 class="text-center">Наши преимущества</h2>
@@ -136,17 +135,10 @@ foreach ($priem as $key => $row) {
 		</div>
 	</section>
 
-
-
-
-
-
-
-    <!--Как мы работаем-->
-    <a name="howwork"></a>
 	<section id="testimonials">
 		<div class="container">
 			<h2 class="text-center">Как мы работаем?</h2>
+<<<<<<< HEAD
 		<div id="testimonial-nav">
 
 <div class="tooltip-examples list-inline">
@@ -236,11 +228,86 @@ foreach ($priem as $key => $row) {
 </div>
 </div>
 </div>
+=======
 
-</div>
-</div>
+<div id="testimonial-nav" class="tooltip-examples list-inline">
+	<div class="container"><div class="row">
+		<div class="col-lg-3 col-lg-offset-1 col-sm-6">
+			<div class="row">
+				<div class="col-xs-6"><div class="row">
+					<div class="col-xs-9">
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня"><img src="/assets/img/d/1.jpg" class="img-responsive" position="center" alt="client"></a><p>Обращение клиента в компанию</p>
+					</div>
+					<div class="col-xs-3">
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</div></div>
+				<div class="col-xs-6"><div class="row">
+					<div class="col-xs-9">
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения"><img src="/assets/img/d/3.jpg" class="img-responsive" position="center" alt="client"></a><p>Выезд специалиста</p>
+					</div>
+					<div class="col-xs-3">
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</div></div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="row">
+				<div class="col-xs-6"><div class="row">
+					<div class="col-xs-9">
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" class="img-responsive" position="center" alt="client"></a><p>Составление сметы</p>
+					</div>
+					<div class="col-xs-3">
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</div></div>
+				<div class="col-xs-6"><div class="row">
+					<div class="col-xs-9">
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности"><img src="/assets/img/d/4.jpg" class="img-responsive" position="center" alt="client"></a><p>Дизайн проект</p>
+					</div>
+					<div class="col-xs-3">
+								<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</div></div>
+			</div>
+		</div>
+<div class="clearfix visible-sm visible-md"></div>
+		<div class="col-lg-3 col-sm-6 col-lg-offset-0 col-sm-offset-2">
+			<div class="row">
+				<div class="col-xs-6"><div class="row">
+					<div class="col-xs-9">
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств"><img src="/assets/img/d/5.jpg" class="img-responsive" position="center" alt="client"></a><p>Подписание договора</p>
+					</div>
+					<div class="col-xs-3">
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</div></div>
+				<div class="col-xs-6"><div class="row">
+					<div class="col-xs-9">
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график"><img src="/assets/img/d/6.jpg" class="img-responsive" position="center" alt="client"></a><p>Строительно-отделочные работы</p>
+					</div>
+					<div class="col-xs-3">
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</div></div>
+			</div>
+		</div>
+		<div class="col-lg-2 col-sm-4 col-xs-8 col-xs-offset-3 col-sm-offset-0">
+			<div class="row">
+				<div class="col-xs-9"><div class="row">
+					<div class="col-xs-9">
+						<a id="img1" href="javascript:;" class="client" data-toggle="tooltip" title="После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту"><img src="/assets/img/d/7.jpg" class="img-responsive" position="center" alt="client"></a><p>Сдача объекта</p>
+					</div>
+				</div></div>
+			</div>
+		</div>
+>>>>>>> refs/remotes/origin/master
+
+	</div></div>
 </div>
 
+<<<<<<< HEAD
 <style type="text/css">
          .tooltip-item{
          margin-left: -30px;
@@ -254,14 +321,11 @@ $(function () {
   $("[data-toggle='tooltip']").tooltip(); 
 });
 </script>
+=======
+
+>>>>>>> refs/remotes/origin/master
 	</section>
 
-
-
-
-
-
-    <!--Партнёры-->
     <section id="hp-partners">
 		<div class="container">
 		<h2 class="text-center">Наши партнёры</h2>
@@ -286,28 +350,7 @@ foreach ($priem as $key => $row) {
             </div>
 		</div>
 	</section>
-	<!--Партнеры-->
-	</div>
-<script>
-$( document ).ready(function() {
-	var i = 1;
-	setInterval(function(){
-		i++;
-		if(i > 2) i = 1;
-	
-		$("#hero").animate({
-			opacity: 0,
-		},1000, function(){
-			$("#hero").css("background","url('/assets/img/hero-slide"+i+".jpg') top center no-repeat");
-			$("#hero").css("background-size","cover")
-		});
-		
-		$("#hero").animate({
-			opacity: 1,
-		}, 1000);
-	}, 15000);
-});
-</script>
+</div>
 
 
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
