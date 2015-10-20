@@ -31,7 +31,7 @@ $page = \Yii::$app->controller->page;
 	<link rel="stylesheet" href="/assets/css/owl.theme.css">
 	<style type="text/css">
 /*site*/
-	.tooltip-inner{margin-left: -30px;background-color: rgba(205, 201, 201,0.9);color: #000;}
+	.tooltip-inner{margin-left: -30px;background-color: rgba(205, 201, 201,0.9);color: javascript:void(0);00;}
    .photo {
     display: inline-block; /* Строчно-блочный элемент */
     position: relative; /* Относительное позиционирование */
@@ -58,7 +58,7 @@ $page = \Yii::$app->controller->page;
 <div class="home">
 <? endif; ?>
 	<header class="cd-main-header">
-		<a class="cd-logo" href="#0"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
+		<a class="cd-logo" href="javascript:void(0);"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
 		<ul class="cd-header-buttons">
 			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
 		</ul> <!-- cd-header-buttons -->
@@ -68,13 +68,13 @@ $page = \Yii::$app->controller->page;
 	<nav class="cd-nav">
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
 			<li class="has-children">
-				<a href="javascript:void(0);">Ремонт</a>
+				<a href="javascript:void(0);">Отделка</a>
 				<ul class="cd-secondary-nav is-hidden">
-					<li class="go-back"><a href="#0">Назад</a></li>
+					<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
 					<li class="has-children">
 						<a href="/design">Ремонт квартир</a>
 						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Назад</a></li>
+							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
 							<li><a href="/design">Ремонт квартир в новостройке</a></li>
 							<li><a href="/design">Капитальный ремонт квартир</a></li>
 							<li><a href="/design">Косметический ремонт квартир</a></li>
@@ -88,7 +88,7 @@ $page = \Yii::$app->controller->page;
 					<li class="has-children">
 						<a href="/design">Ремонт комнат</a>
 						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Назад</a></li>
+							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
 							<li><a href="/design">Ремонт ванной</a></li>
 							<li><a href="/design">Ремонт кухни</a></li>
 							<li><a href="/design">Ремонт балкона и лоджии</a></li>
@@ -100,38 +100,39 @@ $page = \Yii::$app->controller->page;
 							<li><a href="/design">Ремонт гостиной</a></li>
 						</ul>
 					</li>
-				</ul>
-			</li>
-			<li class="has-children">
-				<a href="#0">Услуги</a>
-				<ul class="cd-secondary-nav is-hidden">
-					<li class="go-back"><a href="#0">Назад</a></li>
-					<li class="has-children">
-						<a href="/design">Услуги</a>
-						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Назад</a></li>
-							<li><a href="/design">Отделочные работы</a></li>
-							<li><a href="/design">Декоративная отделка</a></li>
-						</ul>
-					</li>
-					<li class="has-children">
-						<a href="/design">Дизайн интерьера</a>
-						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Назад</a></li>
-							<li><a href="/design">Дизайн кухни</a></li>
-							<li><a href="/design">Дизайн квартир</a></li>
-							<li><a href="/design">Дизайн спальни</a></li>
-						</ul>
-					</li>
 					<li class="has-children">
 						<a href="/design">Отделка помещений</a>
 						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Назад</a></li>
+							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
 							<li><a href="/design">Отделка офисов</a></li>
 						</ul>
 					</li>
 				</ul>
 			</li>
+			<li class="has-children">
+				<a href="javascript:void(0);">Дизайн</a>
+				<ul class="cd-secondary-nav is-hidden">
+					<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
+					<li class="has-children">
+						<a href="/design">Дизайн интерьера</a>
+						<ul class="is-hidden">
+							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
+							<li><a href="/design">Дизайн кухни</a></li>
+							<li><a href="/design">Дизайн квартир</a></li>
+							<li><a href="/design">Дизайн спальни</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="has-children">
+				<a href="javascript:void(0);">Услуги</a>
+				<ul class="cd-secondary-nav is-hidden">
+					<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
+					<li><a href="/design">Отделочные работы</a></li>
+					<li><a href="/design">Декоративная отделка</a></li>
+				</ul>
+			</li>
+			<li><a href="/partners">Портфолио</a></li>
 			<li><a href="/partners">О компании</a></li>
 			<li><a href="/partners">Контакты</a></li>
 			<li class="address">
