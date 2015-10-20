@@ -5,9 +5,9 @@ node_modules/
 /otdelkadesign.ru/webstat/
 /otdelkadesign.ru/uploads/
 /otdelkadesign.ru/assets/
-!/otdelkadesign.ru/assets/css/
-!/otdelkadesign.ru/assets/img/
-!/otdelkadesign.ru/assets/js/
+!/otdelkadesign.ru/assets/css*
+!/otdelkadesign.ru/assets/img*
+!/otdelkadesign.ru/assets/js*
 .sass-cache
 .sass-cache
 dploy.yaml
