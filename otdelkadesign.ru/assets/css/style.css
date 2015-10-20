@@ -627,11 +627,6 @@ Main components
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
-  .cd-primary-nav .cd-secondary-nav > li:nth-child(4n+2) {
-    /* +2 because we have 2 list items with display:none */
-    margin-right: 0;
-    border-right: none;
-  }
   .cd-primary-nav .cd-secondary-nav > li > a {
     /* secondary nav title */
     color: #dc7725;

@@ -20,6 +20,7 @@ $page = \Yii::$app->controller->page;
 
 	<link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css" />
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="/assets/css/jquery.fancybox.css">
 	<link rel="stylesheet" href="/assets/css/style.css">
 	<!-- Include Stylesheets -->
 	<style type="text/css" media="screen">@import url(/assets/css/aw.main.css);</style>
@@ -66,16 +67,71 @@ $page = \Yii::$app->controller->page;
 	<div class="cd-overlay"></div>
 	<nav class="cd-nav">
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
-			<li><a href="/design">Отделка</a></li>
-			<li><a href="/design">Дизайн</a></li>
+			<li class="has-children">
+				<a href="javascript:void(0);">Ремонт</a>
+				<ul class="cd-secondary-nav is-hidden">
+					<li class="go-back"><a href="#0">Назад</a></li>
+					<li class="has-children">
+						<a href="/design">Ремонт квартир</a>
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Назад</a></li>
+							<li><a href="/design">Ремонт квартир в новостройке</a></li>
+							<li><a href="/design">Капитальный ремонт квартир</a></li>
+							<li><a href="/design">Косметический ремонт квартир</a></li>
+							<li><a href="/design">Ремонт в трехкомнатной квартире</a></li>
+							<li><a href="/design">Ремонт в двухкомнатной квартире</a></li>
+							<li><a href="/design">Ремонт в однокомнатной квартире</a></li>
+							<li><a href="/design">Ремонт в хрущевке</a></li>
+							<li><a href="/design">Ремонт в панельном доме</a></li>
+						</ul>
+					</li>
+					<li class="has-children">
+						<a href="/design">Ремонт комнат</a>
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Назад</a></li>
+							<li><a href="/design">Ремонт ванной</a></li>
+							<li><a href="/design">Ремонт кухни</a></li>
+							<li><a href="/design">Ремонт балкона и лоджии</a></li>
+							<li><a href="/design">Ремонт туалета</a></li>
+							<li><a href="/design">Ремонт спальни</a></li>
+							<li><a href="/design">Ремонт прихожей</a></li>
+							<li><a href="/design">Ремонт коридора</a></li>
+							<li><a href="/design">Ремонт детской комнаты</a></li>
+							<li><a href="/design">Ремонт гостиной</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
 			<li class="has-children">
 				<a href="#0">Услуги</a>
 				<ul class="cd-secondary-nav is-hidden">
 					<li class="go-back"><a href="#0">Назад</a></li>
-					<li><a href="/design">Отделочные работы</a></li>
+					<li class="has-children">
+						<a href="/design">Услуги</a>
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Назад</a></li>
+							<li><a href="/design">Отделочные работы</a></li>
+							<li><a href="/design">Декоративная отделка</a></li>
+						</ul>
+					</li>
+					<li class="has-children">
+						<a href="/design">Дизайн интерьера</a>
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Назад</a></li>
+							<li><a href="/design">Дизайн кухни</a></li>
+							<li><a href="/design">Дизайн квартир</a></li>
+							<li><a href="/design">Дизайн спальни</a></li>
+						</ul>
+					</li>
+					<li class="has-children">
+						<a href="/design">Отделка помещений</a>
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Назад</a></li>
+							<li><a href="/design">Отделка офисов</a></li>
+						</ul>
+					</li>
 				</ul>
 			</li>
-			<li><a href="#" class="howwork">Портфолио</a></li>
 			<li><a href="/partners">О компании</a></li>
 			<li><a href="/partners">Контакты</a></li>
 			<li class="address">
@@ -182,6 +238,8 @@ $page = \Yii::$app->controller->page;
 	<script src="/assets/js/lib/respond.min.js"></script>
 	<script src="/assets/js/lib/modernizr-2.6.2.min.js"></script>
 	<script src="/assets/js/lib/jquery.mobile.custom.min.js"></script>
+	<script src="/assets/js/lib/bootstrap.min.js"></script>
+	<script src="/assets/js/lib/jquery.fancybox.pack.js"></script>
 	<script src="/assets/js/lib/main.js"></script>
 
 	<!-- Include Scripts -->
@@ -216,6 +274,14 @@ $(window).load(function(){
 });
 
 $(function(){
+	$(".fancybox").fancybox({
+		openEffect: 'none',
+		closeEffect: 'none',
+		beforeShow : function() {
+			var alt = this.element.find('img').attr('alt');
+			if (alt) {this.inner.find('img').attr('alt', alt);this.title = alt;}
+		}
+	});
 
 	var hash = window.location.hash.substr(1);  
 	if(hash) $('html,body').stop().animate({ scrollTop: $('a[name=priem]').offset().top - 100 }, 2000);
