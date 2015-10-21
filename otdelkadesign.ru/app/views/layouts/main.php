@@ -29,22 +29,6 @@ $page = \Yii::$app->controller->page;
 
 	<link rel="stylesheet" href="/assets/css/owl.carousel.css">
 	<link rel="stylesheet" href="/assets/css/owl.theme.css">
-	<style type="text/css">
-/*site*/
-
-
-
-
-
-
-/*Tooltip*/
-	.tooltip-inner{
-         background: #fff;
-         color: #000;
-         width: 200px;
-}
-
-  </style>
 </head>
 <body>
 
