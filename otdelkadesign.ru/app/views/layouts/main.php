@@ -32,11 +32,12 @@ $page = \Yii::$app->controller->page;
 	<style type="text/css">
 /*site*/
 	.tooltip-inner{
-         margin-left: -30px;
          background-color: white;
          color: #000;
-         width: 250px;
-         }
+         width: 200px;
+
+}
+
    .photo {
     display: inline-block; /* Строчно-блочный элемент */
     position: relative; /* Относительное позиционирование */
