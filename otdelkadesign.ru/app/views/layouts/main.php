@@ -29,31 +29,22 @@ $page = \Yii::$app->controller->page;
 
 	<link rel="stylesheet" href="/assets/css/owl.carousel.css">
 	<link rel="stylesheet" href="/assets/css/owl.theme.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<style type="text/css">
 /*site*/
+
+
+
+
+
+
+/*Tooltip*/
 	.tooltip-inner{
          background: #fff;
          color: #000;
          width: 200px;
 }
 
-.tooltip{
-  position: absolute;
-  right:  -100px;
-  bottom: 165px;
-  top:0px;
-  left:0px;
-  z-index: 1070;
-  display: block;
-  font-family: "Helvetica Neue";
-  line-height: 1.5;
-  visibility: visible;
-  filter: alpha(opacity=0);
-  opacity: 0;
-  cursor: default;
-  transition: 0.2s linear;
-  pointer-events: none;
-}
   </style>
 </head>
 <body>

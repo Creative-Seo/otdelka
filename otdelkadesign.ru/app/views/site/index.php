@@ -104,6 +104,7 @@ foreach ($priem as $key => $row) {
 
 	<section id="foto">
 		<div class="container">
+<div class="row">
 			<h2 class="text-center">Фото отделки квартир выполненной нашей компанией</h2>
 			<div class="items grid">
 <?php $priem=json_decode('[
@@ -126,6 +127,7 @@ foreach ($priem as $key => $row) {
 				</div>
 <?php } ?>
 			</div>
+		</div>
 		</div>
 	</section>
 
@@ -162,14 +164,16 @@ foreach ($priem as $key => $row) {
 		</div>
 		<div class="col-lg-3 col-sm-6">
 			<div class="row">
-				<div class="col-xs-6"><div class="row">
-					<div class="col-xs-9">
-						<a href="javascript:;" class="client" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" class="img-responsive" alt="client"></a><p>Составление сметы</p>
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-xs-9">
+							<a href="javascript:;" class="client" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" class="img-responsive" alt="client"></a><p>Составление сметы</p>
+						</div>
+						<div class="col-xs-3">
+							<i class="glyphicon glyphicon-chevron-right"></i>
+						</div>
 					</div>
-					<div class="col-xs-3">
-						<i class="glyphicon glyphicon-chevron-right"></i>
-					</div>
-				</div></div>
+				</div>
 				<div class="col-xs-6"><div class="row">
 					<div class="col-xs-9">
 						<a href="javascript:;" class="client" data-toggle="tooltip" title="По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности"><img src="/assets/img/d/4.jpg" class="img-responsive" alt="client"></a><p>Дизайн проект</p>
