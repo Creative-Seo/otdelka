@@ -57,18 +57,18 @@ header { background:#343433; z-index:100; position:relative; height:100%; }
 	line-height:18px;
 	padding: 0 10px;
 }
-.cd-logo{line-height: 1.2;}
+.cd-logo{line-height: 1;}
 .cd-logo:hover, .cd-logo:focus{color: #000;}
 .logo-up{
 	display: block;
-	font-size: 60px;
+	font-size: 40px;
 	text-align: center;
 }
 .logo-down{
 	display: block;
-    font-size: 12px;
-    padding-bottom: 10px;
-    margin: 0 30px;
+    font-size: 10px;
+    padding-bottom: 5px;
+    margin: 0 15px;
     border-bottom: 2px solid #000;
     text-align: center;
     text-transform: uppercase;
@@ -77,6 +77,12 @@ header { background:#343433; z-index:100; position:relative; height:100%; }
 	.cd-nav li {float:left;text-transform:uppercase;letter-spacing: 1px;margin-left: 0px;}
 	.cd-nav a {display:inline-block; font-family:'Fjalla One', sans-serif; line-height:21px; padding:0px 12px; font-size:15px; text-decoration:none; }
 	.address a, .address span {top:-14px;font-size:12px;}
+  .cd-logo{line-height: 1.2;}
+  .logo-up{font-size: 60px;}
+  .logo-down{font-size: 12px;
+      padding-bottom: 10px;
+      margin: 0 30px;
+  }
 }
 @media (max-width: 1170px) {
 	.cd-primary-nav li{padding-top: 20px;}
@@ -309,49 +315,23 @@ BREADCRUMBS
 
 
 
-/* 
+/* FOOTER */
 
--------------------------------------------------------------
+.footer { background:#343433; color:#ccc; line-height:30px; padding: 20px 0;}
 
-FOOTER
-
-*/
-
-footer { background:#343433; color:#8e8e8a; line-height:30px; }
-
-
-/* footer copyright */
-
-#footer-copyright {  padding:35px 0px; border-bottom:2px solid #252524; }
-
-#footer-copyright h3 { margin:0px; color:#ffffff; font-size:24px; line-height:30px; text-transform:uppercase; letter-spacing:2px; }
-
-#footer-logo { height:80px; width:80px; position:absolute; right:0px; top:-20px; }
-
-#footer-logo svg { width:100%; height:auto; }
-
-#footer-logo svg:hover path { fill:#dc7725; transition: all 0.1s ease-out; -webkit-transition: all 0.1s ease-out; }
-
-#footer-copy {padding-top: 35px}
-
-/* footer main */
-
-#footer-main { border-top:1px solid #3e3e3d; padding-top:15px; padding-bottom:15px; }
-
-#footer-main .footer-col { width:250px; float:left; margin-right:40px; line-height:50px; font-size:16px; color:#ffffff; }
-
-#footer-main .footer-col a.footer-nav { display:block; color:#a9a9a0; font-size:14px; font-weight:400; text-transform:uppercase; border-bottom:1px solid #464646; line-height:50px; text-decoration:none; }
-
-#footer-main .footer-col a.footer-nav:hover { color:#ffffff; }
-
-#footer-main .extended { width:400px; }
-
-#footer-main .extended a { color:#dc7725; font-weight:bold; text-decoration:none; }
-
-#footer-main .extended a:hover { color:#fc8321; }
-
-
-
+.footer-nav {
+  display:block;
+  color:#aaa;
+  text-transform:uppercase;
+  border-bottom:1px solid #444;
+  line-height:50px;
+}
+.footer-nav:hover, .footer-nav:focus{
+  color: #fff;
+}
+.footer-down{
+  padding-top: 40px;
+}
 /* 
 
 -------------------------------------------------------------
@@ -370,7 +350,7 @@ h1 span, h2 span, h3 span {font-family:'Fjalla One',sans-serif;letter-spacing:4p
 
 a img { border:none; }
 
-.heading-sep { background:#c9c9c2; width:110px; height:5px; margin:30px 0px; }
+.heading-sep { background:#c9c9c2; width:110px; height:5px; margin:15px 0px; }
 
 .clear { clear:both; }
 
@@ -531,10 +511,6 @@ GENERAL RESPONSIVE VIEWS
 
 	/* header */
 	
-/*	header { height:500px; }
-
-	#header-viewport { height:500px; } */
-	
 	#logo { top:35px; }
 
 	#header-interior { height:auto; }
@@ -554,38 +530,6 @@ GENERAL RESPONSIVE VIEWS
 	header #menu-btn { display:block; top:40px; }
 
 	#header-interior #menu-btn { top:30px; }
-
-
-	/*.fixed-height { height:auto; }
-
-	.fixed-body { width:100%; position:relative; top:0px; }
-
-	#navigation-main nav { width:550px; position:absolute; right:0px; top:80px; }
-
-	#navigation-main nav li { margin-left:5px;  }
-
-	#navigation-main nav ul.subnav li { margin-left:0px; }
-
-	#navigation-main nav a { padding:0px 5px; font-size:15px; text-decoration:none; }
-
-	#navigation-main nav a.has-subnav { padding-left:15px; }
-
-	#navigation-main nav a:hover { color:#dc7725; }
-
-	.fixed-category-nav { position:fixed; top:0px; left:0px; width:100%; }*/
-
-
-	/* trip grid */
-
-	#footer-main { padding-bottom:100px; }
-
-	#footer-main .footer-col { width:330px; }
-
-	#footer-main .footer-col-two { margin:0px; }
-
-	#footer-main .extended { clear:both; width:100%; float:none; padding-top:40px; }
-
-	#footer-copy { padding-right:10px; }
 
 
 	/* testimonial slider */

@@ -67,7 +67,7 @@ $page = \Yii::$app->controller->page;
 		<a class="cd-logo" href="/"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
 		<ul class="cd-header-buttons">
 			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
-		</ul> <!-- cd-header-buttons -->
+		</ul>
 	</header>
 	<main class="cd-main-content"></main>
 	<div class="cd-overlay"></div>
@@ -146,98 +146,94 @@ $page = \Yii::$app->controller->page;
 				<span>post@otdelkadesign.ru</span><br>
 				<span><img src="/images/trubka.png" style="width: 12px" alt="трубка"/>+7 930 835 55 35</span>
 			</li>
-		</ul> <!-- primary-nav -->
-	</nav> <!-- cd-nav -->
+		</ul>
+	</nav>
 
 <?if($page->slug == 'index'):?>
-	<div id="hero" class="hero"></div><!-- end #hero -->
+	<div id="hero" class="hero"></div>
 	<div id="hero-text-hold" class="hero-text">
 		<div>
 			<p class="h2"><span class="hero-text-h2">Otdelka design</span> - это</p>
 			<p>Отделочные работы с четкими гарантиями, прописанными в договоре.<br>Составление четкой детальной сметы не меняющаяся в процессе работ.<br>Оплата по факту выполнения работ без аванса.</p>
-		</div><!-- end .hero-text -->
+		</div>
 		<div class="container"><div class="row hero-row">
 			<div class="col-sm-3 col-md-2 col-md-offset-2"><img class="hero-icon" src="/images/home-icon/otdelochnye-raboty.png" alt="Отедлочные работы"><p>Отедлочные работы</p></div>
 			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/remont-ofisov.png" alt="Ремонт офисов"><p>Ремонт офисов</p></div>
 			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/remont-komnat.png" alt="Ремонт комнат"><p>Ремонт комнат</p></div>
 			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/dizayn-intererov.png" alt="Дизайн интерьеров"><p>Дизайн интерьеров</p></div>
 		</div></div>
-	</div><!-- end #hero-text-hold -->
+	</div>
 <? endif; ?>
 </div>
 
-	<div id="viewport" class="trans-margin ">
-		<div id="viewport-slide" class="trans-margin">
-			<div id="search">
-				<div class="modal-overlay">
-					<div class="modal-close"><a href="javascript:AW.toggleOpen('#search .modal-overlay', 'modal-open');"><img src="/assets/img/btn-close.svg" alt="close"/></a></div>
-					<div class="modal-hold">
-						<form action="/" method="get">
-							<div id="search-hint">ПОИСК</div>
-							<input type="text" value="Введите поисковую фразу" name="s" id="search-txt" class="round-3px" onclick="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-							<div id="search-sep"></div>
-							<input type="submit" value="Искать" id="search-submit" class="round-3px"/>
-						</form>
-					</div><!-- end .modal-hold -->
-				</div><!-- end .modal-overlay -->
-			</div><!-- end #search -->
-			
-			
-			<div id="formcall">
-				<div class="modal-overlay">
-					<div class="modal-close"><a href="javascript:AW.toggleOpen('#formcall .modal-overlay', 'modal-open');"><img src="/assets/img/btn-close.svg" alt="close"/></a></div>
-					<div class="modal-hold">
-						<form action="/site/submitform" method="post">
-							<div id="search-hint">Обратный звонок</div>
-							<input type="text" value="Ваше имя" name="name" id="search-txt" class="round-3px" onclick="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-							<input type="text" value="Телефон" name="phone" id="search-txt" class="round-3px" onclick="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-							<input type="hidden" name="_csrf" value="<?=\Yii::$app->request->getCsrfToken()?>" />
-							<div id="search-sep"></div>
-							<input type="submit" value="Отправить" id="search-submit" class="round-3px"/>
-						</form>
-					</div><!-- end .modal-hold -->
-				</div><!-- end .modal-overlay -->
-			</div><!-- end #search -->
-	
-    <?php $this->beginBody() ?>
-    <?= $content ?>
-    <?php $this->endBody() ?>
-	<footer>
-					<div id="footer-copyright">
-						<div class="container">
-							<div id="footer-logo"></div>
-							<div id="footer-copy">
-								<h3>Copyright © OtdelkaDesign 2015</h3>
-								<img src="/images/trubka.png" style="width: 16px" alt="трубка"/><a href="tel:89308355535">+7 930 835 55 35</a>
-							</div><!-- end #footer-copy -->
-						</div><!-- end .container -->
-					</div><!-- end #footer-copyright -->
-					<div id="footer-main">
-						<div class="container">
-							<div class="footer-col">
-								<a href="/" class="footer-nav">Главная</a>
-								<a href="/design" class="footer-nav">Дизайн</a>
-								<a href="/technology" class="footer-nav">Технологии</a>
-								<a href="#priem" class="priem footer-nav">Преимущества</a>
-							</div><!-- end .footer-col -->
-							<div class="footer-col footer-col-two">
-								<a href="/o-kompanii" class="footer-nav">О компании</a>
-							</div><!-- end .footer-col -->
-							<div class="footer-col extended">
-								<a href="/" target="_blank" class="round-3px social-btn trans-bg facebook"></a>
-								<a href="/" class="round-3px social-btn trans-bg mail"></a><br/>
-							</div><!-- end .footer-col -->
-							<div class="clear"></div>
-						</div><!-- end .container -->
-					</div><!-- end #footer-main -->
-				</footer><!-- end footer -->
-		</div><!-- end #viewport-slide -->
-		</div><!-- end #viewport -->
+<div id="viewport" class="trans-margin ">
+	<div id="viewport-slide" class="trans-margin">
+
+		<div id="search">
+			<div class="modal-overlay">
+				<div class="modal-close"><a href="javascript:AW.toggleOpen('#search .modal-overlay', 'modal-open');"><img src="/assets/img/btn-close.svg" alt="close"/></a></div>
+				<div class="modal-hold">
+					<form action="/" method="get">
+						<div id="search-hint">ПОИСК</div>
+						<input type="text" value="Введите поисковую фразу" name="s" id="search-txt" class="round-3px" onclick="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+						<div id="search-sep"></div>
+						<input type="submit" value="Искать" id="search-submit" class="round-3px"/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="formcall">
+			<div class="modal-overlay">
+				<div class="modal-close"><a href="javascript:AW.toggleOpen('#formcall .modal-overlay', 'modal-open');"><img src="/assets/img/btn-close.svg" alt="close"/></a></div>
+				<div class="modal-hold">
+					<form action="/site/submitform" method="post">
+						<div id="search-hint">Обратный звонок</div>
+						<input type="text" value="Ваше имя" name="name" id="search-txt" class="round-3px" onclick="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+						<input type="text" value="Телефон" name="phone" id="search-txt" class="round-3px" onclick="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+						<input type="hidden" name="_csrf" value="<?=\Yii::$app->request->getCsrfToken()?>" />
+						<div id="search-sep"></div>
+						<input type="submit" value="Отправить" id="search-submit" class="round-3px"/>
+					</form>
+				</div>
+			</div>
+		</div>
+
+<?php $this->beginBody() ?>
+<?= $content ?>
+<?php $this->endBody() ?>
+
+		<footer class="footer">
+			<div class="container">
+				<p class="h2"><a href="/" class="footer-nav">Otdelka design</a></p>
+				<div class="row">
+					<div class="col-sm-4 col-md-3">
+						<a href="/remont-kvartir" class="footer-nav">Ремонт квартир</a>
+						<a href="/remont-komnat" class="footer-nav">Ремонт комнат</a>
+						<a href="/otdelka-pomeshcheniy" class="footer-nav">Отделка помещений</a>
+					</div>
+					<div class="col-sm-4 col-md-3">
+						<a href="/dizayn-interera" class="footer-nav">Дизайн интерьера</a>
+						<a href="/otdelochnye-raboty" class="footer-nav">Отделочные работы</a>
+						<a href="/dekorativnaya-otdelka" class="footer-nav">Декоративная отделка</a>
+					</div>
+					<div class="col-sm-4 col-md-6">
+						<span>ООО "Отделка и Дизайн"</span><br>
+						<span>600005, Владимирская обл., Владимир г., Горького ул., 56-А дом</span><br>
+						<span>ОГРН: 1153328000814</span>
+						<a href="tel:89308355535" class="footer-nav"><img src="/images/trubka.png" style="width: 16px" alt="трубка"/>+7 930 835 55 35</a>
+					</div>
+				</div>
+				<p class="footer-down">
+					<a href="/" target="_blank" class="round-3px social-btn trans-bg facebook"></a>
+					<a href="/" class="round-3px social-btn trans-bg mail"></a>
+				</p>
+			</div>
+		</footer>
+
+	</div>
+</div>
 
 
-
-
-	<!-- Include Libraries -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 	<script src="/assets/js/lib/jquery.easing.min.js"></script>
