@@ -218,7 +218,7 @@ $page = \Yii::$app->controller->page;
 					<div class="col-sm-4 col-md-6">
 						<span>ООО "Отделка и Дизайн"</span><br>
 						<span>600005, Владимирская обл., Владимир г., Горького ул., 56-А дом</span><br>
-						<span>ОГРН организации: 1153328000814</span>
+						<span>ОГРН: 1153328000814</span>
 						<a href="tel:89308355535" class="footer-nav"><img src="/images/trubka.png" style="width: 16px" alt="трубка"/>+7 930 835 55 35</a>
 					</div>
 				</div>
