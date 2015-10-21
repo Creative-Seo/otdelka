@@ -31,28 +31,19 @@ $page = \Yii::$app->controller->page;
 	<link rel="stylesheet" href="/assets/css/owl.theme.css">
 	<style type="text/css">
 /*site*/
+
+
+
+
+
+
+/*Tooltip*/
 	.tooltip-inner{
-         margin-left: -30px;
-         background-color: white;
+         background: #fff;
          color: #000;
-         width: 250px;
-         }
-   .photo {
-    display: inline-block; /* Строчно-блочный элемент */
-    position: relative; /* Относительное позиционирование */
-   }
-   .photo:hover::after {
-    content: attr(data-title); /* Выводим текст */
-    position: absolute; /* Абсолютное позиционирование */
-    left: 0; right: 0; bottom: -20px; /* Положение подсказки */
-    z-index: 1; /* Отображаем подсказку поверх других элементов */
-    background: rgba(0,42,167,0.6); /* Полупрозрачный цвет фона */
-    color: #fff; /* Цвет текста */
-    text-align: center; /* Выравнивание текста по центру */
-    font-family: Arial, sans-serif; /* Гарнитура шрифта */
-    font-size: 11px; /* Размер текста подсказки */
-    padding: 5px 10px; /* Поля */
-   }
+         width: 200px;
+}
+
   </style>
 </head>
 <body>
@@ -65,7 +56,7 @@ $page = \Yii::$app->controller->page;
 	<header class="cd-main-header">
 		<a class="cd-logo" href="/"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
 		<ul class="cd-header-buttons">
-			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+			<li><a class="cd-nav-trigger" href="javascript:void(0);"><span></span></a></li>
 		</ul>
 	</header>
 	<main class="cd-main-content"></main>

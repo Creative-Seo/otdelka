@@ -421,6 +421,7 @@ a img { border:none; }
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+        margin-top: 160%;
 }
 .list-inline>li {
     display: inline-block;
