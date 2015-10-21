@@ -29,7 +29,6 @@ $page = \Yii::$app->controller->page;
 
 	<link rel="stylesheet" href="/assets/css/owl.carousel.css">
 	<link rel="stylesheet" href="/assets/css/owl.theme.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<style type="text/css">
 /*site*/
 
