@@ -144,7 +144,7 @@ foreach ($priem as $key => $row) {
 			<div class="row">
 				<div class="col-xs-6"><div class="row">
 					<div class="col-xs-9">
-						<a href="javascript:;" class="client" data-toggle="tooltip" title="Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня"><img src="/assets/img/d/1.jpg" class="img-responsive" position="center" alt="client"></a><p>Обращение клиента в компанию</p>
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="Вы можете связаться с нами по телефону или оставить заявку на нашем сайте, заявки на сайте обрабатываются специалистами в течение дня"><img src="/assets/img/d/1.jpg" class="img-responsive" alt="client"></a><p>Обращение клиента в компанию</p>
 					</div>
 					<div class="col-xs-3">
 						<i class="glyphicon glyphicon-chevron-right"></i>
@@ -152,7 +152,7 @@ foreach ($priem as $key => $row) {
 				</div></div>
 				<div class="col-xs-6"><div class="row">
 					<div class="col-xs-9">
-						<a href="javascript:;" class="client" data-toggle="tooltip" title="Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения"><img src="/assets/img/d/3.jpg" class="img-responsive" position="center" alt="client"></a><p>Выезд специалиста</p>
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="Наш специалист выезжает по Вашему адресу, бесплатно консультирует Вас, фиксирует все Ваши пожелания к будущему ремонту и делает замеры помещения"><img src="/assets/img/d/3.jpg" class="img-responsive" alt="client"></a><p>Выезд специалиста</p>
 					</div>
 					<div class="col-xs-3">
 						<i class="glyphicon glyphicon-chevron-right"></i>
@@ -164,7 +164,7 @@ foreach ($priem as $key => $row) {
 			<div class="row">
 				<div class="col-xs-6"><div class="row">
 					<div class="col-xs-9">
-						<a href="javascript:;" class="client" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" class="img-responsive" position="center" alt="client"></a><p>Составление сметы</p>
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="На основе Ваших пожеланий и особенностей помещения мы составим точную, развернутую смету, которая после утверждения Вами остается неизменной до окончания всех работ"><img src="/assets/img/d/2.jpg" class="img-responsive" alt="client"></a><p>Составление сметы</p>
 					</div>
 					<div class="col-xs-3">
 						<i class="glyphicon glyphicon-chevron-right"></i>
@@ -172,7 +172,7 @@ foreach ($priem as $key => $row) {
 				</div></div>
 				<div class="col-xs-6"><div class="row">
 					<div class="col-xs-9">
-						<a href="javascript:;" class="client" data-toggle="tooltip" title="По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности"><img src="/assets/img/d/4.jpg" class="img-responsive" position="center" alt="client"></a><p>Дизайн проект</p>
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="По желанию клиента наши дизайнеры могут подготовить индивидуальный дизайн-проект любого уровня сложности"><img src="/assets/img/d/4.jpg" class="img-responsive" alt="client"></a><p>Дизайн проект</p>
 					</div>
 					<div class="col-xs-3">
 								<i class="glyphicon glyphicon-chevron-right"></i>
@@ -185,7 +185,7 @@ foreach ($priem as $key => $row) {
 			<div class="row">
 				<div class="col-xs-6"><div class="row">
 					<div class="col-xs-9">
-						<a href="javascript:;" class="client" data-toggle="tooltip" title="После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств"><img src="/assets/img/d/5.jpg" class="img-responsive" position="center" alt="client"></a><p>Подписание договора</p>
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="После утверждения сметы и дизайн-проекта мы заключаем с Вами договор, который является гарантом добросовестного исполнения наших обязательств"><img src="/assets/img/d/5.jpg" class="img-responsive" alt="client"></a><p>Подписание договора</p>
 					</div>
 					<div class="col-xs-3">
 						<i class="glyphicon glyphicon-chevron-right"></i>
@@ -193,7 +193,7 @@ foreach ($priem as $key => $row) {
 				</div></div>
 				<div class="col-xs-6"><div class="row">
 					<div class="col-xs-9">
-						<a href="javascript:;" class="client" data-toggle="tooltip" title="Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график"><img src="/assets/img/d/6.jpg" class="img-responsive" position="center" alt="client"></a><p>Строительно-отделочные работы</p>
+						<a href="javascript:;" class="client" data-toggle="tooltip" title="Наши мастера приступают к работе на объекте, строго соблюдая утвержденный график"><img src="/assets/img/d/6.jpg" class="img-responsive" alt="client"></a><p>Строительно-отделочные работы</p>
 					</div>
 					<div class="col-xs-3">
 						<i class="glyphicon glyphicon-chevron-right"></i>
@@ -205,7 +205,7 @@ foreach ($priem as $key => $row) {
 			<div class="row">
 				<div class="col-xs-9"><div class="row">
 					<div class="col-xs-9">
-						<a id="img1" href="javascript:;" class="client" data-toggle="tooltip" title="После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту"><img src="/assets/img/d/7.jpg" class="img-responsive" position="center" alt="client"></a><p>Сдача объекта</p>
+						<a id="img1" href="javascript:;" class="client" data-toggle="tooltip" title="После завершения всех работ мы подготавливаем объект к сдаче, производим финишную уборку и передаем ключи клиенту"><img src="/assets/img/d/7.jpg" class="img-responsive" alt="client"></a><p>Сдача объекта</p>
 					</div>
 				</div></div>
 			</div>

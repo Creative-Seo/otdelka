@@ -32,28 +32,28 @@ $page = \Yii::$app->controller->page;
 	<style type="text/css">
 /*site*/
 	.tooltip-inner{
-         background-color: white;
+         background: #fff;
          color: #000;
          width: 200px;
-
 }
 
-   .photo {
-    display: inline-block; /* Строчно-блочный элемент */
-    position: relative; /* Относительное позиционирование */
-   }
-   .photo:hover::after {
-    content: attr(data-title); /* Выводим текст */
-    position: absolute; /* Абсолютное позиционирование */
-    left: 0; right: 0; bottom: -20px; /* Положение подсказки */
-    z-index: 1; /* Отображаем подсказку поверх других элементов */
-    background: rgba(0,42,167,0.6); /* Полупрозрачный цвет фона */
-    color: #fff; /* Цвет текста */
-    text-align: center; /* Выравнивание текста по центру */
-    font-family: Arial, sans-serif; /* Гарнитура шрифта */
-    font-size: 11px; /* Размер текста подсказки */
-    padding: 5px 10px; /* Поля */
-   }
+.tooltip{
+  position: absolute;
+  right:  -100px;
+  bottom: 165px;
+  top:0px;
+  left:0px;
+  z-index: 1070;
+  display: block;
+  font-family: "Helvetica Neue";
+  line-height: 1.5;
+  visibility: visible;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  cursor: default;
+  transition: 0.2s linear;
+  pointer-events: none;
+}
   </style>
 </head>
 <body>
