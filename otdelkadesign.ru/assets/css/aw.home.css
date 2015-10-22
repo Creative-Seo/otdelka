@@ -60,7 +60,7 @@
 
 #hero-nav a:hover span { background:#e6e6e0; }
 
-.tools-fix{position: absolute; width: 150%; left:-15%; overflow: hidden;height: 200px;}
+.tools-fix{position: absolute; width: 170px; left:-15%; overflow: hidden;height: 200px;}
 .tools-item{
 	z-index: 10;
 	position: absolute;
