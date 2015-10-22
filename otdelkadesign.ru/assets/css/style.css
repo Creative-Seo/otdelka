@@ -821,7 +821,7 @@ Main components
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    background: #c9cbc4;
+    background: #666;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transition: width 0.3s, -webkit-transform 0.3s;

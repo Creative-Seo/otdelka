@@ -116,7 +116,7 @@ $page = \Yii::$app->controller->page;
 			<li><a href="/o-kompanii">О компании</a></li>
 			<li><a href="/kontakty">Контакты</a></li>
 			<li class="address">
-				<span>Адрес: г.Владимир, ул. Пушкина, д.1</span><br>
+				<span>Адрес: г.Владимир, ул.Горького, 56-А</span><br>
 				<span>post@otdelkadesign.ru</span><br>
 				<span><img src="/images/trubka.png" style="width: 12px" alt="трубка"/>+7 930 835 55 35</span>
 			</li>
@@ -124,19 +124,19 @@ $page = \Yii::$app->controller->page;
 	</nav>
 
 <?if($page->slug == 'index'):?>
-	<div id="hero" class="hero"></div>
 	<div id="hero-text-hold" class="hero-text">
 		<div>
 			<p class="h2"><span class="hero-text-h2">Otdelka design</span> - это</p>
 			<p>Отделочные работы с четкими гарантиями, прописанными в договоре.<br>Составление четкой детальной сметы не меняющаяся в процессе работ.<br>Оплата по факту выполнения работ без аванса.</p>
 		</div>
 		<div class="container"><div class="row hero-row">
-			<div class="col-sm-3 col-md-2 col-md-offset-2"><img class="hero-icon" src="/images/home-icon/otdelochnye-raboty.png" alt="Отедлочные работы"><p>Отедлочные работы</p></div>
-			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/remont-ofisov.png" alt="Ремонт офисов"><p>Ремонт офисов</p></div>
-			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/remont-komnat.png" alt="Ремонт комнат"><p>Ремонт комнат</p></div>
-			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/dizayn-intererov.png" alt="Дизайн интерьеров"><p>Дизайн интерьеров</p></div>
+			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/otdelochnye-raboty.png" alt="Отедлочные работы"><p>Отделочные работы</p></div>
+			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/remont-ofisov.png" alt="Ремонт офисов"><p>Ремонт офисов</p></div>
+			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/remont-komnat.png" alt="Ремонт комнат"><p>Ремонт комнат</p></div>
+			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/dizayn-intererov.png" alt="Дизайн интерьеров"><p>Дизайн интерьеров</p></div>
 		</div></div>
 	</div>
+	<div id="hero" class="hero"></div>
 <? endif; ?>
 </div>
 
@@ -192,7 +192,7 @@ $page = \Yii::$app->controller->page;
 					</div>
 					<div class="col-sm-4 col-md-6">
 						<span>ООО "Отделка и Дизайн"</span><br>
-						<span>600005, Владимирская обл., Владимир г., Горького ул., 56-А дом</span><br>
+						<span>600005, Владимирская обл., г.Владимир,ул. Горького, 56-А</span><br>
 						<span>ОГРН: 1153328000814</span>
 						<a href="tel:89308355535" class="footer-nav"><img src="/images/trubka.png" style="width: 16px" alt="трубка"/>+7 930 835 55 35</a>
 					</div>
