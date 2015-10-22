@@ -57,12 +57,31 @@ header { background:#343433; z-index:100; position:relative; height:100%; }
 	line-height:18px;
 	padding: 0 10px;
 }
-.cd-logo{line-height: 1;}
+.cd-logo{
+  line-height: 1;
+}
+.logo-up:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.logo-up:before {
+  right: 0;
+  width: 100%;
+  bottom: -30px;
+  border-top: 30px solid #fff;
+  border-right: 30px solid transparent;
+  z-index: -1; 
+}
 .cd-logo:hover, .cd-logo:focus{color: #000;}
 .logo-up{
+  padding: 0 5px;
+  position: relative;
 	display: block;
 	font-size: 40px;
 	text-align: center;
+  background: #fff;
 }
 .logo-down{
 	display: block;
