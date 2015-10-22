@@ -18,6 +18,9 @@
     padding-top: 20px;
     -moz-osx-font-smoothing: grayscale;
 }
+.is-hidden li {
+    width: 100%;
+}
 /* -------------------------------- 
 
 Main components 
@@ -41,18 +44,18 @@ Main components
 }
 @media only screen and (max-width: 1169px) {
   .cd-main-content.nav-is-visible, .cd-main-header.nav-is-visible {
-    -webkit-transform: translateX(-260px);
-    -moz-transform: translateX(-260px);
-    -ms-transform: translateX(-260px);
-    -o-transform: translateX(-260px);
-    transform: translateX(-260px);
+    -webkit-transform: translateX(-280px);
+    -moz-transform: translateX(-280px);
+    -ms-transform: translateX(-280px);
+    -o-transform: translateX(-280px);
+    transform: translateX(-280px);
   }
   .nav-on-left .cd-main-content.nav-is-visible, .nav-on-left .cd-main-header.nav-is-visible {
-    -webkit-transform: translateX(260px);
-    -moz-transform: translateX(260px);
-    -ms-transform: translateX(260px);
-    -o-transform: translateX(260px);
-    transform: translateX(260px);
+    -webkit-transform: translateX(280px);
+    -moz-transform: translateX(280px);
+    -ms-transform: translateX(280px);
+    -o-transform: translateX(280px);
+    transform: translateX(280px);
   }
 }
 
@@ -325,7 +328,7 @@ Main components
   top: 0;
   right: 0;
   height: 100%;
-  width: 260px;
+  width: 280px;
   background: #2e3233;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -614,7 +617,7 @@ Main components
     /* change the height according to your needs - you can even set height: auto */
     height: 340px;
     /* here you set the number of columns - use width percentage */
-    width: 23%;
+    width: 30%;
     float: left;
     margin-right: 2.66%;
     border-right: 1px solid #e2e3df;
@@ -959,18 +962,18 @@ Main components
 }
 @media only screen and (max-width: 1169px) {
   .cd-overlay.is-visible {
-    -webkit-transform: translateX(-260px);
-    -moz-transform: translateX(-260px);
-    -ms-transform: translateX(-260px);
-    -o-transform: translateX(-260px);
-    transform: translateX(-260px);
+    -webkit-transform: translateX(-280px);
+    -moz-transform: translateX(-280px);
+    -ms-transform: translateX(-280px);
+    -o-transform: translateX(-280px);
+    transform: translateX(-280px);
   }
   .nav-on-left .cd-overlay.is-visible {
-    -webkit-transform: translateX(260px);
-    -moz-transform: translateX(260px);
-    -ms-transform: translateX(260px);
-    -o-transform: translateX(260px);
-    transform: translateX(260px);
+    -webkit-transform: translateX(280px);
+    -moz-transform: translateX(280px);
+    -ms-transform: translateX(280px);
+    -o-transform: translateX(280px);
+    transform: translateX(280px);
   }
   .cd-overlay.is-visible.search-is-visible, .nav-on-left .cd-overlay.is-visible.search-is-visible {
     -webkit-transform: translateX(0);

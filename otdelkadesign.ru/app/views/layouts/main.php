@@ -56,6 +56,7 @@ $page = \Yii::$app->controller->page;
 						<ul class="is-hidden">
 							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
 							<li><a href="/remont-kvartir-v-novostroyke">Ремонт квартир в новостройке</a></li>
+							<li><a href="/evroremont">Евроремонт</a></li>
 							<li><a href="/kapitalnyy-remont-kvartir">Капитальный ремонт квартир</a></li>
 							<li><a href="/kosmeticheskiy-remont-kvartir">Косметический ремонт квартир</a></li>
 							<li><a href="/remont-v-trehkomnatnoy-kvartire">Ремонт в трехкомнатной квартире</a></li>
