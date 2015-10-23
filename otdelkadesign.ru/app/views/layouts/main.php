@@ -30,21 +30,21 @@ $page = \Yii::$app->controller->page;
 	<link rel="stylesheet" href="/assets/css/owl.carousel.css">
 	<link rel="stylesheet" href="/assets/css/owl.theme.css">
 </head>
-<body>
+<body class="nav-is-fixed">
 
 <?if($page->slug == 'index'):?>
-<div class="home homepage">
+<header class="cd-main-header homepage" id="home">
 <?else:?>
-<div class="home">
+<header class="cd-main-header">
 <? endif; ?>
-	<header class="cd-main-header">
-		<a class="cd-logo" href="/"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
-		<ul class="cd-header-buttons">
-			<li><a class="cd-nav-trigger" href="javascript:void(0);"><span></span></a></li>
-		</ul>
-	</header>
-	<main class="cd-main-content"></main>
-	<div class="cd-overlay"></div>
+	<a class="cd-logo" href="/"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
+	<ul class="cd-header-buttons">
+		<li><a class="cd-nav-trigger" href="javascript:void(0);"><span></span></a></li>
+	</ul>
+</header>
+<main class="cd-main-content"></main>
+<div class="cd-overlay"></div>
+<div class="home">
 	<nav class="cd-nav">
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
 			<li class="has-children">
@@ -56,6 +56,7 @@ $page = \Yii::$app->controller->page;
 						<ul class="is-hidden">
 							<li class="go-back"><a href="javascript:void(0);">Назад</a></li>
 							<li><a href="/remont-kvartir-v-novostroyke">Ремонт квартир в новостройке</a></li>
+							<li><a href="/evroremont">Евроремонт</a></li>
 							<li><a href="/kapitalnyy-remont-kvartir">Капитальный ремонт квартир</a></li>
 							<li><a href="/kosmeticheskiy-remont-kvartir">Косметический ремонт квартир</a></li>
 							<li><a href="/remont-v-trehkomnatnoy-kvartire">Ремонт в трехкомнатной квартире</a></li>
@@ -116,7 +117,7 @@ $page = \Yii::$app->controller->page;
 			<li><a href="/o-kompanii">О компании</a></li>
 			<li><a href="/kontakty">Контакты</a></li>
 			<li class="address">
-				<span>Адрес: г.Владимир, ул. Пушкина, д.1</span><br>
+				<span>Адрес: г.Владимир, ул.Горького, 56-А</span><br>
 				<span>post@otdelkadesign.ru</span><br>
 				<span><img src="/images/trubka.png" style="width: 12px" alt="трубка"/>+7 930 835 55 35</span>
 			</li>
@@ -124,19 +125,19 @@ $page = \Yii::$app->controller->page;
 	</nav>
 
 <?if($page->slug == 'index'):?>
-	<div id="hero" class="hero"></div>
 	<div id="hero-text-hold" class="hero-text">
 		<div>
 			<p class="h2"><span class="hero-text-h2">Otdelka design</span> - это</p>
 			<p>Отделочные работы с четкими гарантиями, прописанными в договоре.<br>Составление четкой детальной сметы не меняющаяся в процессе работ.<br>Оплата по факту выполнения работ без аванса.</p>
 		</div>
 		<div class="container"><div class="row hero-row">
-			<div class="col-sm-3 col-md-2 col-md-offset-2"><img class="hero-icon" src="/images/home-icon/otdelochnye-raboty.png" alt="Отедлочные работы"><p>Отедлочные работы</p></div>
-			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/remont-ofisov.png" alt="Ремонт офисов"><p>Ремонт офисов</p></div>
-			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/remont-komnat.png" alt="Ремонт комнат"><p>Ремонт комнат</p></div>
-			<div class="col-sm-3 col-md-2"><img class="hero-icon" src="/images/home-icon/dizayn-intererov.png" alt="Дизайн интерьеров"><p>Дизайн интерьеров</p></div>
+			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/otdelochnye-raboty.png" alt="Отедлочные работы"><p>Отделочные работы</p></div>
+			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/remont-ofisov.png" alt="Ремонт офисов"><p>Ремонт офисов</p></div>
+			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/remont-komnat.png" alt="Ремонт комнат"><p>Ремонт комнат</p></div>
+			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/dizayn-intererov.png" alt="Дизайн интерьеров"><p>Дизайн интерьеров</p></div>
 		</div></div>
 	</div>
+	<div id="hero" class="hero"></div>
 <? endif; ?>
 </div>
 
@@ -192,7 +193,7 @@ $page = \Yii::$app->controller->page;
 					</div>
 					<div class="col-sm-4 col-md-6">
 						<span>ООО "Отделка и Дизайн"</span><br>
-						<span>600005, Владимирская обл., Владимир г., Горького ул., 56-А дом</span><br>
+						<span>600005, Владимирская обл., г.Владимир,ул. Горького, 56-А</span><br>
 						<span>ОГРН: 1153328000814</span>
 						<a href="tel:89308355535" class="footer-nav"><img src="/images/trubka.png" style="width: 16px" alt="трубка"/>+7 930 835 55 35</a>
 					</div>
@@ -251,6 +252,13 @@ $(window).load(function(){
 });
 
 $(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop()>50){
+			$('#home').removeClass("homepage");
+		} else if($(this).scrollTop()<50) {
+			$('#home').addClass("homepage");
+		}
+	});
 	$(".fancybox").fancybox({
 		openEffect: 'none',
 		closeEffect: 'none',

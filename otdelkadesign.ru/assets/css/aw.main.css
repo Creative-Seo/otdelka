@@ -7,7 +7,7 @@ Author URI: http://elegantseagulls.com
 body {padding:0px; margin:0px; font-family:'Open Sans', sans-serif; color:#333;}
 
 
-#viewport { overflow:hidden; width:100%; }
+#viewport { overflow:hidden; width:100%; padding-top: 80px;}
 #viewport-slide { width:100%; box-shadow:0px 1px 3px rgba(0,0,0,1); -webkit-box-shadow:0px 1px 3px rgba(0,0,0,1); }
 
 .interior { height:auto; }
@@ -57,12 +57,31 @@ header { background:#343433; z-index:100; position:relative; height:100%; }
 	line-height:18px;
 	padding: 0 10px;
 }
-.cd-logo{line-height: 1;}
+.cd-logo{
+  line-height: 1;
+}
+.logo-up:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.logo-up:before {
+  right: 0;
+  width: 100%;
+  bottom: -30px;
+  border-top: 30px solid #fff;
+  border-right: 30px solid transparent;
+  z-index: -1; 
+}
 .cd-logo:hover, .cd-logo:focus{color: #000;}
 .logo-up{
+  padding: 0 5px;
+  position: relative;
 	display: block;
 	font-size: 40px;
 	text-align: center;
+  background: #fff;
 }
 .logo-down{
 	display: block;
@@ -73,6 +92,13 @@ header { background:#343433; z-index:100; position:relative; height:100%; }
     text-align: center;
     text-transform: uppercase;
 }
+.homepage .logo-up{
+  background: transparent;
+}
+.homepage .logo-up:before {
+  border-top: none;
+}
+
 @media (min-width: 1170px) {
 	.cd-nav li {float:left;text-transform:uppercase;letter-spacing: 1px;margin-left: 0px;}
 	.cd-nav a {display:inline-block; font-family:'Fjalla One', sans-serif; line-height:21px; padding:0px 12px; font-size:15px; text-decoration:none; }
@@ -145,8 +171,6 @@ HEADER INTERIOR
 /* navigation category */
 
 #navigation-category-hold { height:81px; border-top:2px solid #272726; }
-
-/*.home { z-index:90; border-bottom:1px solid #000000; background:#353535; height:80px; box-shadow:0px 1px 2px rgba(0,0,0,0.2); -webkit-box-shadow:0px 1px 2px rgba(0,0,0,0.2); }*/
 
 @media (min-width: 1170px) {
 	.cd-nav { padding:20px 0px; font-size:16px; }

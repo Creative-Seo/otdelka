@@ -105,7 +105,7 @@ foreach ($priem as $key => $row) {
 	<section id="foto">
 		<div class="container">
 <div class="row">
-			<h2 class="text-center">Фото отделки квартир выполненной нашей компанией</h2>
+			<h2 class="text-center">Наши работы</h2>
 			<div class="items grid">
 <?php $priem=json_decode('[
 ["rabotapodogovoru","Работа по договору"],
@@ -133,7 +133,7 @@ foreach ($priem as $key => $row) {
 
 	<section id="otzovi">
 		<div class="container">
-			<h2 class="text-center">Отзовы наших клиентов</h2>
+			<h2 class="text-center">Отзывы наших клиентов</h2>
 		</div>
 	</section>
 
@@ -246,7 +246,7 @@ foreach ($priem as $key => $row) {
 	if ($key%4==0){echo '<div class="clearfix visible-lg"></div>';}
 ?>
 	            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<img src="/images/<?php echo $row[1]?>.jpg" class="partners-img" alt="<?php echo $row[2]?>">
+					<a href="<?php echo $row[0]?>" target="_blank" rel="nofollow"><img src="/images/<?php echo $row[1]?>.jpg" class="partners-img" alt="<?php echo $row[2]?>"></a>
 				</div>
 <?php } ?>
             </div>
