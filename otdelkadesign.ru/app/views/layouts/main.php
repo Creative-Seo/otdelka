@@ -30,21 +30,21 @@ $page = \Yii::$app->controller->page;
 	<link rel="stylesheet" href="/assets/css/owl.carousel.css">
 	<link rel="stylesheet" href="/assets/css/owl.theme.css">
 </head>
-<body>
+<body class="nav-is-fixed">
 
 <?if($page->slug == 'index'):?>
-<div class="home homepage">
+<header class="cd-main-header homepage" id="home">
 <?else:?>
-<div class="home">
+<header class="cd-main-header">
 <? endif; ?>
-	<header class="cd-main-header">
-		<a class="cd-logo" href="/"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
-		<ul class="cd-header-buttons">
-			<li><a class="cd-nav-trigger" href="javascript:void(0);"><span></span></a></li>
-		</ul>
-	</header>
-	<main class="cd-main-content"></main>
-	<div class="cd-overlay"></div>
+	<a class="cd-logo" href="/"><span class="logo-up">otdelka</span><span class="logo-down">design</span></a>
+	<ul class="cd-header-buttons">
+		<li><a class="cd-nav-trigger" href="javascript:void(0);"><span></span></a></li>
+	</ul>
+</header>
+<main class="cd-main-content"></main>
+<div class="cd-overlay"></div>
+<div class="home">
 	<nav class="cd-nav">
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
 			<li class="has-children">
@@ -252,6 +252,13 @@ $(window).load(function(){
 });
 
 $(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop()>50){
+			$('#home').removeClass("homepage");
+		} else if($(this).scrollTop()<50) {
+			$('#home').addClass("homepage");
+		}
+	});
 	$(".fancybox").fancybox({
 		openEffect: 'none',
 		closeEffect: 'none',

@@ -66,8 +66,15 @@ Main components
 
 .cd-main-header {
   height: 50px;
-  background: transparent;
+  background: #fff;
   z-index: 3;
+  -webkit-transition: background 0.5s ease-out;
+  -moz-transition: background 0.5s ease-out;
+  -o-transition: background 0.5s ease-out;
+  transition: background 0.5s ease-out;
+}
+.cd-main-header.homepage{
+  background: transparent;
 }
 .nav-is-fixed .cd-main-header {
   /* add .nav-is-fixed class to body if you want a fixed navigation on > 1170px */
