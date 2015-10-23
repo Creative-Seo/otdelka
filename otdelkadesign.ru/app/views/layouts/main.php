@@ -131,10 +131,10 @@ $page = \Yii::$app->controller->page;
 			<p>Отделочные работы с четкими гарантиями, прописанными в договоре.<br>Составление четкой детальной сметы не меняющаяся в процессе работ.<br>Оплата по факту выполнения работ без аванса.</p>
 		</div>
 		<div class="container"><div class="row hero-row">
-			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/otdelochnye-raboty.png" alt="Отедлочные работы"><p>Отделочные работы</p></div>
-			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/remont-ofisov.png" alt="Ремонт офисов"><p>Ремонт офисов</p></div>
-			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/remont-komnat.png" alt="Ремонт комнат"><p>Ремонт комнат</p></div>
-			<div class="col-sm-3 col-md-2 col-md-offset-1"><img class="hero-icon" src="/images/home-icon/dizayn-intererov.png" alt="Дизайн интерьеров"><p>Дизайн интерьеров</p></div>
+			<div class="col-sm-3"><img class="hero-icon" src="/images/home-icon/otdelochnye-raboty.png" alt="Отедлочные работы"><p>Отделочные работы</p></div>
+			<div class="col-sm-3"><img class="hero-icon" src="/images/home-icon/remont-ofisov.png" alt="Ремонт офисов"><p>Ремонт офисов</p></div>
+			<div class="col-sm-3"><img class="hero-icon" src="/images/home-icon/remont-komnat.png" alt="Ремонт комнат"><p>Ремонт комнат</p></div>
+			<div class="col-sm-3"><img class="hero-icon" src="/images/home-icon/dizayn-intererov.png" alt="Дизайн интерьеров"><p>Дизайн интерьеров</p></div>
 		</div></div>
 	</div>
 	<div id="hero" class="hero"></div>

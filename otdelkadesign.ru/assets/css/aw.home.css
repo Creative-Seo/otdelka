@@ -25,7 +25,7 @@
 }
 .home{
 	position: relative;
-	padding-top: 80px;
+	padding: 80px 0;
 	min-height: 100vh;
 	background: linear-gradient(to bottom, rgba(255,255,255,.8) 5%, transparent 50%, rgba(255,255,255,.8) 80%);
 }
@@ -44,7 +44,7 @@
 
 .hero-text-h2 {font-size:40px; line-height:120px; letter-spacing:6px; margin-top: 10px; text-transform: uppercase;}
 
-.hero-row{padding-top: 40px;color:#444;font-weight: 600;}
+.hero-row{padding-top: 40px;color:#444;font-weight: 600;text-align: center;}
 .hero-icon{height: 70px;width: auto;margin-bottom: 10px;}
 .heading-sep { margin:25px auto; background:#ffffff; width:250px; }
 
