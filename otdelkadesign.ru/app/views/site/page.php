@@ -1,19 +1,26 @@
 <?php
 $this->title = $page->title;
 ?>
-<section id="trips">
 
-<div id="trip-view">
-<div class="container">
-	<div class="trip-left">
-		<h1><?=$page->title?></h1>
-		<div class="heading-sep"></div>
+<section class="trips">
+<div class="trip-view">
+	<div class="trips-fon"><img src="" alt="<?=$page->title?>" title="<?=$page->title?>"></div>
+	<div class="container">
+		<div class="trip-left">
+			<p>Цена: <?=$page->price?></p>
+			<p>Срок: <?=$page->price?></p>
+			<p><?=$page->price?></p>
+		</div>
+		<h1 class="trips-h1"><?=$page->title?></h1>
+		<div class="trip-right"></div>
+	</div>
+</div>
+<div class="row block-center">
+	<div class="col-xs-6"><a href="">Пример смет</a></div>
+	<div class="col-xs-6"><a href="">Типовой договор</a></div>
+<div class="trips-text"><div class="container">
 		<?=$page->text?>
-	</div><!-- end .trip-left -->
-	<div class="clear"></div>
-
-</div>
-</div>
+</div></div>
 </section>
 <? if($page->slug == 'partners') : ?>
     <section id="hp-partners">

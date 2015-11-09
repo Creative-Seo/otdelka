@@ -6,17 +6,15 @@ TRIPS
 
 */
 
-#trips { background:#e6e6e0; color:#646461; font-size:18px; line-height:30px; overflow:hidden; }
+.trips { background:#e6e6e0; color:#646461; font-size:18px; line-height:30px; overflow:hidden; }
 
-#trips .trips-slide-open { margin-left:-300px; border-right:2px solid #cfcfc8; }
+.trips .trips-slide-open { margin-left:-300px; border-right:2px solid #cfcfc8; }
 
-#trips .trip-left { float:left; }
+.trips .trip-right { width:525px; float:right; }
 
-#trips .trip-right { width:525px; float:right; }
+.trips .trip-left {font-size: 14px; float:left; width: 100%;}
 
-#trips .trip-left {font-size: 14px}
-
-#trips .trip-left h1{margin-bottom: 20px; font-size: 36px}
+.trips .trip-left h1{margin-bottom: 20px; font-size: 36px}
 
 #no-trips h2 { font-size:200px; margin-top:0px; padding-top:0px; line-height:180px; color:#ffffff; margin-bottom:20px; }
 
@@ -312,9 +310,9 @@ GENERAL RESPONSIVE VIEWS
 
 	/* trip */
 
-	#trips .trip-left { }
+	.trips .trip-left { }
 
-	#trips .trip-right { width:425px; }
+	.trips .trip-right { width:425px; }
 
 
 	/* trip item */
@@ -347,11 +345,11 @@ GENERAL RESPONSIVE VIEWS
 
 	/* trip */
 
-	#trips { font-size:16px; }
+	.trips { font-size:16px; }
 
-	#trips .trip-left {  }
+	.trips .trip-left {  }
 
-	#trips .trip-right { width:325px; }
+	.trips .trip-right { width:325px; }
 
 
 
@@ -424,7 +422,7 @@ GENERAL RESPONSIVE VIEWS
 
 	#breadcrumbs span { margin:0px 5px; }
 
-	#trips .trip-left, #trips .trip-right { width:auto; float:none; }
+	.trips .trip-left, .trips .trip-right { width:auto; float:none; }
 
 	#trip-list-title { font-size:18px; }
 
@@ -506,7 +504,7 @@ GENERAL RESPONSIVE VIEWS
 @media (max-width: 650px) {
 
 		#trip-details iframe {width:300px; height:169px;}
-				#trips {
+				.trips {
 		   font-size: 14px;
   line-height: 18px;
 		}
